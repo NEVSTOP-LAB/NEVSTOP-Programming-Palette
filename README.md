@@ -53,3 +53,8 @@
 1. TextTolines.vi
 2. linesToText.vi
 
+## Time
+
+1. Peroid Timer.vi
+
+   周期定时器，可以用于timeout Case 中进行差速定时。
