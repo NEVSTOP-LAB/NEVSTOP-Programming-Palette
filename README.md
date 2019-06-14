@@ -47,8 +47,7 @@
 
 ## Time
 
-1. Peroid Timer.vi: 周期定时器，可以用于timeout Case 中进行差速定时。
-2. Background UI Trigger Timer.vi: 后台UI更新定时器
+- Background UI Trigger Timer.vi: 后台UI更新定时器
 
 ## Waveform
 
