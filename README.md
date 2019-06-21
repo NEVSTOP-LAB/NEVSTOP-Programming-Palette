@@ -1,10 +1,6 @@
 # NEVSTOP-Programming-Palette
 
-
-
 用于补充 LabVIEW 日常编程使用的常用VI.
-
-
 
 ## Application
 
@@ -22,6 +18,11 @@
 ### VI Reference
 
 1. Valid Vi Reference.vi：判断Vi reference 是否有效。
+
+### 文档描述
+
+1. Get Class Functions C Description.vi: 获取 Class 的函数c描述列表
+2. Get Class C Description.vi: 获取 Class 的 c++描述
 
 ## File
 
@@ -45,6 +46,14 @@
 1. Format Variant into String Advance.vi
 2. Format Variant Attributes into String.vi
 
+1. Append Tabs to String Front.vi
+2. Strip Class Funtion Name.vi
+
+## Data
+
+1. Cluster To Array.vi
+2. Array To Cluster.vi
+
 ## Time
 
 - Background UI Trigger Timer.vi: 后台UI更新定时器
@@ -52,3 +61,5 @@
 ## Waveform
 
 1. Generate Random Waveforms.vi
+2. FFTData To Waveforms.vi：将fft 数据结果转换为waveform
+3. Double Array To Waveforms.vi：将double arr 转换为waveform
