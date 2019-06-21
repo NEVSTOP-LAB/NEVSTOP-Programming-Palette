@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2019-06-21 10:53:22" Creator="yao" Comments="" ID="1b6c833e736a83d0b3ad1cadef54d425">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2019-06-21 10:58:40" Creator="yao" Comments="" ID="3669480dae7b58ef7e36ce413f5f7640">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_NEVSTOP_Programming_Palette</Package_File_Name>
-    <Library_Version>2019.6.21.4</Library_Version>
+    <Library_Version>2019.6.21.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -316,7 +316,7 @@
         <Path>src\Data</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EEE266CE90E14F5A7B46D9E9734C95EC</GUID>
+      <GUID>CC7C1A10CD64DD8E1EF10D0E5E9FD797</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -435,7 +435,7 @@
         <Path>src\Application\Get Class Functions C Description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F384D0591D5D9DC630C0E62432219CD8</GUID>
+      <GUID>205864F5F8C31BFE1A08850F9E8DB34D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -498,7 +498,7 @@
         <Path>src\File\TxtFile Save.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D80EE20B7EA561CF452CDFCD9F337794</GUID>
+      <GUID>D1E178827E64D944649AE09DC7E9BA7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -687,7 +687,7 @@
         <Path>src\String\Strip Class Function Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>070BA28B7B0E2735116536F1E74BF486</GUID>
+      <GUID>7853E13ACC1111789D9D576CA15A64E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -722,7 +722,7 @@
         <Path>src\Time\Background UI Trigger Timer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0747ECEEE547B74285EA71F1FF1BD357</GUID>
+      <GUID>F12C5E98DD732841F62F7C6CA7A111F1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -757,7 +757,7 @@
         <Path>src\JKI\JKI Insert State by Bool.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B46EB8C20405DCE9CFFDA815AEDB344E</GUID>
+      <GUID>73EAE01DEA5B1C62C67C32265B183709</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -820,7 +820,7 @@
         <Path>src\Waveform\FFTData To Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7C31FD3594982619940C11CC6D71A92</GUID>
+      <GUID>8F4D45A874D8E6D2C1848660B901AB72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -925,7 +925,7 @@
         <Path>src\String\URI Parsing\UnescapeURI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B2E7CBE4AF5C284B288353B5B3DAFAB</GUID>
+      <GUID>C59963ED8DC68C3C0759D319D168F409</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -974,7 +974,7 @@
         <Path>src\Data\ClusterToArray.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B97E7B998D3AA8B3B677F941B6F6DAC1</GUID>
+      <GUID>DE259EC2D9E4A0227DF46B34D7B5A4D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
