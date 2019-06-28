@@ -18,6 +18,7 @@
 ### VI Reference
 
 1. Valid Vi Reference.vi：判断Vi reference 是否有效。
+2. GetVIMemoryName.vi: 获取 VI 内存中的名称，可以作为唯一标识
 
 ### 文档描述
 
@@ -53,6 +54,8 @@
 
 1. Cluster To Array.vi
 2. Array To Cluster.vi
+3. GetDataTypeDescription-TypeDescriptor.vi: 获取更加详细的Datatype 描述，可被外部识别。从 TypeDescriptor Arr 中获取
+4. GetDataTypeDescription.vi:获取更加详细的Datatype 描述，可被外部识别
 
 ## Time
 
