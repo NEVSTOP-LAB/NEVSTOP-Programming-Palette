@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2019-07-05 10:40:20" Creator="yao" Comments="" ID="6fc1ca0cc3f54af7e1e448fe8d6bbc53">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2019-07-25 15:16:58" Creator="yao" Comments="" ID="44b74c0f2e37bfbac8112eed1b68ee8a">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_NEVSTOP_Programming_Palette</Package_File_Name>
     <Library_Version>2019.7.5.8</Library_Version>
@@ -330,7 +330,7 @@
         <Path>src\Dialog &amp; Interface</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6C4749E0BC6814575454DD6DCA4FED6</GUID>
+      <GUID>1CD81F32B25A81023B95079DB911FEDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -463,7 +463,7 @@
         <Path>src\Application\GetViMemoryName.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E4055115229F720A0A759E5E043611E</GUID>
+      <GUID>C8A34D71A1B9D97EA7602AFD73ACF00B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -540,7 +540,7 @@
         <Path>src\File\XML</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A0F8513215F20DDEFB37A03138B5D73D</GUID>
+      <GUID>C1E84FFA4E3F7404F082A37A8A635093</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -729,7 +729,7 @@
         <Path>src\String\Strip Class Function Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18C9C9DC0102151C85865201E33A15BE</GUID>
+      <GUID>156349F5F843E3D044BFB600B2E5F2AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -764,7 +764,7 @@
         <Path>src\Time\Background UI Trigger Timer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA74926F07D54FCA40D61C9074E4FA81</GUID>
+      <GUID>41561F30999561494C14FFCEAE276680</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -799,7 +799,7 @@
         <Path>src\JKI\JKI Insert State by Bool.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F917C8C5A555A06CBCCC9939DA6B5B9E</GUID>
+      <GUID>955124DC2EB5AE36A1C1363B4F381011</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -862,7 +862,7 @@
         <Path>src\Waveform\FFTData To Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E58F72C6A5C69BD252DF3DAF70A40575</GUID>
+      <GUID>F0127E4A19E0C2657C17942EAE02CE5E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -967,7 +967,7 @@
         <Path>src\String\URI Parsing\UnescapeURI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>598B817A7F948BD202E8C9C2B24A229B</GUID>
+      <GUID>B2625BF51F54809C75CDBD9959BFA8AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1044,7 +1044,7 @@
         <Path>src\Data\GetDataTypeDescription-TypeDescriptor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78399767CEE2ED6464F56C730359DB94</GUID>
+      <GUID>E0FEF5632853822DE9EBB1AF7DD929B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1079,7 +1079,7 @@
         <Path>src\Dialog &amp; Interface\Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>120131533BACD4FDD9B9E3A07BFEBD4B</GUID>
+      <GUID>A78B46753A8755C6FD71C3F7D07B6C1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1114,7 +1114,7 @@
         <Path>src\Dialog &amp; Interface\Menu\GetMenuTagList.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A991066ABBC181E6FCBB1C176372A8F4</GUID>
+      <GUID>DC097AF6C854708608723FB1B9BD7F8F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1261,7 +1261,21 @@
         <Path>src\File\XML\XML_MatchPatten.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>698DCEC654FF1A171675E61D3C5D0290</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>XML_GetTag.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\File\XML\XML_GetTag.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>44E5FC67DB8097B3F9509907EDD5AC1A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
