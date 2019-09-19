@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2019-09-15 22:11:59" Creator="yao" Comments="" ID="a39c3edc350258d258818c73683ed8bc">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2019-09-19 17:45:02" Creator="yao" Comments="" ID="ed1800f58f2840bdcadabc832b7457c9">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_NEVSTOP_Programming_Palette</Package_File_Name>
-    <Library_Version>2019.9.15.11</Library_Version>
+    <Library_Version>2019.9.19.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_state_machine &gt;=2.0.0</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_1d_array &gt;=1.0.2.3</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_2d_array &gt;=1.1.1.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_application_control &gt;=1.1.1.10</Additional_External_Dependencies>
@@ -336,7 +336,7 @@ Fix Bug:
         <Path>src\Dialog &amp; Interface</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C402BE254D0CD89AB66FFC6C5856435C</GUID>
+      <GUID>4C20185DAECFA9D11CADB2E03EAA4CB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -469,7 +469,7 @@ Fix Bug:
         <Path>src\Application\GetViMemoryName.vi</Path>
         <VI_Title>GetViMemoryName</VI_Title>
       </Items_Data>
-      <GUID>357F2F7448E6FE24E0639680C33FBA80</GUID>
+      <GUID>6679A49EDE22A998F2278A5C25362DC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -560,7 +560,7 @@ Fix Bug:
         <Path>src\File\Recursive Build Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14A44C17B72AE34082D8BE8234BBDC54</GUID>
+      <GUID>DC88668C5B26FAAFD8BE79552FE4DB29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -749,7 +749,7 @@ Fix Bug:
         <Path>src\String\Strip Class Function Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A51006D2794005CA8BB7FC5E48336AE</GUID>
+      <GUID>BFF71F7F4996FFDDF3217CEA7C94E335</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -798,7 +798,7 @@ Fix Bug:
         <Path>src\Time\Diff Timer.vi</Path>
         <VI_Title>Diff Timer</VI_Title>
       </Items_Data>
-      <GUID>D9B40FD5C47915F83DFD0AF1163FE01F</GUID>
+      <GUID>B2622FBFF84451E37D7B06B78909ABCE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -833,7 +833,7 @@ Fix Bug:
         <Path>src\JKI\JKI Insert State by Bool.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2FA9F3AD63506666835F90C7B5BACB6F</GUID>
+      <GUID>D3F0E061A0E8CAA664D15A5EA536F46C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -896,7 +896,7 @@ Fix Bug:
         <Path>src\Waveform\FFTData To Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88CC4C41BACBC54744E4204B5549E94A</GUID>
+      <GUID>61B9AEAD0573A987DE777BBC588F95A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1001,7 +1001,7 @@ Fix Bug:
         <Path>src\String\URI Parsing\UnescapeURI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2A5BEF4DCE0D495A5E9D24114584668</GUID>
+      <GUID>76E917BE0BCFAF5E8FC5DB19867BAF41</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1078,7 +1078,7 @@ Fix Bug:
         <Path>src\Data\GetDataTypeDescription-TypeDescriptor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD05C95B9F1531B1BB67E084FBF02AF1</GUID>
+      <GUID>5D0B4F1856F73608408F9A8D877208FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1113,7 +1113,7 @@ Fix Bug:
         <Path>src\Dialog &amp; Interface\Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34EFE39C4B5E8613B341BC1291ECD508</GUID>
+      <GUID>4B1B2D752AAED3288DD8824759C65246</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1148,7 +1148,7 @@ Fix Bug:
         <Path>src\Dialog &amp; Interface\Menu\GetMenuTagList.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8B716448432494B7D67DF68398F0A7E</GUID>
+      <GUID>36CB4D87B6145D7E3E4E6B1AFE918319</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1309,7 +1309,7 @@ Fix Bug:
         <Path>src\File\XML\XML_GetTag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C12B9DC1DC641FD054E40A2A5A237DE4</GUID>
+      <GUID>92D156DFD8B78C7DF4CD6A4E41E94E64</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
