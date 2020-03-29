@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2020-03-27 10:41:47" Creator="yao" Comments="" ID="dbcc1e49ed360f59212a88a12d632aff">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2020-03-29 21:03:10" Creator="yao" Comments="" ID="19bd5ac5d57ee8a0ab59abc753b716c7">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
-    <Library_Version>2019.10.8.12</Library_Version>
+    <Library_Version>2020.3.29.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -336,7 +336,7 @@ Fix Bug:
         <Path>src\Dialog &amp; Interface</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE6C1A281EADB936B8C077588A6BF031</GUID>
+      <GUID>6787F67E9A66144690417C7AA257946C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -469,7 +469,7 @@ Fix Bug:
         <Path>src\Application\GetViMemoryName.vi</Path>
         <VI_Title>GetViMemoryName</VI_Title>
       </Items_Data>
-      <GUID>9A213E68AE83A30F741958D4D2B05716</GUID>
+      <GUID>ABD4238692D3C34D53B7E72778049FE3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -560,7 +560,7 @@ Fix Bug:
         <Path>src\File\Recursive Build Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6D96176BEF4E9C35EF02B001462BE16</GUID>
+      <GUID>47F92323D34BF5764E2EE0D4E4500246</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -749,7 +749,7 @@ Fix Bug:
         <Path>src\String\Strip Class Function Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E35C008AD0B93D11616A22BBD0885534</GUID>
+      <GUID>250345DE8DDF3C10DAB0DFD12118E5B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -798,7 +798,7 @@ Fix Bug:
         <Path>src\Time\Diff Timer.vi</Path>
         <VI_Title>Diff Timer</VI_Title>
       </Items_Data>
-      <GUID>18F4840B4AA141E46A15494518251DC6</GUID>
+      <GUID>B20516728C792AB63BBE3354017280D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -833,7 +833,7 @@ Fix Bug:
         <Path>src\JKI\JKI Insert State by Bool.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7340E29F69BAF9424C5A68D44FA924AC</GUID>
+      <GUID>0E0A81BA1015A3B74D0921FA690AA3CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -896,7 +896,7 @@ Fix Bug:
         <Path>src\Waveform\FFTData To Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9183E664D0AF816B2278AA9BE77D1782</GUID>
+      <GUID>2D769C7CA0F3A681C90AEE6A6EF2D382</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1001,7 +1001,7 @@ Fix Bug:
         <Path>src\String\URI Parsing\UnescapeURI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E45827D16CCE29A0D8C68B3FF627DE45</GUID>
+      <GUID>A18E1E923DC3CFDC278512D13B60B76B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1078,7 +1078,7 @@ Fix Bug:
         <Path>src\Data\GetDataTypeDescription-TypeDescriptor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>208290830808E5F76C02DC3681ECE439</GUID>
+      <GUID>051C0381828798E83202F76849C4DBDD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1113,7 +1113,7 @@ Fix Bug:
         <Path>src\Dialog &amp; Interface\Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F0097C43651C3BC9BE238896E921ADD0</GUID>
+      <GUID>66E10BDA87219D6571F1A9BDDA254616</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1148,7 +1148,7 @@ Fix Bug:
         <Path>src\Dialog &amp; Interface\Menu\GetMenuTagList.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9434E9E35331EDA05292896048998F41</GUID>
+      <GUID>1328BFF44983E1B7904191DD3E700427</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1449,7 +1449,7 @@ Fix Bug:
         <Path>&lt;vi.lib&gt;\Utility\xml.llb\FindMatchingCloseTag.vi</Path>
         <VI_Title>FindMatchingCloseTag</VI_Title>
       </Items_Data>
-      <GUID>B2617D8BE17565559C3C6CCC73B05D21</GUID>
+      <GUID>5D82E17635B60C0B8D13532D4B3F0640</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
