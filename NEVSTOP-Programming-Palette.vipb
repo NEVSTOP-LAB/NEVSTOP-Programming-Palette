@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2020-04-18 20:16:08" Creator="yao" Comments="" ID="67ee9c655f2dd843b4e85f6c284e29c5">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-05 16:28:36" Modified_Date="2020-04-18 20:20:22" Creator="yao" Comments="" ID="07d9de3334ff7644c4a846d65056a9c0">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
     <Library_Version>2020.3.29.2</Library_Version>
@@ -50,7 +50,26 @@
     <VI_Package_Configuration_File>NEVSTOP-Programming-Palette.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description/>
+      <Description># NEVSTOP-Programming-Palette
+
+![Sync VIPs from Branch](https://github.com/nevstop/NEVSTOP-Programming-Palette/workflows/Sync%20VIPs%20from%20Branch/badge.svg?branch=master)
+
+### Palette
+ 
+[![image](https://user-images.githubusercontent.com/8196752/78316944-8b8ae780-7593-11ea-9ba1-60512b56ae15.png)](https://github.com/nevstop/NEVSTOP-Programming-Palette/projects/2) &lt;-- ```&lt;Click to show Vi List&gt;```
+
+### Dev Branch
+
+用于补充 LabVIEW 日常编程使用的常用VI.
+
+ - [Dev-lv2014-2016](https://github.com/nevstop/NEVSTOP-Programming-Palette/tree/Dev-lv2014-2016):
+  维护分支。
+ - [Dev-Lv2017-and-later](https://github.com/nevstop/NEVSTOP-Programming-Palette/tree/Dev-Lv2017-and-later): 
+ 用于旧版本的分支。
+
+### VI 列表：
+
+[NEVSTOP-Programming-Palette](https://github.com/nevstop/NEVSTOP-Programming-Palette/projects/1)</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/nevstop/NEVSTOP-Programming-Palette</URL>
