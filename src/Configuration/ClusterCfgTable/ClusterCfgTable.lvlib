@@ -9,6 +9,7 @@
 	<Item Name="Parse CfgTable.vim" Type="VI" URL="../Parse CfgTable.vim"/>
 	<Item Name="Flatten Cluster To CfgTable.vi" Type="VI" URL="../Flatten Cluster To CfgTable.vi"/>
 	<Item Name="Parse CfgTable.vi" Type="VI" URL="../Parse CfgTable.vi"/>
+	<Item Name="Merge CfgTables.vi" Type="VI" URL="../Merge CfgTables.vi"/>
 	<Item Name="Remove Comments Lines.vi" Type="VI" URL="../Remove Comments Lines.vi"/>
 	<Item Name="Filter Unmarked Lines.vi" Type="VI" URL="../Filter Unmarked Lines.vi"/>
 	<Item Name="Replace EmptyCell Mark.vi" Type="VI" URL="../Replace EmptyCell Mark.vi"/>
