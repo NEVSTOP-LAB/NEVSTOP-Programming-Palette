@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2021-05-27 10:26:08" Creator="yao" Comments="" ID="2a5125744e2ef8ae3df1f710d038b32b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2021-09-13 21:52:32" Creator="yao" Comments="" ID="f217c4a32abaa0fa2e3e0d34f871b715">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
     <Library_Version>2021.5.27.1</Library_Version>
@@ -491,7 +491,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>526652FB011E6894B12E1C7D198C7403</GUID>
+      <GUID>514F73356FD201E32C0CBB2C61F61C0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -638,7 +638,35 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Application\List All Ctrls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>84B86E5A24287A128A0A74483DC9602D</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Current VI Reference.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Application\Current VI Reference.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Safely Close Reference.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Application\Safely Close Reference.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>0C35F1EB3CE3B96059BAAA8020AED925</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -757,7 +785,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\File\Log Channels to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2304BA4F2C02FD747E476B2208457B6</GUID>
+      <GUID>CF65A234EC53BEB543A076ED5BEBAF4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -890,7 +918,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\String\String History Cacher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B68CC46E93FB5889F850DF180A373A43</GUID>
+      <GUID>030E2844BA7C63898EEB4796F5439E28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -981,7 +1009,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Time\Timeout Timer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>602364F0EC7D2109E60B9C8A8F0C4C00</GUID>
+      <GUID>4E205EF87B9A5EF9747AD92C36F533DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1058,7 +1086,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\JKI\State Iterator With Stop.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A68925E3BD6A0211AE5C2237D5CFE7BD</GUID>
+      <GUID>575516F860F3B671F687C3DAC9C42342</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1121,7 +1149,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Waveform\Double Array To Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B32E05E0BE47CB711552C00A93B19AD5</GUID>
+      <GUID>0FAB3C9961BE9ED2E34DB47531EC83F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1226,7 +1254,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\String\URI Parsing\UnescapeURI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5EAE570239C7EAD5F5CC58560C158485</GUID>
+      <GUID>3BBB8C9A80C1C8DF1136EED10715D8BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1359,7 +1387,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Data\SingleElementsArray To Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>683DBF776024037FEE0F26C0E1F5D6E3</GUID>
+      <GUID>2C7246AF47F4507A8E192AC8CD1BBEA9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1394,7 +1422,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Dialog &amp; Interface\Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>793F8C7E1C8FE92433FAC87EE4ED5920</GUID>
+      <GUID>DB443A242733A27E6884F05E875A625E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1429,7 +1457,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Dialog &amp; Interface\Menu\GetMenuTagList.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3356C9DB657AFC951BD5393102848D7</GUID>
+      <GUID>507F02D382247B3AA724483C48070DDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1730,7 +1758,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>&lt;vi.lib&gt;\Utility\xml.llb\FindMatchingCloseTag.vi</Path>
         <VI_Title>FindMatchingCloseTag</VI_Title>
       </Items_Data>
-      <GUID>7FBCB7492D9F2500B13137437C5A7F69</GUID>
+      <GUID>8AB990E43CE7DED2928ACCEC425FB391</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1807,7 +1835,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Configuration\OpenG Variant Configuration File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C272AE49B7308DC912E4CD422F4F675</GUID>
+      <GUID>ECB97E8895C217A5B7AF5E5DD7C3E708</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2024,7 +2052,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Configuration\Excel\GetXL_AllCellValues.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BA6D5C89EA011FCFDBB594FD568F1D5</GUID>
+      <GUID>91CB750969464707C192011418F10626</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2185,7 +2213,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Configuration\ClusterCfgTable\Merge CfgTables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A192B57BCE1A4B16DBFC7B190B5E4DD0</GUID>
+      <GUID>34EE44CB1A8C9D33CA3EC346B84832DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2332,7 +2360,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Configuration\Ini\Lines Filter-[].vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8464A92751206B61C92A72BC9666402</GUID>
+      <GUID>363EAE31AE6DAA7C546D71C471E2F70F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2395,7 +2423,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Comparison\Select Lesser.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4E80C7858838F924B8E5B4AE3DAADF4</GUID>
+      <GUID>73D3A13C64A8AFC4D657D6D9633C3C6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2444,7 +2472,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Network\IP Reporter</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>221EB54FDCF957C64643693741099B1E</GUID>
+      <GUID>3708381D47C8F6B60FE777450D732158</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2549,7 +2577,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DDC7E4712B65105076901AD56B9126B</GUID>
+      <GUID>F396FFA2F3D0B2522EFA7D1ED13871C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2598,7 +2626,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Configuration\OpenG Variant Configuration File\Read Session Cluster with Initial Value.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99E79C880342E6D94A8F635FF83EAC5F</GUID>
+      <GUID>8140C65931C832FFE9084FCFBCA9EC4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2619,7 +2647,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>4B9BCA2977D48939C8E1C479D0D7C1AD</GUID>
+      <GUID>E1DB63E6C36DBC9F5779B5B78B7D4393</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2654,7 +2682,7 @@ Cluster 和 strTable 配置转换 Vi 组【2017+】
         <Path>src\Array\Last Array Element.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8798860619DCABBE376D5D16CAE57A0</GUID>
+      <GUID>CE06EC35DE69BBAD6BB7DC9E166C12F6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
