@@ -8,11 +8,12 @@
 	<Item Name="Flatten Cluster To CfgTable.vim" Type="VI" URL="../Flatten Cluster To CfgTable.vim"/>
 	<Item Name="Parse CfgTable.vim" Type="VI" URL="../Parse CfgTable.vim"/>
 	<Item Name="Flatten Cluster To CfgTable.vi" Type="VI" URL="../Flatten Cluster To CfgTable.vi"/>
+	<Item Name="Flatten Cluster To CfgTable(with DataName).vi" Type="VI" URL="../Flatten Cluster To CfgTable(with DataName).vi"/>
 	<Item Name="Parse CfgTable.vi" Type="VI" URL="../Parse CfgTable.vi"/>
+	<Item Name="Parse CfgTable(with DataName).vi" Type="VI" URL="../Parse CfgTable(with DataName).vi"/>
 	<Item Name="Merge CfgTables.vi" Type="VI" URL="../Merge CfgTables.vi"/>
 	<Item Name="Remove Comments Lines.vi" Type="VI" URL="../Remove Comments Lines.vi"/>
 	<Item Name="Filter Unmarked Lines.vi" Type="VI" URL="../Filter Unmarked Lines.vi"/>
 	<Item Name="Replace EmptyCell Mark.vi" Type="VI" URL="../Replace EmptyCell Mark.vi"/>
 	<Item Name="Splite MultiLine Cell.vi" Type="VI" URL="../Splite MultiLine Cell.vi"/>
-	<Item Name="Indexed String To Enum.vi" Type="VI" URL="../Indexed String To Enum.vi"/>
 </Library>
