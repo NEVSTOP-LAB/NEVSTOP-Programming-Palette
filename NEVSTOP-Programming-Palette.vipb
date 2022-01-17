@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2022-01-09 22:16:36" Creator="yao" Comments="" ID="708193ed3cfa837410717071aba0c583">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2022-01-17 20:57:29" Creator="yao" Comments="" ID="a61313bac1f2df98c5d253e5113bb1fd">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
     <Library_Version>2022.1.9.2</Library_Version>
@@ -447,7 +447,7 @@
         <Path>src\Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A75CFD48A91838C4221A9FC7C3C66A19</GUID>
+      <GUID>5CE9C21F002DC3BED345442A3E98E1EA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -706,7 +706,21 @@
         <Path>src\Application\Reinitialize All To Default Method.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4511BCAD5E9EE09E64C424B519BAFCC3</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Restart LabVIEW.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Application\Restart LabVIEW.vi</Path>
+        <VI_Title>Restart LabVIEW</VI_Title>
+      </Items_Data>
+      <GUID>5934618FAF564DC103501C7E6C780C3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -867,7 +881,7 @@
         <Path>src\File\Recursive Remove Contained Empty Folders.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>802012E2559020BE7C2EFADFFE92E260</GUID>
+      <GUID>1786BDCA9F1C802EC531E91F66426615</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1014,7 +1028,7 @@
         <Path>src\String\Generate UUID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D73FEE3F8A353F3F9EBE26D2AB3FD049</GUID>
+      <GUID>0D0BC56291AE27437CD3DAAACD4FC900</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1105,7 +1119,7 @@
         <Path>src\Time\Timeout Timer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3941597E52B03A096B11CBC1E6BBDCCE</GUID>
+      <GUID>231C6479F27B685FA71E1F9124BB1D64</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1182,7 +1196,7 @@
         <Path>src\JKI\State Iterator With Stop.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93EC4731E0B553BE90B6A99185FFE858</GUID>
+      <GUID>F94A97CC6E5F32602198152EEE1129CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1245,7 +1259,7 @@
         <Path>src\Waveform\Double Array To Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C269D609F16C8A53EB625A40FE59FF8</GUID>
+      <GUID>F7BA5AC6E44C0F07A6D2B7B08C106EE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1350,7 +1364,7 @@
         <Path>src\String\URI Parsing\UnescapeURI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFE9B2B6D76D29D58CE7A374B5485DB4</GUID>
+      <GUID>2ADC4BD64E05708C1B56055D4644013A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1483,7 +1497,7 @@
         <Path>src\Data\SingleElementsArray To Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>254B7A4D04E56E970238ADB50178FE52</GUID>
+      <GUID>29D9D15DBE0EE3D7AEEE33464D5D2789</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1560,7 +1574,7 @@
         <Path>src\Dialog &amp; Interface\Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCCDA39528CA67053A8B3AF7C21187BF</GUID>
+      <GUID>EC8D4389B8A40DDECC22E922DE389C25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1595,7 +1609,7 @@
         <Path>src\Dialog &amp; Interface\Menu\GetMenuTagList.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CDCD40D55E37149AF9A0B1DED9F76B8</GUID>
+      <GUID>24E99FA064E0604D52BB63BA1DCA2842</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1672,7 +1686,7 @@
         <Path>src\Configuration\OpenG Variant Configuration File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD77CF86771EAE39D44A891FF2D376B9</GUID>
+      <GUID>96F2D8005ABD51970DF49122E7623727</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1889,7 +1903,7 @@
         <Path>src\Configuration\Excel\GetXL_AllCellValues.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4FA19C38A2BD88DCCA924FD89553590</GUID>
+      <GUID>85F318AFB558DF9E641C5A05E5C36703</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2078,7 +2092,7 @@
         <Path>src\Configuration\ClusterCfgTable\Parse CfgTable(with DataName).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>093F73EF7566033C8A6E4CC3AF0BD8B6</GUID>
+      <GUID>218CDE964F136EB566C8515EC6DF94ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2225,7 +2239,7 @@
         <Path>src\Configuration\Ini\Lines Filter-[].vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08DDD545F4F49ADA0808B571E1F801C3</GUID>
+      <GUID>6EFD0905CC546999A66C75A20C5A5324</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2288,7 +2302,7 @@
         <Path>src\Comparison\Select Lesser.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22B61AF935871CC05FEF529726F89D70</GUID>
+      <GUID>88E5BBDD16C194E9AEF653CB517DC23D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2351,7 +2365,7 @@
         <Path>src\Network\IP Address List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D46034A6DB04CC372248E8C11B29F00</GUID>
+      <GUID>A34DA5296BFDA60C5ABA323241297086</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2456,7 +2470,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>0851817E01C09141EFA3587C5097DDFA</GUID>
+      <GUID>9A455A352E9139F9BC6154EA8E3D93B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2505,7 +2519,7 @@
         <Path>src\Configuration\OpenG Variant Configuration File\Read Session Cluster with Initial Value.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AB7B3D78025D7D27D4469D8D2AEBF53</GUID>
+      <GUID>A5CA3524D4037428760D7AA315D50F55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2526,7 +2540,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>BB320C1966C64736AE9D18BA8BD44DB5</GUID>
+      <GUID>4E1114EA3AB0E01DE424A699CBDEDF84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2561,7 +2575,7 @@
         <Path>src\Array\Last Array Element.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B37DADD6C3BD1222BDFF6AA5FCE1AB46</GUID>
+      <GUID>05A81F5A87A6E188375AA08A89363C3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2610,7 +2624,7 @@
         <Path>src\Application\SysEnvVar\Set System Environment Variable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19D7BEF65DE030D0C335A7A0577D985C</GUID>
+      <GUID>2BD4091DC0045B163110E996B7E234A2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
