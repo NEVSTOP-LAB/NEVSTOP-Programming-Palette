@@ -37,7 +37,7 @@
 	</Item>
 	<Item Name="_support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="_Safely Close Reference.vim" Type="VI" URL="../_Safely Close Reference.vim"/>
+		<Item Name="_Safely Close Reference.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Configuration/Excel/_Safely Close Reference.vim"/>
 		<Item Name="Row Col To Range Format.vi" Type="VI" URL="../Row Col To Range Format.vi"/>
 		<Item Name="GetXL_CellValue_Dbl.vi" Type="VI" URL="../GetXL_CellValue_Dbl.vi"/>
 		<Item Name="SetXL_CellValue_Dbl.vi" Type="VI" URL="../SetXL_CellValue_Dbl.vi"/>
