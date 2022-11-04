@@ -1,0 +1,16 @@
+# LabVIEW Ignore Files
+*.lvlps
+*.aliases
+
+# VIP Compiled Folder
+/vip
+
+# Ignore Folder
+/_Ignore
+
+
+src/Network/IP Reporter/_PythonCode/dist/*
+src/Network/IP Reporter/_PythonCode/.vscode/*
+src/Network/IP Reporter/_PythonCode/__pycache__/*
+src/Network/IP Reporter/_PythonCode/build/*
+src/Network/IP Reporter/_PythonCode/*.spec
