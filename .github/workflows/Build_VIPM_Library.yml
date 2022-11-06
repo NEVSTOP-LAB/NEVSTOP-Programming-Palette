@@ -38,7 +38,7 @@ jobs:
           LabVIEW_Version: 2017
           Operation: vipm_BuildDailyVIP
           Parameter1: ${{ github.workspace }}\NEVSTOP-Programming-Palette.vipb
-          Parameter2: YES
+          Parameter2: NO
 
       - id: vip-name
         run:
@@ -47,7 +47,6 @@ jobs:
         shell: powershell
 
       - name: Upload a Build Artifact
-        if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v3.0.0
         with:
           # Artifact name
