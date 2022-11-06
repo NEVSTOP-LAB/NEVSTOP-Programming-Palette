@@ -35,6 +35,7 @@ jobs:
         id: build-vip
         uses: LV-APT/lvCICD@main
         with:
+          LabVIEW_Version: 2017
           Operation: vipm_BuildDailyVIP
           Parameter1: ${{ github.workspace }}\NEVSTOP-Programming-Palette.vipb
           Parameter2: YES
