@@ -28,4 +28,4 @@ jobs:
           Parameter1: ${{ github.workspace }}
           Parameter2: ""
           Parameter3: YES
-          Parameter4: "(Place VI Content).vi"
+          Parameter4: "Content).vi"
