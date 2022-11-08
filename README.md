@@ -1,6 +1,7 @@
 # NEVSTOP-Programming-Palette
 
 [![Build_VIPM_Library](https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette/actions/workflows/Build_VIPM_Library.yml/badge.svg)](https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette/actions/workflows/Build_VIPM_Library.yml)
+[![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette/actions/workflows/Check_Broken_VIs.yml/badge.svg?branch=main)](https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette/actions/workflows/Check_Broken_VIs.yml)
 
 用于补充 LabVIEW 日常编程使用的常用VI.
 
