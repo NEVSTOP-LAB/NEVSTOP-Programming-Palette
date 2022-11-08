@@ -27,5 +27,4 @@ jobs:
           Operation: VIAn_CheckBrokenVIs
           Parameter1: ${{ github.workspace }}
           Parameter2: NOPASSWORD
-          Parameter3: YES
-          Parameter4: "Content/).vi"
+
