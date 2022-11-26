@@ -44,7 +44,6 @@
 			<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 		</Item>
 		<Item Name=".gitignore" Type="Document" URL="../.gitignore"/>
-		<Item Name="_API Tree.vi" Type="VI" URL="../_API Tree.vi"/>
 		<Item Name="NEVSTOP-Programming-Palette.vipb" Type="Document" URL="../NEVSTOP-Programming-Palette.vipb"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
