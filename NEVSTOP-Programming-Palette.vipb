@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2022-11-27 23:17:08" Creator="yao" Comments="" ID="4272b03a0279fcca715f42207bd48250">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2022-11-28 18:22:44" Creator="yao" Comments="" ID="ce0a22d4cafcad7dfa7c771d9e1a9d14">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
     <Library_Version>2022.11.27.5</Library_Version>
@@ -132,6 +132,42 @@
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_nevstop</Namespace>
       </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/ClusterCfgTable.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_nevstop</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>user.lib/NEVSTOP-Programming-Palette/Configuration/Excel</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/excel_configuration.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_nevstop</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>user.lib/NEVSTOP-Programming-Palette/Configuration/Ini</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/ini_configuration.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_nevstop</Namespace>
+      </Namespace_Overrides>
+      <Exclusions>
+        <Path>menus</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>user.lib/NEVSTOP-Programming-Palette/_test</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
