@@ -258,14 +258,10 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="__FpCtrlType.vi" Type="VI" URL="../src/user.lib/NEVSTOP-Programming-Palette/Application/_obsolete/__FpCtrlType.vi"/>
-			<Item Name="Append Tabs To String Front.vi" Type="VI" URL="../src/user.lib/NEVSTOP-Programming-Palette/Application/String/Append Tabs To String Front.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LinesToText.vi" Type="VI" URL="../src/user.lib/NEVSTOP-Programming-Palette/Application/Configuration/Ini/LinesToText.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Strip Class Function Name.vi" Type="VI" URL="../src/user.lib/NEVSTOP-Programming-Palette/Application/String/Strip Class Function Name.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
