@@ -13,7 +13,6 @@ on:
   push:
     paths:
       - '!**.md'
-      - '!**.yml'
       - '!**.txt'
       - '!**.drawio'
 
