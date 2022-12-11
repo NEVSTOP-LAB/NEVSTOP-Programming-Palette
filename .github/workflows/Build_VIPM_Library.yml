@@ -11,10 +11,8 @@ on:
     types: [closed]
 
   push:
-    paths:
-      - '!**.md'
-      - '!**.txt'
-      - '!**.drawio'
+    paths-ignore:
+      - '**.md'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
