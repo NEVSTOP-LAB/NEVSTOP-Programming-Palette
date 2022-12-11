@@ -11,6 +11,11 @@ on:
     types: [closed]
 
   push:
+    paths:
+      - '!**.md'
+      - '!**.yml'
+      - '!**.txt'
+      - '!**.drawio'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -39,7 +44,7 @@ jobs:
         with:
           LabVIEW_Version: 2017
           Operation: vipm_BuildDailyVIP
-          Parameter1: ${{ github.workspace }}\NEVSTOP-Programming-Palette.vipb
+          Parameter1: ${{ github.workspace }}
           Parameter2: NO
 
       - id: vip-name
