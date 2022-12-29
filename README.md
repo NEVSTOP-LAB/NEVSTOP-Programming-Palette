@@ -9,6 +9,10 @@
 
 用于补充 LabVIEW 日常编程使用的常用VI.
 
+## Palette 
+
+[wiki for More detailed information](https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette/wiki)
+
 ## Development Environment
 
 - LabVEW 2017
