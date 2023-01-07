@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2023-01-06 18:56:05" Creator="yao" Comments="" ID="4d393a5d568be260182a6dd2f381b0e3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2023-01-07 22:50:14" Creator="yao" Comments="" ID="d94caf2987a07c81fc85c38b6ccb048a">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
     <Library_Version>2023.1.1.5</Library_Version>
@@ -42,7 +42,8 @@
 6. [add] Graphics &amp; Sound: str to colorbox.vi
 7. [add] not empty string.vi
 8. [add] vim version of openG-Array
-9. [imporve] palette vi Name change to xxx(nevstop) #76</Release_Notes>
+9. [imporve] palette vi Name change to xxx(nevstop) #76
+10. [fix] #70</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -522,7 +523,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6183C9F96A0BAE3F339E88AA3DE98EBD</GUID>
+      <GUID>9CEC19681CADF8A3B88EC005E206169C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -546,7 +547,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Index Array Elements.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Index Array Elements (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -560,7 +561,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Remove Duplicates from 1D Array.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Remove Duplicates from 1D Array (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -574,7 +575,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Search 1D Array for All (Variant)</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Search 1D Array (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -588,7 +589,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Delete Elements from 1D Array (Variant).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Delete Elements from 1D Array (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -602,7 +603,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Not Empty Array.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Not Empty Array (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -616,7 +617,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Last Array Element.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Last Array Element (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -630,7 +631,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Filter 1D Array.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Filter 1D Array (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -641,7 +642,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Array\Filter 1D Array.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24CF3D37933E5568B48B7CD8E5D9A82D</GUID>
+      <GUID>E7493D217A92C2EB8583A13987528EE2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -665,7 +666,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Terminate Vi CallStack Chain.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Terminate Vi CallStack Chain (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -679,7 +680,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Valid Refnum.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Valid Refnum (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -693,7 +694,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Valid VI Reference.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Valid VI Reference (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -707,7 +708,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>List All Ctrls.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>List All Ctrls (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -721,7 +722,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Restart LabVIEW.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Restart LabVIEW (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -749,7 +750,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Vi Memory Name.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Get Vi Memory Name (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -763,7 +764,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Safely Close Reference.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Safely Close Reference (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -777,7 +778,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Using ParentVIRef If Input Invalid.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Using ParentVIRef If Input Invalid (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -791,7 +792,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Error File Logger.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Error File Logger (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -816,7 +817,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Application\_placeContent</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43F832EE54A50E7B0BAB519FDB1F8A55</GUID>
+      <GUID>8D7F8ADBFE5309E8A01D8964FA83D5F2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -840,7 +841,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ArrayToCluster.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ArrayToCluster (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -854,7 +855,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ClusterToArray.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ClusterToArray (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -868,7 +869,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Enum Data Patch.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Enum Data Patch (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -882,7 +883,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Change Data With Attributes.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Change Data With Attributes (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -896,7 +897,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>SingleElementsArray To Data.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>SingleElementsArray To Data (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -910,7 +911,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Data To SingleElementsArray.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Data To SingleElementsArray (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -938,7 +939,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get DataType Description.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Get DataType Description (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -980,7 +981,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Changed Data Filter(FNiN).vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Changed Data Filter(FNiN) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -991,7 +992,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Data\Changed Data Filter(FNiN).vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA1ED5939402C376A7EE7168FF3BA39F</GUID>
+      <GUID>60CB85B139036AAC47FB7A5D93A31BFC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1015,7 +1016,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>One Button Dialog with Timeout.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>One Button Dialog with Timeout (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1029,7 +1030,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Two Button Dialog with Timeout.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Two Button Dialog with Timeout (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1043,7 +1044,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Fit VI window to Visible Content.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Fit VI window to Visible Content (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1057,7 +1058,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Bring Window Forward (WinAPI).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Bring Window Forward (WinAPI) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1071,7 +1072,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Autosize All Columns (Uniform Text).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Autosize All Columns (Uniform Text) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1085,7 +1086,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Step-By-Step Tab Window CtrlLogic.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Step-By-Step Tab Window CtrlLogic (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1096,7 +1097,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Dialog &amp; Interface\Step-By-Step Tab Window CtrlLogic.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2786A516FFC67E4DC43119546FC2E175</GUID>
+      <GUID>EA9D3C5DC31B2F1EA39F955E3B826A2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1120,7 +1121,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Double Array To Waveform.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Double Array To Waveform (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1134,7 +1135,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>FFTData To Waveform.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>FFTData To Waveform (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1148,7 +1149,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Generate Random Waveform.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Generate Random Waveform (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1159,7 +1160,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Waveform\Generate Random Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75D63B0EEE798A06A6D3CCF07F519260</GUID>
+      <GUID>24FEFBE58633163187E40EB1F8A7128D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1183,7 +1184,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Background UI Trigger Timer.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Background UI Trigger Timer (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1197,7 +1198,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Diff Timer.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Diff Timer (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1211,7 +1212,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TimeKeeper(ms).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>TimeKeeper(ms) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1225,7 +1226,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Timeout Timer.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Timeout Timer (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1239,7 +1240,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Use Current Time If Input is Empty.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Use Current Time If Input is Empty (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1250,7 +1251,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Time\Use Current Time If Input is Empty.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B0F075E8478111F83EF532081B57441</GUID>
+      <GUID>D9E84941BB7EF391B6E78AC14F63CA69</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1274,7 +1275,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Build FilePath By Rule.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Build FilePath By Rule (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1288,7 +1289,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Recursive File List2.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Recursive File List2 (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1302,7 +1303,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Move Contained Files to Folder.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Move Contained Files to Folder (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1316,7 +1317,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Recursive Folder List.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Recursive Folder List (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1330,7 +1331,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Recursive Folder List2.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Recursive Folder List2 (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1344,7 +1345,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Recursive Remove Contained Empty Folders.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Recursive Remove Contained Empty Folders (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1358,7 +1359,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Recursive Build Path.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Recursive Build Path (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1372,7 +1373,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Filter Contained Paths.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Filter Contained Paths (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1386,7 +1387,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Filter Paths if Folder matches Pattern.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Filter Paths if Folder matches Pattern (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1400,7 +1401,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Use Application Directory if Input is Empty.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Use Application Directory if Input is Empty (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1414,7 +1415,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>First Matched Config File.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>First Matched Config File (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1428,7 +1429,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Path Type -- Enum.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Path Type -- Enum (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1439,7 +1440,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\File\Path Type -- Enum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27AF339345F3DB62FC466A28D9DF9B64</GUID>
+      <GUID>960F4CE2C805D5C90AE2F6B366AB3A4E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1463,7 +1464,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>JKI Insert State by Bool.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>JKI Insert State by Bool (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1477,7 +1478,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>State Iterator With Stop.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>State Iterator With Stop (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1491,7 +1492,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>State Iterator(Advance).vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>State Iterator(Advance) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1505,7 +1506,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>State Iterator.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>State Iterator (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1516,7 +1517,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\JKI\State Iterator.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC85D4C13BD89A8D6A7AE89C7915E521</GUID>
+      <GUID>7DEB6D6BA34E154B60997DCC77B32583</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1635,7 +1636,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\Excel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D591E173BFECF9F92D901058CB740D0</GUID>
+      <GUID>D4EC6C5B26EE7296F0933C4D4459DA5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1659,7 +1660,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>IP Address List.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>IP Address List (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1673,7 +1674,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TCP Ping(DotNET).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>TCP Ping(DotNET) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1712,7 +1713,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Network\UDP++</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B31C4C65069C1B94497A1A007CA7324D</GUID>
+      <GUID>987BF28A1A30FDEC38955EE526761511</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1736,7 +1737,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Strip Class Function Name.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Strip Class Function Name (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1750,7 +1751,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Format Variant into String Advance.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Format Variant into String Advance (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1764,7 +1765,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Format Variant Attributes into String.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Format Variant Attributes into String (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1778,7 +1779,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Append Tabs To String Front.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Append Tabs To String Front (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1792,7 +1793,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Generate UUID.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Generate UUID (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1806,7 +1807,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Text to UTF-8 -placeContent.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Text to UTF-8</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>true</is_Merge_VI>
         <Position>
@@ -1820,7 +1821,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>UTF-8 to Text -placeContent.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>UTF-8 to Text</NameSub_Menu_Name>
         <Short_Name>UTF-8 to Text</Short_Name>
         <is_Merge_VI>true</is_Merge_VI>
         <Position>
@@ -1834,7 +1835,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Extend Symbol Path.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Extend Symbol Path (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1848,7 +1849,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>is UTF-8.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>is UTF-8 (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1862,7 +1863,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>To Lower Case with Raw Name Cacher.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>To Lower Case with Raw Name Cacher (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1876,7 +1877,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>String History Cacher.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>String History Cacher (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1890,7 +1891,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>DataType cacher.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>DataType Cacher (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1918,7 +1919,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Not Empty String or Path.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Not Empty String or Path (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1929,7 +1930,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\String\Not Empty String or Path.vim</Path>
         <VI_Title>Not Empty String/Path</VI_Title>
       </Items_Data>
-      <GUID>8EC3F9F268B5E5A3396B1FB4EFBAB4CB</GUID>
+      <GUID>76494B2EE31A099EBE6EC9ADA56A0562</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1953,7 +1954,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>In Range.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>In Range (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1967,7 +1968,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Select Greater.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Select Greater (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1981,7 +1982,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Select Lesser.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Select Lesser (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1995,7 +1996,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Select Valid Refnum.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Select Valid Refnum (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2006,7 +2007,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Comparison\Select Valid Refnum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75F0951AB267BCB00EEEF2A8F1F96E33</GUID>
+      <GUID>30D44C77BA89A4E61E4F733908D4E4E2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2030,7 +2031,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get System Environment Variable.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Get System Environment Variable (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2044,7 +2045,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set Permanent SysEnvVariable.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Set Permanent SysEnvVariable (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2058,7 +2059,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set System Environment Variable.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Set System Environment Variable (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2069,7 +2070,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Application\SysEnvVar\Set System Environment Variable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5E5360BE50BA5AA485CA2BE784FB2EF</GUID>
+      <GUID>9975AC795FD4DAA629E097BC7B6320AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2146,7 +2147,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Application\_placeContent\VI Property Node-placeContent.vi</Path>
         <VI_Title>VI Property Node</VI_Title>
       </Items_Data>
-      <GUID>032DF74D741ED32FCEE228B2179D77B4</GUID>
+      <GUID>B70735F1D60AF33A79A8382F4D7DE784</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2170,7 +2171,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>CloseXL_App.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>CloseXL_App (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2184,7 +2185,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>OpenXL_App.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>OpenXL_App (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2198,7 +2199,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>CloseXL_Workbook.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>CloseXL_Workbook (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2212,7 +2213,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>OpenXL_Workbook.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>OpenXL_Workbook (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2226,7 +2227,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GetXL_WorkSheetsNum.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>GetXL_WorkSheetsNum (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2240,7 +2241,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>OpenXL_WorkSheet.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>OpenXL_WorkSheet (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2254,7 +2255,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>CreateXL_Workbook.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>CreateXL_Workbook (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2268,7 +2269,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>CloseXL_Worksheet.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>CloseXL_Worksheet (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2282,7 +2283,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GetXL_WorkSheetName.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>GetXL_WorkSheetName (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2296,7 +2297,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GetXL_WorkSheetSize.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>GetXL_WorkSheetSize (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2310,7 +2311,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>SetXL_CellValues.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>SetXL_CellValues (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2324,7 +2325,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>SetXL_AllCellValues.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>SetXL_AllCellValues (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2338,7 +2339,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GetXL_CellValues.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>GetXL_CellValues (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2352,7 +2353,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GetXL_AllCellValues.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>GetXL_AllCellValues (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2363,7 +2364,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\Excel\GetXL_AllCellValues.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CE15E0851D246E6AA8553FC32EFE9B8</GUID>
+      <GUID>0FBC7BC08693F26098FB04D12704FA19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2387,7 +2388,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse CfgTable(with DataName).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Parse CfgTable(with DataName) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2401,7 +2402,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Indexed String To Enum.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Indexed String To Enum (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2415,7 +2416,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Flatten Cluster To CfgTable.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Flatten Cluster To CfgTable (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2429,7 +2430,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse CfgTable.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Parse CfgTable (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2443,7 +2444,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse CfgTable.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Parse CfgTable (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2457,7 +2458,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Flatten Cluster To CfgTable.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Flatten Cluster To CfgTable (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2471,7 +2472,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Splite MultiLine Cell.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Splite MultiLine Cell (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2485,7 +2486,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Remove Comments Lines.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Remove Comments Lines (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2499,7 +2500,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Replace EmptyCell Mark.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Replace EmptyCell Mark (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2513,7 +2514,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Merge CfgTables.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Merge CfgTables (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2527,7 +2528,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Filter Unmarked Lines.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Filter Unmarked Lines (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2541,7 +2542,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Flatten Cluster To CfgTable(with DataName).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Flatten Cluster To CfgTable(with DataName) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2552,7 +2553,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\ClusterCfgTable\Flatten Cluster To CfgTable(with DataName).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>161B8D35562E566591DCBAC3DDD234DF</GUID>
+      <GUID>807793D73FA99CBAC366B21662DDE5D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2576,7 +2577,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Session Cluster with Initial Value.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Read Session Cluster with Initial Value (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2590,7 +2591,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Simple Load Ini Configuraton.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Simple Load Ini Configuraton (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2601,7 +2602,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\OpenG Variant Configuration File\Simple Load Ini Configuraton.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>818CC5ECA8A8EF52BAA3245002243874</GUID>
+      <GUID>F889E8220A379C5FD4AC3E4F1BAD2CE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2625,7 +2626,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Lines Filter-[].vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Lines Filter-[] (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2639,7 +2640,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Lines Filter-Annotation.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Lines Filter-Annotation (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2653,7 +2654,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Lines GetSessionByName.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Lines GetSessionByName (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2667,7 +2668,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Lines ListSessions.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Lines ListSessions (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2681,7 +2682,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Lines LoadArrayOfSessions.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Lines LoadArrayOfSessions (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2695,7 +2696,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Lines LoadMatrixOfSessions.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Lines LoadMatrixOfSessions (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2709,7 +2710,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LinesToText.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>LinesToText (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2723,7 +2724,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TextToLines.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>TextToLines (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2737,7 +2738,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TextToSessionBlocks.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>TextToSessionBlocks (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2748,7 +2749,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\Ini\TextToSessionBlocks.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC9798B9E0E0410C50C1BD34309E2059</GUID>
+      <GUID>C4D5748DB11FAD334E4382DB629FF47F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2772,7 +2773,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>IP Reporter PythonCode Folder.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>IP Reporter PythonCode Folder (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2786,7 +2787,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Scan Distributed Nodes.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Scan Distributed Nodes (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2800,7 +2801,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Start IP Reporter.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Start IP Reporter (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2811,7 +2812,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Network\IP Reporter\Start IP Reporter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8702D11A15C6657CD1CC3480EC991F9D</GUID>
+      <GUID>37A6083B0FF8BD6724B44D798A279030</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2835,7 +2836,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>UDP Read Memory.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>UDP Read Memory (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2849,7 +2850,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>UDP Write Memory.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>UDP Write Memory (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2863,7 +2864,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>UDP Write Data Array.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>UDP Write Data Array (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2877,7 +2878,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>UDP Read Data Array By Singlepack.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>UDP Read Data Array By Singlepack (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2891,7 +2892,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>UDP Read Data Array.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>UDP Read Data Array (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2902,7 +2903,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Network\UDP++\UDP Read Data Array.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC8B8EA1918BD6929A5076736D0FED55</GUID>
+      <GUID>15E2B21447B880710284A7A7E120DE36</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2923,7 +2924,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>2B54A151AB8D68373049F667281A6D3D</GUID>
+      <GUID>B60C4FF2C7C94CBAD815CFC347BCB3D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2986,7 +2987,7 @@
         <Path>&lt;resource&gt;\dialog\lvconfig.llb\LV Config Remove.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05920A5723F916E3628FCB003A69DC0E</GUID>
+      <GUID>8BF60B900D54C32B0951513E191A61D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3010,7 +3011,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>While Loop With Timeout and Stop Button.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>While Loop With Timeout and Stop Button</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>true</is_Merge_VI>
         <Position>
@@ -3024,7 +3025,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Event Structure Loop with PanelClose Event.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Event Structure Loop with PanelClose Event</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>true</is_Merge_VI>
         <Position>
@@ -3049,7 +3050,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Structure\_placeContent\EmptyVI with Error Case.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A291587AEE117BB4F999461671CCB2FB</GUID>
+      <GUID>437F095790A722D576DB84F0796EF7AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -3073,7 +3074,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GetDataTypeDescription.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>GetDataTypeDescription (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3087,7 +3088,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GetDataTypeDescription-TypeDescriptor.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>GetDataTypeDescription-TypeDescriptor (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3098,7 +3099,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Data\_obsolete\GetDataTypeDescription-TypeDescriptor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1A161D8A2B6462EEA44F6E28858B28C</GUID>
+      <GUID>D3F2438F470DA18C3AF8DFBE78B3C8AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3136,7 +3137,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ObjCacher-List.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ObjCacher-List (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3150,7 +3151,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ObjCacher-Delete.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ObjCacher-Delete (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3164,7 +3165,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ObjCacher-Get.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ObjCacher-Get (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3178,7 +3179,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ObjCacher-Set.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ObjCacher-Set (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3203,7 +3204,7 @@
         <Path>src\FGV DB</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4C533B7DEFCF3EB02988F785E8CD933</GUID>
+      <GUID>C52B7BC708FFDE9FA7F86571ECC7F897</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -3224,7 +3225,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>C7F39C03E43D116B3757E48043C08C55</GUID>
+      <GUID>191385D3E82F70B1F46A4D602C689F20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -3248,7 +3249,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ObjectCacher(TypeInterface).vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ObjectCacher(TypeInterface) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3262,7 +3263,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ObjectCacher(VariantInterface).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>ObjectCacher(VariantInterface) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3273,7 +3274,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\ObjectCacher\ObjectCacher(VariantInterface).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01F5E192659F3AEC440C0C6FE7FC1FE2</GUID>
+      <GUID>5A83A2FE6610237347A6EE66262A8DF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -3322,7 +3323,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\String\_placeholder\Slash Code String Constant -placeContent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1D8A61D34FCA5C16960972EAB6F0287</GUID>
+      <GUID>98E80B084F776B8856816FD768162277</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3357,7 +3358,7 @@
         <Path>src\place content</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FFA2813135FBED88567D2D8FC7744D3F</GUID>
+      <GUID>C4BB3722ACD94A512B019C655311DB9C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>29</Parent_Palette_Index>
@@ -3490,7 +3491,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Numeric\_placeholder\Hex U64 Constant -placeContent.vi</Path>
         <VI_Title>Hex U64 Constant</VI_Title>
       </Items_Data>
-      <GUID>9C027515E120593F8155815F8E539203</GUID>
+      <GUID>5327ACD2ED669D7EFEE379F232E4C7CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3514,7 +3515,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Falling Edge.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Falling Edge (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3528,7 +3529,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Rising Edge.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Rising Edge (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3542,7 +3543,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Change Keeped Value.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Change Keeped Value (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3556,7 +3557,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Signal Change Detector with Period.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Signal Change Detector with Period (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3570,7 +3571,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Turn F Immediatly But Ture T with Latency.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Turn F Immediatly But Ture T with Latency (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3584,7 +3585,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Turn T Immediatly But Ture F with Latency.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Turn T Immediatly But Ture F with Latency (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3598,7 +3599,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Toggle Output(U64).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Toggle Output(U64) (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3612,7 +3613,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Signal Change with Latency.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Signal Change with Latency (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3623,7 +3624,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Signal\Signal Change with Latency.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C320F43E4BD474FC01E4BA8B2A86652</GUID>
+      <GUID>4D470348D1FEC2EE9BE05826C1D6DF59</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3647,7 +3648,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Str To Colorbox.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Str To Colorbox (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3658,7 +3659,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Graphics &amp; Sound\Str To Colorbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>414489FA32B2E33ACFDBC985CD365002</GUID>
+      <GUID>FDCDE2953659EFA7962CC9E8DEB35264</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3693,7 +3694,7 @@
         <Path>src\SyncStart</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64C99819BA304A3EC2A6DDF740C13644</GUID>
+      <GUID>35346D13555C0F6491EB400472ABE958</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -3717,7 +3718,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>SyncStart-TriggerStart.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>SyncStart-TriggerStart (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3731,7 +3732,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>SyncStart-Wait.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>SyncStart-Wait (NEVSTOP)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3742,7 +3743,7 @@
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Synchronization\SyncStart\SyncStart-Wait.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E41E150504816683AF0127B95745CCF</GUID>
+      <GUID>A9C503F3DF0BF05AB64827017F158F1B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3763,7 +3764,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>647F5C3EA0AE7F1BF02F64B62E185671</GUID>
+      <GUID>EED036A0E48CC0D364263C147F171F94</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
