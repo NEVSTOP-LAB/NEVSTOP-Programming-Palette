@@ -14,6 +14,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="ObjCacher-Get.vim" Type="VI" URL="../ObjCacher-Get.vim"/>
+	<Item Name="ObjCacher-Get(Array).vim" Type="VI" URL="../ObjCacher-Get(Array).vim"/>
 	<Item Name="ObjCacher-Set.vim" Type="VI" URL="../ObjCacher-Set.vim"/>
 	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
 	<Item Name="ObjCacher-List.vim" Type="VI" URL="../ObjCacher-List.vim"/>
