@@ -19,4 +19,6 @@
 	<Item Name="ObjCacher-Set(Array).vim" Type="VI" URL="../ObjCacher-Set(Array).vim"/>
 	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
 	<Item Name="ObjCacher-List.vim" Type="VI" URL="../ObjCacher-List.vim"/>
+	<Item Name="ObjCacher-Create if Non-Existant.vim" Type="VI" URL="../ObjCacher-Create if Non-Existant.vim"/>
+	<Item Name="ObjCacher-Create Dir if Non-Existant(Array).vim" Type="VI" URL="../ObjCacher-Create Dir if Non-Existant(Array).vim"/>
 </Library>
