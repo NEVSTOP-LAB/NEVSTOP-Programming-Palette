@@ -13,6 +13,16 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="support" Type="Folder">
+		<Item Name="TypeDescription.vim" Type="VI" URL="../_support/TypeDescription.vim"/>
+		<Item Name="fgv-GlobalCacher.vi" Type="VI" URL="../_support/fgv-GlobalCacher.vi"/>
+		<Item Name="fgv-locker.vi" Type="VI" URL="../_support/fgv-locker.vi"/>
+		<Item Name="locker-Create.vi" Type="VI" URL="../_support/locker-Create.vi"/>
+		<Item Name="locker-Destroy.vi" Type="VI" URL="../_support/locker-Destroy.vi"/>
+		<Item Name="locker-lock.vi" Type="VI" URL="../_support/locker-lock.vi"/>
+		<Item Name="locker-unlock.vi" Type="VI" URL="../_support/locker-unlock.vi"/>
+		<Item Name="Resource.vi" Type="VI" URL="../_support/Resource.vi"/>
+	</Item>
 	<Item Name="ObjCacher-Create if Non-Existant.vim" Type="VI" URL="../ObjCacher-Create if Non-Existant.vim"/>
 	<Item Name="ObjCacher-Create Dir if Non-Existant(Array).vim" Type="VI" URL="../ObjCacher-Create Dir if Non-Existant(Array).vim"/>
 	<Item Name="ObjCacher-Get.vim" Type="VI" URL="../ObjCacher-Get.vim"/>
@@ -23,4 +33,5 @@
 	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
 	<Item Name="ObjCacher-Clear.vim" Type="VI" URL="../ObjCacher-Clear.vim"/>
 	<Item Name="ObjCacher-Cacher.vi" Type="VI" URL="../ObjCacher-Cacher.vi"/>
+	<Item Name="ObjGeneratorTemplate.vit" Type="VI" URL="../ObjGeneratorTemplate.vit"/>
 </Library>
