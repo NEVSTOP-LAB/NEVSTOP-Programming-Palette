@@ -22,4 +22,5 @@
 	<Item Name="ObjCacher-List.vim" Type="VI" URL="../ObjCacher-List.vim"/>
 	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
 	<Item Name="ObjCacher-Clear.vim" Type="VI" URL="../ObjCacher-Clear.vim"/>
+	<Item Name="ObjCacher-Cacher.vi" Type="VI" URL="../ObjCacher-Cacher.vi"/>
 </Library>
