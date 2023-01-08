@@ -13,12 +13,13 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="ObjCacher-Create if Non-Existant.vim" Type="VI" URL="../ObjCacher-Create if Non-Existant.vim"/>
+	<Item Name="ObjCacher-Create Dir if Non-Existant(Array).vim" Type="VI" URL="../ObjCacher-Create Dir if Non-Existant(Array).vim"/>
 	<Item Name="ObjCacher-Get.vim" Type="VI" URL="../ObjCacher-Get.vim"/>
 	<Item Name="ObjCacher-Get(Array).vim" Type="VI" URL="../ObjCacher-Get(Array).vim"/>
 	<Item Name="ObjCacher-Set.vim" Type="VI" URL="../ObjCacher-Set.vim"/>
 	<Item Name="ObjCacher-Set(Array).vim" Type="VI" URL="../ObjCacher-Set(Array).vim"/>
-	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
 	<Item Name="ObjCacher-List.vim" Type="VI" URL="../ObjCacher-List.vim"/>
-	<Item Name="ObjCacher-Create if Non-Existant.vim" Type="VI" URL="../ObjCacher-Create if Non-Existant.vim"/>
-	<Item Name="ObjCacher-Create Dir if Non-Existant(Array).vim" Type="VI" URL="../ObjCacher-Create Dir if Non-Existant(Array).vim"/>
+	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
+	<Item Name="ObjCacher-Clear.vim" Type="VI" URL="../ObjCacher-Clear.vim"/>
 </Library>
