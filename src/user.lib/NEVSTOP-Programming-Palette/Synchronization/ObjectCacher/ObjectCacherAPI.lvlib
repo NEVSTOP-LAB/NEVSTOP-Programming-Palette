@@ -23,8 +23,8 @@
 		<Item Name="locker-unlock.vi" Type="VI" URL="../_support/locker-unlock.vi"/>
 		<Item Name="Resource.vi" Type="VI" URL="../_support/Resource.vi"/>
 	</Item>
-	<Item Name="ObjCacher-Create if Non-Existant.vim" Type="VI" URL="../ObjCacher-Create if Non-Existant.vim"/>
-	<Item Name="ObjCacher-Create Dir if Non-Existant(Array).vim" Type="VI" URL="../ObjCacher-Create Dir if Non-Existant(Array).vim"/>
+	<Item Name="ObjCacher-Ensure Object Existant.vim" Type="VI" URL="../ObjCacher-Ensure Object Existant.vim"/>
+	<Item Name="ObjCacher-Ensure Object Existant(Array).vim" Type="VI" URL="../ObjCacher-Ensure Object Existant(Array).vim"/>
 	<Item Name="ObjCacher-Get.vim" Type="VI" URL="../ObjCacher-Get.vim"/>
 	<Item Name="ObjCacher-Get(Array).vim" Type="VI" URL="../ObjCacher-Get(Array).vim"/>
 	<Item Name="ObjCacher-Set.vim" Type="VI" URL="../ObjCacher-Set.vim"/>
@@ -32,6 +32,6 @@
 	<Item Name="ObjCacher-List.vim" Type="VI" URL="../ObjCacher-List.vim"/>
 	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
 	<Item Name="ObjCacher-Clear.vim" Type="VI" URL="../ObjCacher-Clear.vim"/>
-	<Item Name="ObjCacher-Cacher.vi" Type="VI" URL="../ObjCacher-Cacher.vi"/>
+	<Item Name="ObjCacher-Viewer.vi" Type="VI" URL="../ObjCacher-Viewer.vi"/>
 	<Item Name="ObjGeneratorTemplate.vit" Type="VI" URL="../ObjGeneratorTemplate.vit"/>
 </Library>
