@@ -16,6 +16,7 @@
 	<Item Name="ObjCacher-Get.vim" Type="VI" URL="../ObjCacher-Get.vim"/>
 	<Item Name="ObjCacher-Get(Array).vim" Type="VI" URL="../ObjCacher-Get(Array).vim"/>
 	<Item Name="ObjCacher-Set.vim" Type="VI" URL="../ObjCacher-Set.vim"/>
+	<Item Name="ObjCacher-Set(Array).vim" Type="VI" URL="../ObjCacher-Set(Array).vim"/>
 	<Item Name="ObjCacher-Delete.vim" Type="VI" URL="../ObjCacher-Delete.vim"/>
 	<Item Name="ObjCacher-List.vim" Type="VI" URL="../ObjCacher-List.vim"/>
 </Library>
