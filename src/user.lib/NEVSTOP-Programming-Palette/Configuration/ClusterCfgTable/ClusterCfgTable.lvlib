@@ -5,11 +5,13 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="_Obsolete" Type="Folder">
+		<Item Name="Flatten Cluster To CfgTable.vi" Type="VI" URL="../Flatten Cluster To CfgTable.vi"/>
+		<Item Name="Parse CfgTable.vi" Type="VI" URL="../Parse CfgTable.vi"/>
+	</Item>
 	<Item Name="Flatten Cluster To CfgTable.vim" Type="VI" URL="../Flatten Cluster To CfgTable.vim"/>
 	<Item Name="Parse CfgTable.vim" Type="VI" URL="../Parse CfgTable.vim"/>
-	<Item Name="Flatten Cluster To CfgTable.vi" Type="VI" URL="../Flatten Cluster To CfgTable.vi"/>
 	<Item Name="Flatten Cluster To CfgTable(with DataName).vi" Type="VI" URL="../Flatten Cluster To CfgTable(with DataName).vi"/>
-	<Item Name="Parse CfgTable.vi" Type="VI" URL="../Parse CfgTable.vi"/>
 	<Item Name="Parse CfgTable(with DataName).vi" Type="VI" URL="../Parse CfgTable(with DataName).vi"/>
 	<Item Name="Merge CfgTables.vi" Type="VI" URL="../Merge CfgTables.vi"/>
 	<Item Name="Remove Comments Lines.vi" Type="VI" URL="../Remove Comments Lines.vi"/>
