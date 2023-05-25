@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2023-05-25 13:08:59" Creator="yao" Comments="" ID="da8a587b2a46476458df85c38a08eee1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2023-05-25 13:09:59" Creator="yao" Comments="" ID="1e976eac5d997255b1f7053d0a05bc19">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
     <Library_Version>2023.5.0.5</Library_Version>
@@ -95,8 +95,8 @@
       <Release_Notes>[improve] #121 JKI Insert State By bool icon
 [add] #120 add Topmost VI Directory.vi
 [improve] #123 documentation. Thanks @HowardShark @rookielsx @Onsen-eggs
-[fix] minor fix #152 #153
-[add] #154 add template same as JKI State Machine Template. Linked message,data and error tunnels. Remove OK button Event case.</Release_Notes>
+[add] #154 add template same as JKI State Machine Template. Linked message,data and error tunnels. Remove OK button Event case.
+[fix] minor fix #152 #153 #155</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
