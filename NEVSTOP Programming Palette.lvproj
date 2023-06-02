@@ -47,11 +47,6 @@
 				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
-				<Item Name="Close Generic Object Refnum (Array VI)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array VI)__ogtk.vi"/>
-				<Item Name="Close Generic Object Refnum (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array)__ogtk.vi"/>
-				<Item Name="Close Generic Object Refnum (Scalar VI)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Scalar VI)__ogtk.vi"/>
-				<Item Name="Close Generic Object Refnum (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Scalar)__ogtk.vi"/>
-				<Item Name="Close Generic Object Refnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
 				<Item Name="Compare Two Paths - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Compare Two Paths - Array__ogtk.vi"/>
 				<Item Name="Compare Two Paths - Path1 Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Compare Two Paths - Path1 Array__ogtk.vi"/>
@@ -104,12 +99,10 @@
 				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Unrecoverable character padding__ogtk.vi"/>
 				<Item Name="MGI Center Callee in Caller.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Center Callee in Caller.vi"/>
 				<Item Name="MGI Get Text Rect with Pad.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Picture &amp; Image/MGI Get Text Rect with Pad.vi"/>
-				<Item Name="MGI Hex Str to U8 Data.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Hex Str to U8 Data.vi"/>
 				<Item Name="MGI Make String Filesafe.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Make String Filesafe.vi"/>
 				<Item Name="MGI Open Explorer Window.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Open Explorer Window.vi"/>
 				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-				<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Periodic Trigger__ogtk.vi"/>
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
@@ -243,16 +236,31 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Palette.vi" Type="VI" URL="/&lt;vilib&gt;/Palette API/Write Palette.vi"/>
 			</Item>
+			<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
+			<Item Name="Close Generic Object Refnum (Array)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array)__ogtk.vi"/>
+			<Item Name="Close Generic Object Refnum__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum__ogtk.vi"/>
+			<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MGI Center Callee in Caller.vi" Type="VI" URL="../../../../../&lt;userlib&gt;/_MGI/Application Control/MGI Center Callee in Caller.vi"/>
+			<Item Name="MGI Get Text Rect with Pad.vi" Type="VI" URL="../../../../../&lt;userlib&gt;/_MGI/Picture &amp; Image/MGI Get Text Rect with Pad.vi"/>
+			<Item Name="MGI Hex Str to U8 Data.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_MGI/String/MGI Hex Str to U8 Data.vi"/>
+			<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/time/time.llb/Periodic Trigger__ogtk.vi"/>
+			<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+			<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 			<Item Name="USER32.DLL" Type="Document" URL="USER32.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
+			<Item Name="Valid Path__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/file/file.llb/Valid Path__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
