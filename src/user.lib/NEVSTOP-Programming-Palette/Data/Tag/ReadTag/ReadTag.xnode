@@ -3,7 +3,7 @@
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,)!!!*Q(C=X:1RDB."%%8`L"#1?C.),(9&amp;)1FV"8-%8[(E'TAVG7/S#J&amp;7C_2I1293MJ"WC?M#")\)(8#"Y&lt;GH&lt;3TM^3)"%K*HSD0T@X@6G_\W3+5^F/[JP;PJ;0N@`(\`6L^92`TC^@OV7X`0\X&gt;_0@@'^X8=\V)@S@^,\X@%(YWW4TOX/X\H&gt;*@$`OZZU"`R/^LY'[&lt;V&gt;?/8VPFN/?NV/V[&lt;];VW9VN@N@ZO]A0PNUH;;NY?G"_?ZP-+5$L]\-]V8\1`LHPTW]ZLXM\?H`^^PK0N^`W\`^[4/TP^Z39VB:2))AAHL.MBC:\IC:\IC:\IA2\IA2\IA2\IDO\IDO\IDO\IBG\IBG\IBGZF/X#A#VXIML,]3@'E5*)U3:"U"E8*4]+4]#1]#1_03HA3HI1HY5FY[++%*_&amp;*?"+?B)&gt;B3HA3HI1HY5FY3&amp;6)MBTI]#1]J&amp;@!%`!%0!&amp;0Q%.*"4Q"1&amp;!M3"QE!5/"'&gt;Q%0!&amp;0Q-/N!J[!*_!*?!)?&lt;!5]!5`!%`!%0!QJMR+&amp;:HWAQU-;/4Q/D]0D]$A]J*&lt;$Y`!Y0![0QU-Z/4Q/DQ0B&amp;(33AS"HE.0"?8"Y("YO=HA=(I@(Y8&amp;YM-I+?:G:.=X[1)@(Y$&amp;Y$"[$R_!BB1Q?A]@A-8A-(N,+Y$&amp;Y$"[$R_#BF!Q?A]@A-5#-IJ38E=Q9;(1S")/(M_Q7+[M5B=4+5@_;X5:6X9#K'UNVQ[BO".5&amp;6FUYV162H7D6#63&gt;'.586HU265$6QKI*64NKR?_37"!T9EK-C3%R)-[*XHLI(_[Y7KWU8#[V7#QUG]UUH5YV(I]V(!YV'!RU@H[O8K_X`6I^Y?B;M`EO4&lt;C`,6Z.V,QDYOOE_@B"T2@C%`=&lt;`_K_GD?@V6S]6H0Z`N(DN^_?0LN]-8BZ=8J^=`8A_&gt;HEZ,28IDE\G_D[:D&gt;X^VX[&amp;\[./F'\]ZFHDLY$*,J.[A!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
 	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
