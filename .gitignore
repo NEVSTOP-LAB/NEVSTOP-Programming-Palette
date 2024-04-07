@@ -15,3 +15,4 @@ src/Network/IP Reporter/_PythonCode/__pycache__/*
 src/Network/IP Reporter/_PythonCode/build/*
 src/Network/IP Reporter/_PythonCode/*.spec
 /src/user.lib/NEVSTOP-Programming-Palette/_test/Configuration/test.ini
+/*.vipc
