@@ -7,9 +7,10 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub all releases](https://img.shields.io/github/downloads/NEVSTOP-LAB/NEVSTOP-Programming-Palette/total)](https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette/releases) 
 
-用于补充 LabVIEW 日常编程使用的常用VI.
+Collection of the reuse VIs from NEVSTOP-Lab.
 
 ## Development Environment
 
 - LabVEW 2017
 - VIPM 2020.3
+- OpenG/MGI/LAVA
