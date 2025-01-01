@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2024-08-01 23:29:27" Creator="yao" Comments="" ID="981ca0f19ab36f9c1e890b8c91df1c45">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-05 16:28:36" Modified_Date="2025-01-01 22:29:20" Creator="yao" Comments="" ID="26029641e29531cef66c465a56e76ecb">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Programming_Palette</Package_File_Name>
-    <Library_Version>2024.8.0.5</Library_Version>
+    <Library_Version>2025.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -200,11 +200,7 @@ N/A
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette</URL>
-      <Release_Notes>[update] #212 remove OpenG in dependency
-[add] add "Wait if Error(ms)" VI 
-[add] #220 add "Check if File or Folder Exists 2.vi" to fix "/" and "\" issue on Windows.
-[fix] #215 Use Indexed String to Enum in CSM Framework
-[fix] #221 Fix binary number conversion in Number String to Integer for I8/I16/I32/I64.</Release_Notes>
+      <Release_Notes>[fix] #224 bug in Lock Control in The Center.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -407,7 +403,6 @@ N/A
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
@@ -689,7 +684,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\String</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F40ABBD8594E7192C471539AF03AF34A</GUID>
+      <GUID>E0D3AD99BC08068A0BA6F2BF59E0CDD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -850,7 +845,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Array\_placeholder\Search 1D Array -placeContent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E43BCED067EFCC20FB170958E646FEF</GUID>
+      <GUID>559EB0BF1EF42B29A2CEA7B08A4ED055</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1123,7 +1118,7 @@ N/A
         <Path>src\Pop-up Menu Plugins</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F46B63441F1B444864E81B56B236D3BA</GUID>
+      <GUID>CEBC371856A4C8E11C75F4004735281A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1340,7 +1335,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Data\Get DataType Description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1A282C00491B206D4BCFBD69E0D8F71</GUID>
+      <GUID>9DF3E59B2F6DAC4BCA33701715BE3096</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1557,7 +1552,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Dialog &amp; Interface\Fit VI window.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5EDD73BA8C713C4401469DD536495A1</GUID>
+      <GUID>ADD3ED85DB0B2FB1543C191CC5A9BE67</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1620,7 +1615,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Waveform\Generate Random Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7412E30F361C06B31F04D1644570805F</GUID>
+      <GUID>6E0F0F21AD70ECA7BED364C8A6722CEA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1753,7 +1748,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Time\Tick Count (ms).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25D15218E1379EFBC3CBE1FA0B95CABB</GUID>
+      <GUID>4A28DBEA6C0AF7D2E25A4258AACB753B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2082,7 +2077,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\File\Check if File or Folder Exists 2.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>143DB6D8C1B13760DFE771FD94A96A1F</GUID>
+      <GUID>A8FEA375DCBE866F8E1682FB2EA1173D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2173,7 +2168,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\JKI\JKI State Machine.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>53E0659DF54017BE8D204D0B9E214836</GUID>
+      <GUID>BD29ABA170DF9F0BE9F08BF1B79D4CE2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2278,7 +2273,7 @@ N/A
         <Path>src\lvconfig</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>845FD603FB3ED45418C399BF2FEC0F38</GUID>
+      <GUID>44AE065C3ED19209E38922185B5C1AA7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2383,7 +2378,7 @@ N/A
         <Path>&lt;vi.lib&gt;\Platform\browser.llb\Open URL in Default Browser.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AAECA3B7A3D024917F8911ADA6C45E01</GUID>
+      <GUID>AF2A70F0B57C4768E47DDCD937E47078</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2628,7 +2623,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\String\Concatenate Strings If not Empty.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEAE038E33442B0EFC5C9D47C051731D</GUID>
+      <GUID>EC1052BFCB01FE2D9468AC919CC4DE44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2803,7 +2798,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Comparison\Select Lesser.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA657FF2ED7FB747D2B6A647F7DECEDD</GUID>
+      <GUID>2A668415CF0118B0A4186B045C835DE5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2866,7 +2861,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Application\SysEnvVar\Set System Environment Variable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D47B1923BA5257ACF1DDEA5FCD7D965</GUID>
+      <GUID>ADC95E136AAB09C0A0F58EC795063F8B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2957,7 +2952,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Application\_placeContent\Start Async Call Template.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E13C61FD00EAFE0C6C0BA2240D8B056</GUID>
+      <GUID>0313216807794459EAD7E884DAC3B4A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3230,7 +3225,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\Excel\Excel - Write Sheet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60BCE50E06B5813A9A7D5F1FC9F26F49</GUID>
+      <GUID>57A8425456B8F7522BDB47215358A05C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3433,7 +3428,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\ClusterCfgTable\Parse CfgTable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C212E7E2055108426FA0FE77DCB7E74E</GUID>
+      <GUID>56ABCA23643C95400AEDEE4A31446B10</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3510,7 +3505,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\OpenG Variant Configuration File\Write Controls of Panel to INI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15F95DBC69E7B872DD6AD48B6F63CAA0</GUID>
+      <GUID>AEC989AE8C41BD8E3EA1AAFF1F4E718A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3657,7 +3652,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Configuration\Ini\TextToSessionBlocks.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6562F33E5B3CF28F1D48A515E488302B</GUID>
+      <GUID>7F71C6B1BAF223B1BD21DE56F30A7138</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3720,7 +3715,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Network\IP Reporter\Start IP Reporter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC2D5F29ADD720DEFB7B9B75E6EC2F47</GUID>
+      <GUID>00842049DFFA208176CA38AD17EF6780</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3811,7 +3806,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Network\UDP++\UDP Read Data Array.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9B52B5FAB990A9C7ACD12BAF6DD9E0B</GUID>
+      <GUID>D7BEF05E068CE3E6AA62243EFE5E2ED2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3832,7 +3827,7 @@ N/A
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>D6116C8C9EA11B98EF4E4FC18C6E12CF</GUID>
+      <GUID>7AE214A1F11133C503CED681E8A3F09C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3895,7 +3890,7 @@ N/A
         <Path>&lt;resource&gt;\dialog\lvconfig.llb\LV Config Remove.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D058246DEEEC8C5A96E37389E90B1945</GUID>
+      <GUID>3C2F9E6950EE4B24FCBC41C2F3A5754A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -4000,7 +3995,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Structure\_placeContent\Code Benchmark Template.vi</Path>
         <VI_Title>Code Benchmark Template (NEVSTOP)</VI_Title>
       </Items_Data>
-      <GUID>3BD0C2E7D72D24B88CBA9A809C0C433E</GUID>
+      <GUID>5DC5585AE0D1463D99510AD3265B18C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -4049,7 +4044,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Data\_obsolete\GetDataTypeDescription-TypeDescriptor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12FD13A32056EF0564612047D97A7E7D</GUID>
+      <GUID>C82F608DBF1BF61ECD7EE11F2A8DE825</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -4098,7 +4093,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\String\_placeholder\Slash Code String Constant -placeContent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDF35FBECBD1866368596CFB0DB5E889</GUID>
+      <GUID>A91D2EBF047886B81BEC7F5068DFEACF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -4203,7 +4198,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Numeric\Random Number Within Range.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E32A6DDE6B8C83CB89744C0DFC152937</GUID>
+      <GUID>C2518C5360427686C0576F88CE0E6694</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -4350,7 +4345,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Signal\Number Count Down.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4674A5CFF087E4C100803115D817349A</GUID>
+      <GUID>B7B865F2329D7E935CB28F4AADE7869A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -4385,7 +4380,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Graphics &amp; Sound\Str To Colorbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>406F3ED1D7CEA187EDFDEEB2BC958EA3</GUID>
+      <GUID>BD2DF3F88D21617B93FE4BDDC8B3D2AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -4448,7 +4443,7 @@ N/A
         <Path>src\Locker</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C18BDA718E39EFD6DCC141743344F6E7</GUID>
+      <GUID>FFCDB912B57108D6C980E873CE6B861C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>29</Parent_Palette_Index>
@@ -4497,7 +4492,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Synchronization\SyncStart\SyncStart-Wait.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BCBEBE6DDEBE271C555073677A49EDE</GUID>
+      <GUID>0E5352BEA1215C8FC7CE9DCB5B6C1DC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>29</Parent_Palette_Index>
@@ -4574,7 +4569,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Synchronization\Locker\locker-unlock.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>571546499018C7101072ED769698A828</GUID>
+      <GUID>BA3FC82534AD0C306AF625C64A736A09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4609,7 +4604,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\File\TDMS\Log Channels to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCBC161794C6DA679BB2858B3A72D9A3</GUID>
+      <GUID>508CD76F60CF07BABE929976C0009825</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4672,7 +4667,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\File\TextFile\TxtFile Append.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDC9CA83FEB7D8ED39B9E9B089D43CA0</GUID>
+      <GUID>0FA7CED37996BBB643F6DC0CCE8EABEE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>26</Parent_Palette_Index>
@@ -4945,7 +4940,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Numeric\_placeholder\U8 Constant -placeContent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0B2CB9D47FC319438E81540A074A729</GUID>
+      <GUID>D0A76A9E6F8B864327977C0FE02B5CDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -4966,7 +4961,7 @@ N/A
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>858D38F90559A7D992A57A061EF00936</GUID>
+      <GUID>CF90779F08ED629695A302A27F342433</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -5029,7 +5024,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Dialog &amp; Interface\ButtonGroupEnum\Set ButtonGroupEnum Value.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A8751A5A6B3088492EC2D0364388A88</GUID>
+      <GUID>2CD22F6EFB40E0C8F85A62963952F953</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -5092,7 +5087,7 @@ N/A
         <Path>&lt;vi.lib&gt;\VIServer\UID to GObject Reference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71EDE76DA8973CCC2FE4905800147930</GUID>
+      <GUID>187491ECB91E7E8FD01FBA64F571FBD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -5183,7 +5178,7 @@ N/A
         <Path>&lt;vi.lib&gt;\Utility\traverseref.llb\Get Class Hierarchy from Class Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AE2D142C0205951840C593C2A630897</GUID>
+      <GUID>E875F13E10AA9AA4564E1AB131F67669</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -5274,7 +5269,7 @@ N/A
         <Path>&lt;resource&gt;\plugins\PopupMenus\support\Refresh Menus.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29A60984894A306A4354DE8525781D39</GUID>
+      <GUID>15DF21B470E079C5BEFDCACC9175529B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -5337,7 +5332,7 @@ N/A
         <Path>src\String</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E6EAF316BAEC034A5385EE5DE5D516F</GUID>
+      <GUID>F3490E75712DEA794B22F008185ABB44</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -5358,7 +5353,7 @@ N/A
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>849EDFAA485305E98D49F8E75FCDB645</GUID>
+      <GUID>9D6F65F835C0C6674E8A865C86C282BC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -5393,7 +5388,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Numeric\_placeholder</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1DFC8E85C8FC938F2858A817EFDE80D</GUID>
+      <GUID>7C0D52B3C5D28EC8A91E88247D78DA6A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -5666,7 +5661,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\Numeric\_placeholder\_U64 Control -placeContent.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>035C92DB7702C3F7C66251232DD93DD3</GUID>
+      <GUID>5071DAF53CACFF0F4A96E9B11943275B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -5701,7 +5696,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\String\_placeholder</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD53AA66CEB50FC9C5E3EF71F00FDB31</GUID>
+      <GUID>4AAAA2236454BE1B37F4A49D6F404D55</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -5750,7 +5745,7 @@ N/A
         <Path>src\user.lib\NEVSTOP-Programming-Palette\String\_placeholder\_Hex String Control -placeContent.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8558DC51776FE002D1E8BCFF72A2183</GUID>
+      <GUID>95EDB83B197D1A435DA645E9A035E04B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
