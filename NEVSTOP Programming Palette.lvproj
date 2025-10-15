@@ -24,7 +24,6 @@
 		<Item Name="src" Type="Folder" URL="../src">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name=".gitignore" Type="Document" URL="../.gitignore"/>
 		<Item Name="NEVSTOP-Programming-Palette.vipb" Type="Document" URL="../NEVSTOP-Programming-Palette.vipb"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
