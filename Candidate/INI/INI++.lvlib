@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Read Key of Base DataType.vi" Type="VI" URL="../Read Key of Base DataType.vi"/>
+	<Item Name="Read Variant Key.vi" Type="VI" URL="../../../src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Read Variant Key.vi"/>
 </Library>

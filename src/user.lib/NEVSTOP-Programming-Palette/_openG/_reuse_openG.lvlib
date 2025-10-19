@@ -4,15 +4,22 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="1D Array to String.vi" Type="VI" URL="../1D Array to String.vi"/>
+	<Item Name="Array of VData to VArray.vi" Type="VI" URL="../Array of VData to VArray.vi"/>
+	<Item Name="VArray to Array of VData.vi" Type="VI" URL="../VArray to Array of VData.vi"/>
+	<Item Name="VArray Size(s).vi" Type="VI" URL="../VArray Size(s).vi"/>
 	<Item Name="Array of VData to VCluster.vi" Type="VI" URL="../Array of VData to VCluster.vi"/>
+	<Item Name="Reshape Array to 1D VArray.vi" Type="VI" URL="../Reshape Array to 1D VArray.vi"/>
 	<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="../End of Line Constant (bug fix).vi"/>
 	<Item Name="Error From Error Code.vi" Type="VI" URL="../Error From Error Code.vi"/>
+	<Item Name="Get Array Element TDEnum.vi" Type="VI" URL="../Get Array Element TDEnum.vi"/>
 	<Item Name="Get Data Name.vi" Type="VI" URL="../Get Data Name.vi"/>
 	<Item Name="Get Header from TD.vi" Type="VI" URL="../Get Header from TD.vi"/>
 	<Item Name="Get Last PString.vi" Type="VI" URL="../Get Last PString.vi"/>
 	<Item Name="Get PString.vi" Type="VI" URL="../Get PString.vi"/>
 	<Item Name="Get Strings from Enum.vi" Type="VI" URL="../Get Strings from Enum.vi"/>
+	<Item Name="Reshape 1D Array.vi" Type="VI" URL="../Reshape 1D Array.vi"/>
 	<Item Name="Set Data Name.vi" Type="VI" URL="../Set Data Name.vi"/>
 	<Item Name="Set Enum String Value.vi" Type="VI" URL="../Set Enum String Value.vi"/>
 	<Item Name="String to 1D Array.vi" Type="VI" URL="../String to 1D Array.vi"/>
