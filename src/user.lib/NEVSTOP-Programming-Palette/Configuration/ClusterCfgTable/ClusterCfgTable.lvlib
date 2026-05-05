@@ -18,5 +18,4 @@
 	<Item Name="Filter Unmarked Lines.vi" Type="VI" URL="../Filter Unmarked Lines.vi"/>
 	<Item Name="Replace EmptyCell Mark.vi" Type="VI" URL="../Replace EmptyCell Mark.vi"/>
 	<Item Name="Splite MultiLine Cell.vi" Type="VI" URL="../Splite MultiLine Cell.vi"/>
-	<Item Name="Trim Unnecessary Zeros of Numeric String.vi" Type="VI" URL="../../../Numeric/Trim Unnecessary Zeros of Numeric String.vi"/>
 </Library>
