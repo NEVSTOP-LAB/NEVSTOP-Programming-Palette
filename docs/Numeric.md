@@ -14,7 +14,7 @@ Calculates the point list of a sweep from Start, Stop, Span, Step and Points. Sp
   - `Start` : `double` *(required)*
   - `Stop(Use "Span" if it's not NaN)` : `double`
   - `Step(Used if "Points" equals 0)` : `double`
-  - `Points(0 as default)"` : `int32`
+  - `Points(0 as default)` : `int32`
   - `Span("Stop" = "Start" + "Span" if not NaN)` : `double`
   - `Setting` : `cluster{uint16.Method,double.S}`
 - **Outputs**:
@@ -50,7 +50,7 @@ Resamples Orgin by the given Ratio using linear interpolation, so the output arr
 - **Kind**: VI
 - **Inputs**:
   - `Ratio` : `double` *(required)*
-  - `Orgin` : `array{double}` *(required)*
+  - `Origin` : `array{double}` *(required)*
 - **Outputs**:
   - `new array` : `array{double}`
 
@@ -114,7 +114,7 @@ Removes trailing zeros, and a trailing decimal point, from a floating-point numb
 - **Inputs**:
   - `float String` : `string` *(required)*
 - **Outputs**:
-  - `float String without unnccessary zeros` : `string`
+  - `float String without unnecessary zeros` : `string`
 
 ## Numeric / CircleBuffer
 

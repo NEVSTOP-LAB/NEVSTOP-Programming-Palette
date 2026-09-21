@@ -12,7 +12,7 @@ Holds a value across calls: the output follows the new value while change? is TR
 - **Kind**: polymorphic VI (.vim)
 - **Inputs**:
   - `change?` : `bool` *(required)*
-  - `new value ` : `double` *(required)*
+  - `new value` : `double` *(required)*
 - **Outputs**:
   - `keeped value` : `double`
 
@@ -81,11 +81,11 @@ Measures how long Signal has been unchanged and returns TRUE while that time is 
 - **Kind**: polymorphic VI (.vim)
 - **Inputs**:
   - `reset(F)` : `bool`
-  - `目标时间(ms)` : `uint32`
+  - `Target Period(ms)` : `uint32`
   - `Signal` : `bool`
 - **Outputs**:
-  - `变化过去时间(ms)` : `uint32`
-  - `周期内信号未变化` : `bool`
+  - `Elapsed Time(ms)` : `uint32`
+  - `Unchanged in Period?` : `bool`
 - **Calls**: `Change Keeped Value.vim`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -104,11 +104,11 @@ Follows Signal but applies the timing duration (ms) to both transitions, so a ch
 - **Kind**: polymorphic VI (.vim)
 - **Inputs**:
   - `reset(F)` : `bool` *(required)*
-  - `计时时长(ms)` : `uint32` *(required)*
+  - `Duration(ms)` : `uint32` *(required)*
   - `reset value` : `bool` *(required)*
   - `Signal` : `bool` *(required)*
 - **Outputs**:
-  - `变化过去时间(ms)` : `uint32`
+  - `Elapsed Time(ms)` : `uint32`
   - `signal(safe)` : `bool`
 - **Calls**: `Change Keeped Value.vim`
 
@@ -127,7 +127,7 @@ Toggles the Signal output every time the iteration count reaches the configured 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Toggle Output(U64).vi`
 - **Kind**: VI
 - **Inputs**:
-  - `循环次数` : `uint64` *(required)*
+  - `Iteration Count` : `uint64` *(required)*
   - `reset(F)` : `bool`
 - **Outputs**:
   - `Signal` : `bool`
@@ -148,10 +148,10 @@ Follows Signal, turning the output FALSE immediately but delaying the transition
 - **Kind**: VI
 - **Inputs**:
   - `Reset(F)` : `bool`
-  - `计时时长(ms)` : `uint32` *(required)*
+  - `Duration(ms)` : `uint32` *(required)*
   - `Signal` : `bool` *(required)*
 - **Outputs**:
-  - `变化过去时间(ms)` : `uint32`
+  - `Elapsed Time(ms)` : `uint32`
   - `signal(safe)` : `bool`
 - **Calls**: `Change Keeped Value.vim`
 
@@ -171,10 +171,10 @@ Follows Signal, turning the output TRUE immediately but delaying the transition 
 - **Kind**: VI
 - **Inputs**:
   - `Reset(F)` : `bool`
-  - `计时时长(ms)` : `uint32` *(required)*
+  - `Duration(ms)` : `uint32` *(required)*
   - `Signal` : `bool` *(required)*
 - **Outputs**:
-  - `变化过去时间(ms)` : `uint32`
+  - `Elapsed Time(ms)` : `uint32`
   - `signal(safe)` : `bool`
 - **Calls**: `Change Keeped Value.vim`
 

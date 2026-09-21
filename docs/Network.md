@@ -84,7 +84,7 @@ Listens on the IP Reporter multicast report address and port and collects the no
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/Scan Distributed Nodes.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `ScanPeroid(>2000ms)` : `uint32`
+  - `Scan Period(>2000ms)` : `uint32`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Report Address` : `cluster{string.address,uint16.receiver port}` *(required)*
 - **Outputs**:
@@ -110,7 +110,7 @@ Starts the IP Reporter in the background and returns a notifier carrying the rep
   - `ignore Gateway IP?(T)` : `bool`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Init Information` : `string`
-  - `Setttings` : `cluster{string.address,uint16.receiver port,bool.Ignore Gateway IP,string.HostName}`
+  - `Settings` : `cluster{string.address,uint16.receiver port,bool.Ignore Gateway IP,string.HostName}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Information Notifier` : `ref{Notifier}{string}`
@@ -134,7 +134,7 @@ TCP transmission loop acting as the client. It connects to ip address:port and d
 - **Kind**: VI
 - **Inputs**:
   - `params` : `cluster{int32.Open timeout(ms),int32.Trans timeout(ms),int32.idle time(ms)}`
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `port` : `uint16`
   - `ip address` : `string` *(required)*
   - `DataQueue` : `ref{Queue}{string.String}` *(required)*
@@ -173,12 +173,12 @@ TCP transmission loop acting as the server. It listens on port and sends the str
 - **Inputs**:
   - `params` : `cluster{int32.Open timeout(ms),int32.Trans timeout(ms),int32.idle time(ms)}`
   - `Discard Data when not connected?(T)` : `bool`
-  - `Error In` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `port` : `uint16`
   - `Server Name` : `string`
   - `DataQueue` : `ref{Queue}{string.String}` *(required)*
 - **Outputs**:
-  - `Error Out` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
 - **Calls**: `Clear Errors.vi`, `TCP Listen.vi`, `Error to Warning.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -221,8 +221,8 @@ Calculates how to divide size bytes into packets of y bytes. The leading element
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/SplitUDPPacks.vi`
 - **Kind**: VI; member of UDP++.lvlib
 - **Inputs**:
-  - `y` : `int32` *(required)*
-  - `size` : `int32` *(required)*
+  - `pack size` : `int32` *(required)*
+  - `total size` : `int32` *(required)*
 - **Outputs**:
   - `output array` : `array{int32}`
 
@@ -262,9 +262,9 @@ Reads one packet of a split UDP array transmission and returns the number of ele
 - **Kind**: polymorphic VI (.vim); member of UDP++.lvlib
 - **Inputs**:
   - `pack size(50)` : `int32`
-  - `Data Type(dbl)` : `double`
+  - `data type` : `double`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `超时毫秒(25000)` : `int32`
+  - `Timeout(ms)` : `int32`
   - `total size` : `int32` *(required)*
   - `UDP Network Connection in` : `ref{UDP}` *(required)*
 - **Outputs**:
@@ -290,9 +290,9 @@ Reads every packet of a split UDP array transmission and returns the reassembled
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Read Data Array.vim`
 - **Kind**: polymorphic VI (.vim); member of UDP++.lvlib
 - **Inputs**:
-  - `Data Type(dbl)` : `double`
+  - `data type` : `double`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `超时毫秒(25000)` : `int32`
+  - `Timeout(ms)` : `int32`
   - `UDP Network Connection in` : `ref{UDP}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -316,7 +316,7 @@ Reads a split UDP data stream and returns it as a string. The call returns as so
 - **Kind**: VI; member of UDP++.lvlib
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `超时毫秒(25000)` : `int32`
+  - `Timeout(ms)` : `int32`
   - `UDP Network Connection in` : `ref{UDP}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -347,7 +347,7 @@ Splits the array wired to Data into packets of pack size and sends them to the g
   - `pack size(50)` : `int32`
   - `address` : `uint32` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `超时毫秒(25000)` : `int32`
+  - `Timeout(ms)` : `int32`
   - `Data` : `array{double}` *(required)*
   - `UDP Network Connection in` : `ref{UDP}` *(required)*
 - **Outputs**:
@@ -375,7 +375,7 @@ Splits the string wired to String into packets of pack size and sends them to th
   - `pack size(400)` : `int32`
   - `address` : `uint32` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `超时毫秒(25000)` : `int32`
+  - `Timeout(ms)` : `int32`
   - `String` : `string` *(required)*
   - `UDP Network Connection in` : `ref{UDP}` *(required)*
 - **Outputs**:

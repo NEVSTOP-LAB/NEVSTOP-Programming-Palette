@@ -33,7 +33,7 @@ Joins prefix and String with separator, omitting the separator when either side 
 - **Kind**: VI
 - **Inputs**:
   - `String` : `string`
-  - `seperator(\3A)` : `string`
+  - `separator(:)` : `string`
   - `prefix` : `string`
 - **Outputs**:
   - `result` : `string`
@@ -197,7 +197,7 @@ Searches string for the first of several regular expressions, beginning at offse
   - `after substring` : `string`
   - `match substring` : `string`
   - `before substring` : `string`
-  - `pattern matched ` : `string`
+  - `pattern matched` : `string`
 - **Calls**: `Trim Whitespace.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>

@@ -126,6 +126,7 @@ Parses a configuration table back into a cluster, using the data names recorded 
 - **Kind**: VI; member of ClusterCfgTable.lvlib
 - **Inputs**:
   - `Format` : `string`
+  - `Array delimiters (|)` : `string`
   - `Cluster Configuration Typedef` : `variant`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `CfgTable Row` : `array{string}`
@@ -228,7 +229,7 @@ Replaces the empty-cell marker in a configuration table with an empty string. Th
 - **Kind**: VI; member of ClusterCfgTable.lvlib
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `EmptyCellToken(^[\\/]$)` : `string`
+  - `EmptyCellToken(^[\/]$)` : `string`
   - `CfgTable in` : `array.2{string}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -323,7 +324,7 @@ Creates a new Excel workbook, prompting for a path when none is wired, and adds 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CreateXL_Workbook.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `path` : `path`
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks}`
 - **Outputs**:
@@ -369,11 +370,11 @@ Reads the used range of the open worksheet into a two-dimensional string array.
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `Refnum Cluster Out in` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
+  - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `data` : `array.2{string}`
-  - `Refnum Cluster Out out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
+  - `Refnum Cluster Out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
 - **Calls**: `excel_configuration.lvlib:GetXL_WorkSheetSize.vi`, `excel_configuration.lvlib:GetXL_CellValues.vi`
 
 ### GetXL_CellValue_Dbl.vi
@@ -383,7 +384,7 @@ Reads a single cell, or the top-left cell of the range between Start and End, as
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValue_Dbl.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `End` : `cluster{int32.Column,int32.Row}`
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}` *(required)*
@@ -400,7 +401,7 @@ Reads a single cell, or the top-left cell of the range between Start and End, as
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValue_String.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `End` : `cluster{int32.Column,int32.Row}`
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}` *(required)*
@@ -440,7 +441,7 @@ Reads the range between Start and End from the open worksheet as a two-dimension
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues_2D_Dbl.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `End` : `cluster{int32.Column,int32.Row}`
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}` *(required)*
@@ -457,7 +458,7 @@ Reads the range between Start and End from the open worksheet as a two-dimension
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues_2D_String.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `End` : `cluster{int32.Column,int32.Row}`
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}` *(required)*
@@ -475,7 +476,7 @@ Returns the name of the open worksheet.
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `Refnum Cluster in` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
+  - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Name` : `string`
@@ -489,9 +490,11 @@ Reads the size of the used range of the open worksheet.
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `Refnum Cluster in` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
+  - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `# Columns` : `int32`
+  - `# Rows` : `int32`
   - `Refnum Cluster Out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
 - **Calls**: `excel_configuration.lvlib:_Safely Close Reference.vim`
 
@@ -529,7 +532,7 @@ Opens the Excel workbook at path, prompting for a file when the path is empty, a
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/OpenXL_Workbook.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `path` : `path`
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks}`
 - **Outputs**:
@@ -572,10 +575,10 @@ Writes a two-dimensional string array into the used range of the open worksheet.
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `data` : `array.2{string}` *(required)*
-  - `Refnum Cluster Out in` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
+  - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `Refnum Cluster Out out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
+  - `Refnum Cluster Out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
 - **Calls**: `excel_configuration.lvlib:SetXL_CellValues.vi`
 
 ### SetXL_CellValue_Dbl.vi
@@ -589,7 +592,7 @@ Writes a double into a cell, or into the range between Start and End, of the ope
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `End` : `cluster{int32.Column,int32.Row}` *(required)*
   - `data` : `double` *(required)*
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
 - **Outputs**:
   - `Refnum Cluster Out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -606,7 +609,7 @@ Writes a string into a cell, or into the range between Start and End, of the ope
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `End` : `cluster{int32.Column,int32.Row}` *(required)*
   - `data` : `string` *(required)*
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
 - **Outputs**:
   - `Refnum Cluster Out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -645,7 +648,7 @@ Writes a two-dimensional array of doubles into the open worksheet, starting at S
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}` *(required)*
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `data` : `array.2{double}` *(required)*
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
 - **Outputs**:
   - `Refnum Cluster Out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -661,7 +664,7 @@ Writes a two-dimensional array of strings into the open worksheet, starting at S
   - `Refnum Cluster In` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}` *(required)*
   - `Start` : `cluster{int32.Column,int32.Row}`
   - `data` : `array.2{string}` *(required)*
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
 - **Outputs**:
   - `Refnum Cluster Out` : `cluster{ref{ActiveX}.Excel._Application,ref{ActiveX}.Workbooks,ref{ActiveX}.Open,ref{ActiveX}.Worksheets,ref{ActiveX}.Excel._Worksheet}`
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -689,7 +692,7 @@ Removes the annotation lines, which start with Annotation Seperator(#), from a c
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines Filter-Annotation.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
 - **Inputs**:
-  - `Annotation Seperator(#)` : `string` *(required)*
+  - `Annotation Separator(#)` : `string` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Lines` : `array{string}` *(required)*
 - **Outputs**:
@@ -744,7 +747,7 @@ Loads the session named Session Name from Lines and returns it both as a list of
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines LoadArrayOfSessions.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
 - **Inputs**:
-  - `Annotation Seperator(#)` : `string`
+  - `Annotation Separator(#)` : `string`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Session Name` : `string` *(required)*
   - `Lines` : `array{string. }` *(required)*
@@ -762,7 +765,7 @@ Loads every session in Lines whose name matches the regular expression Session N
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines LoadMatrixOfSessions.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
 - **Inputs**:
-  - `Annotation Seperator(#)` : `string` *(required)*
+  - `Annotation Separator(#)` : `string` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Session Name(Rxp)` : `string` *(required)*
   - `Array in` : `array{string. }` *(required)*
@@ -827,8 +830,10 @@ Reads the values of the front panel controls of VI Ref from a standard LabVIEW c
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `VI Ref (calling VI)` : `ref{LV.VI}`
+  - `refnum` : `ref{DataLog}{uint16{config data}.refnum}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `refnum out` : `ref{DataLog}{uint16{config data}.refnum}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`, `OpenG Variant Configuration File.lvlib:Read Key (Variant).vi`
 
 <details><summary>Previous description (before this rewrite)</summary>

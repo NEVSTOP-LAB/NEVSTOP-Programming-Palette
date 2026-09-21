@@ -28,7 +28,7 @@ Makes the boolean array behind an LED array control blink, rotating the array by
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Blink LEDArray Control.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `移动间隔(1000 ms)` : `uint32`
+  - `Update Interval(1000 ms)` : `uint32`
   - `LED Array` : `ref{LV.Array}{array{bool.液压卸荷指示灯2}}` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Enable` : `bool` *(required)*
@@ -159,13 +159,13 @@ Event handler that shows HintString as a prompt inside a string control until th
 - **Kind**: VI
 - **Inputs**:
   - `Font` : `cluster{cluster{string.Name,bool.Italic,uint32.Color,bool.Bold,int32.Size}.Normal-Font,cluster{string.Name,bool.Italic,uint32.Color,bool.Bold,int32.Size}.Prompt-Font}`
-  - `Error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Input Display Style` : `uint16{Normal,Backslash "\\",Password,HEX}`
   - `HintString` : `string` *(required)*
   - `reference` : `ref{LV.String}` *(required)*
 - **Outputs**:
-  - `Error out` : `cluster{bool.status,int32.code,string.source}`
-  - `reference (dup)` : `ref{LV.String}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `reference out` : `ref{LV.String}`
 - **Calls**: `Rising Edge.vi`, `Falling Edge.vi`
 
 ## Fit Controls to Rect.vi
@@ -175,11 +175,11 @@ Moves the front panel objects in GObjs so that their combined bounding rectangle
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit Controls to Rect.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error In` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Rect` : `cluster{int16.Left,int16.Top,int16.Right,int16.Bottom}` *(required)*
   - `GObjs` : `array{ref{LV.GObject}}`
 - **Outputs**:
-  - `Error Out` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `GObjs` : `array{ref{LV.GObject}}`
 - **Calls**: `Get GObjs RectBound.vi`, `CenterRectInBnds.vi`
 
@@ -214,12 +214,12 @@ Resizes and centres the window of VI Ref (calling VI) inside the window of the V
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Caller Center.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error In` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Background VI Ref (Callee's Caller)` : `ref{LV.VI}` *(required)*
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
-  - `Error Out` : `cluster{bool.status,int32.code,string.source}`
-  - `dup VI Ref` : `ref{LV.VI}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `VI Ref out` : `ref{LV.VI}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`, `RectCentroid.vi`, `InsetRect.vi`, `PointInRect.vi`, `RectSize.vi`, `Point2Rect.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -254,10 +254,11 @@ Resizes and centres the VI window around all front panel objects, adding the con
 - **Kind**: VI
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
+  - `border spacing (2 px)` : `int32`
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `dup VI Ref` : `ref{LV.VI}`
+  - `VI Ref out` : `ref{LV.VI}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -276,10 +277,11 @@ Resizes and centres the VI window around the largest decoration on the front pan
 - **Kind**: VI
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
+  - `border spacing (2 px)` : `int32`
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `dup VI Ref` : `ref{LV.VI}`
+  - `VI Ref out` : `ref{LV.VI}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -297,12 +299,12 @@ Resizes and centres the VI window inside the pane wired to Pane Ref.
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Pane Center.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error In` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Pane Ref` : `ref{LV.Pane}` *(required)*
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
-  - `Error Out` : `cluster{bool.status,int32.code,string.source}`
-  - `dup VI Ref` : `ref{LV.VI}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `VI Ref out` : `ref{LV.VI}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`, `RectCentroid.vi`, `InsetRect.vi`, `PointInRect.vi`, `RectSize.vi`, `Point2Rect.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -336,12 +338,12 @@ Resizes and centres the VI window inside the panel wired to Panel Ref.
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Panel Center.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error In` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Panel Ref` : `ref{LV.Panel}` *(required)*
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
-  - `Error Out` : `cluster{bool.status,int32.code,string.source}`
-  - `dup VI Ref` : `ref{LV.VI}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `VI Ref out` : `ref{LV.VI}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`, `RectCentroid.vi`, `InsetRect.vi`, `PointInRect.vi`, `RectSize.vi`, `Point2Rect.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -375,12 +377,12 @@ Resizes and centres the VI window so that it fits inside Rect.
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Rect.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error In` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Rect` : `cluster{int16.Left,int16.Top,int16.Right,int16.Bottom}` *(required)*
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
-  - `Error Out` : `cluster{bool.status,int32.code,string.source}`
-  - `dup VI Ref` : `ref{LV.VI}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `VI Ref out` : `ref{LV.VI}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`, `RectCentroid.vi`, `InsetRect.vi`, `PointInRect.vi`, `RectSize.vi`, `Point2Rect.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -415,10 +417,11 @@ Resizes and centres the VI window around the visible front panel objects, adding
 - **Kind**: VI
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
+  - `border spacing (2 px)` : `int32`
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `dup VI Ref` : `ref{LV.VI}`
+  - `VI Ref out` : `ref{LV.VI}`
 - **Calls**: `Using ParentVIRef If Input Invalid.vi`, `Clear Errors.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -445,10 +448,10 @@ Follows the decorations around the object wired to borderObj Ref and returns the
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Get Border Rect.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `borderObj Ref` : `ref{LV.GObject}` *(required)*
 - **Outputs**:
-  - `Error out` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Rect` : `cluster{int16.Left,int16.Top,int16.Right,int16.Bottom}`
 - **Calls**: `_reuse_openG.lvlib:Error From Error Code.vi`
 
@@ -459,7 +462,7 @@ Returns the bounding rectangle that encloses every front panel object in GObjs.
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Get GObjs RectBound.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `GObjs` : `array{ref{LV.GObject}}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -473,7 +476,7 @@ Measures the rectangle needed to draw Text in the given font, then pads the widt
 - **Kind**: VI
 - **Inputs**:
   - `Text` : `string` *(required)*
-  - `Origin(0\2C0)` : `cluster{int16.horizontal,int16.vertical}`
+  - `Origin(0,0)` : `cluster{int16.horizontal,int16.vertical}`
   - `Font` : `cluster{string.Font Name:,int16.Size,bool.Strikeout?,bool.Italic?,bool.Underline?,bool.Outline?,bool.Shadow?,bool.Bold?}` *(required)*
 - **Outputs**:
   - `Width` : `int16`
@@ -514,6 +517,7 @@ Shows a one-button dialog carrying the message and the button name given, and cl
   - `message` : `string` *(required)*
   - `Btn Timeout(-1 s)` : `int32`
   - `T button name ("OK")` : `string`
+  - `Parent Wnd(Caller By Default)` : `ref{LV.VI}`
 - **Outputs**:
   - `true` : `bool`
 - **Calls**: `Get Text Rect with Pad.vi`, `Select Greater.vim`, `Fit VI window to Visible Content.vi`, `Using ParentVIRef If Input Invalid.vi`, `Fit VI window to Caller Center.vi`, `Clear Errors.vi`
@@ -558,6 +562,7 @@ Shows a two-button dialog carrying the message and the button names given, each 
   - `T button name ("OK")` : `string`
   - `F button name ("Cancel")` : `string`
   - `F Timeout(-1 s)` : `int32`
+  - `Parent Wnd(Caller By Default)` : `ref{LV.VI}`
 - **Outputs**:
   - `T button?` : `bool`
 - **Calls**: `Get Text Rect with Pad.vi`, `Select Greater.vim`, `Fit VI window to Visible Content.vi`, `Using ParentVIRef If Input Invalid.vi`, `Fit VI window to Caller Center.vi`, `Clear Errors.vi`
@@ -590,13 +595,13 @@ Polymorphic VI that converts a group of boolean button references into an enum v
 - **Inputs**:
   - `Enum` : `uint16{}` *(required)*
   - `ModeBtnRefs` : `array{ref{LV.Boolean}.DC Voltage}` *(required)*
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Prefix` : `string`
-  - `CtlRef` : `ref{LV.Boolean}` *(required)*
+  - `Control Reference` : `ref{LV.Boolean}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `Enum (dup)` : `uint16{}`
-  - `CtlRef (dup)` : `ref{LV.Boolean}`
+  - `Enum out` : `uint16{}`
+  - `Control Reference out` : `ref{LV.Boolean}`
 - **Calls**: `ButtonGroupEnum.lvlib:Set ButtonGroupEnum By Ref.vi`, `ButtonGroupEnum.lvlib:_ButtonGroupEnum to Num.vi`
 
 ### Set ButtonGroupEnum By Ref.vi
@@ -607,7 +612,7 @@ Sets one button of a button group to TRUE and clears every other button in the g
 - **Kind**: VI; member of ButtonGroupEnum.lvlib
 - **Inputs**:
   - `ModeBtnRefs` : `array{ref{LV.Boolean}.DC Voltage}` *(required)*
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Boolean in` : `ref{LV.Boolean}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -621,7 +626,7 @@ Polymorphic VI that sets a group of boolean buttons from an enum value, turning 
 - **Kind**: polymorphic VI (.vim); member of ButtonGroupEnum.lvlib
 - **Inputs**:
   - `ModeBtnRefs` : `array{ref{LV.Boolean}.DC Voltage}` *(required)*
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Prefix` : `string`
   - `Enum` : `uint16{}` *(required)*
 - **Outputs**:
@@ -648,11 +653,12 @@ Returns every menu tag below the item tag of a menu reference, both as a flat li
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Menu/GetMenuTagList.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `error in (no error) 2` : `cluster{bool.status,int32.code,string.source}`
+  - `Separator("\")` : `string`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `item tag` : `string`
   - `menu reference` : `ref{Menu}` *(required)*
 - **Outputs**:
-  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Tree` : `array.2{string}`
   - `submenu tags` : `array{string}`
   - `menu reference out` : `ref{Menu}`

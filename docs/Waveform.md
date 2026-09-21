@@ -49,7 +49,7 @@ Generates sine, triangle, sawtooth or square waveforms from the settings cluster
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Waveform/Generate Random Waveform.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `WaveformGen Settings` : `array{cluster{cluster{double.Fs,double.#s}.sampling info,double.phase,double.amplitude,double.frequency,double.range,uint16{Sine,Triangle,Sawtooth,Square}.Type,string.Waveform Name}.Settings}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`

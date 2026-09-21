@@ -14,9 +14,9 @@ Polymorphic VI that compares two numbers and returns their order as an enum of G
   - `Ref` : `int32` *(required)*
   - `Number` : `int32` *(required)*
 - **Outputs**:
-  - `Ref (dup)` : `int32`
+  - `Ref out` : `int32`
   - `Result` : `uint16{Greater,Equal,Less}`
-  - `Number (dup)` : `int32`
+  - `Number out` : `int32`
 
 ## Data Changed - First Call Ignore.vim
 
@@ -107,6 +107,8 @@ Returns a boolean constant. In the Run-Time Engine the output is always FALSE; i
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Runtime False Constant.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
+- **Inputs**:
+  - `Debug Value(T)` : `bool`
 - **Outputs**:
   - `Value` : `bool`
 
@@ -124,6 +126,8 @@ Returns a boolean constant. In the Run-Time Engine the output is always TRUE; in
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Runtime True Constant.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
+- **Inputs**:
+  - `Debug Value(F)` : `bool`
 - **Outputs**:
   - `Value` : `bool`
 

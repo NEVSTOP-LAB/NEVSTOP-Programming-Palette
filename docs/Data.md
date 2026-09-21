@@ -11,10 +11,10 @@ Converts an array into a cluster, taking the element types from the array's own 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/ArrayToCluster.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Array` : `array{variant.Variant}` *(required)*
 - **Outputs**:
-  - `Error out` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Cluster` : `variant`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -56,14 +56,14 @@ Filters variant data according to the length of checked data, padding shorter in
 - **Inputs**:
   - `Reset(F)` : `bool`
   - `checked data` : `array{variant.Variant}` *(required)*
-  - `3` : `array{variant.Variant}`
-  - `2` : `array{variant.Variant}`
-  - `1` : `array{variant.Variant}`
+  - `Data 3` : `array{variant.Variant}`
+  - `Data 2` : `array{variant.Variant}`
+  - `Data 1` : `array{variant.Variant}`
 - **Outputs**:
   - `data` : `array{variant.Variant}`
-  - `3 out` : `array{variant.Variant}`
-  - `2 out` : `array{variant.Variant}`
-  - `1 out` : `array{variant.Variant}`
+  - `Data 3 out` : `array{variant.Variant}`
+  - `Data 2 out` : `array{variant.Variant}`
+  - `Data 1 out` : `array{variant.Variant}`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -94,10 +94,10 @@ Converts a cluster into an array, taking the element type from the cluster's typ
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/ClusterToArray.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Cluster` : `variant`
 - **Outputs**:
-  - `Error out` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Array` : `array{variant.Variant}`
 - **Calls**: `TD_Get Cluster Information.vi`, `Get Type Code from I16 Array And Pos.vi`
 
@@ -116,13 +116,13 @@ Flattens a cluster into an array of its individual elements, naming each by its 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Data To SingleElementsArray.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Seperator(/)` : `string`
+  - `Separator(/)` : `string`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `parentUrl` : `string`
   - `Cluster` : `variant` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `Tree Discription` : `array.2{string.Data}`
+  - `Tree Description` : `array.2{string.Data}`
   - `Full NameList` : `array{string.Data}`
   - `DataElementArray` : `array{variant.Data dup}`
 - **Calls**: `NI_Data Type.lvlib:Get Type Information.vi`, `Format Variant into String Advance.vi`, `Concatenate Strings If not Empty.vi`, `ClusterToArray.vi`, `Data To SingleElementsArray.vi`
@@ -194,7 +194,7 @@ Rebuilds a cluster from an array of named elements, using Pototype to supply the
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/SingleElementsArray To Data.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Pototype` : `variant` *(required)*
+  - `Prototype` : `variant` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `DataElementArray` : `array{variant.Variant}` *(required)*
 - **Outputs**:
@@ -226,7 +226,7 @@ Polymorphic VI that lists the tag names held in a tag map data value reference i
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Array` : `array{variant.Type}`
   - `names` : `array{string}`
-  - `TagMap(dup)` : `ref{DataValue}{variant}`
+  - `TagMap out` : `ref{DataValue}{variant}`
 
 ### Read Tag.vim
 
@@ -243,7 +243,7 @@ Polymorphic VI that reads the value stored under name from a tag map and reports
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `found` : `bool`
   - `Value` : `variant`
-  - `TagMap(dup)` : `ref{DataValue}{variant}`
+  - `TagMap out` : `ref{DataValue}{variant}`
 
 ### Write Tag.vim
 
@@ -258,7 +258,7 @@ Polymorphic VI that stores Value under name in a tag map, adding the tag when it
   - `TagMap` : `ref{DataValue}{variant}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `TagMap(dup)` : `ref{DataValue}{variant}`
+  - `TagMap out` : `ref{DataValue}{variant}`
 
 ## Data / Tag/ReadTag
 
@@ -290,8 +290,8 @@ Read Tag XNode script that places the subVI the generated code needs onto the ca
   - `Diagram` : `ref{LV.TopLevelDiagram}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `Terms (dup)` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
-  - `Diagram (dup)` : `ref{LV.TopLevelDiagram}`
+  - `Terms out` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
+  - `Diagram out` : `ref{LV.TopLevelDiagram}`
 - **Calls**: `ReadTag.xnode:xnode_FindTerms.vi`, `Simple Error Handler.vi`
 
 ### GenCodeScripts-ReplaceContent.vi
@@ -301,14 +301,14 @@ Read Tag XNode script that opens the code template and replaces its placeholder 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/GenCodeScripts-ReplaceContent.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `template` : `path` *(required)*
   - `Terms` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}` *(required)*
   - `Diagram` : `ref{LV.TopLevelDiagram}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `Terms (dup)` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
-  - `Diagram (dup)` : `ref{LV.TopLevelDiagram}`
+  - `Terms out` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
+  - `Diagram out` : `ref{LV.TopLevelDiagram}`
 - **Calls**: `Trim Whitespace.vi`, `ReadTag.xnode:xnode_FindTerms.vi`
 
 ### GenerateCode.vi
@@ -417,6 +417,7 @@ XNode helper that returns the code generation term matching the terminal referen
 - **Kind**: VI; member of ReadTag.xnode; XNode script
 - **Inputs**:
   - `Terms` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}` *(required)*
+  - `String` : `string` *(required)*
 - **Outputs**:
   - `Terminal` : `ref{LV.Terminal}`
 
@@ -464,8 +465,8 @@ Write Tag XNode script that places the subVI the generated code needs onto the c
   - `Diagram` : `ref{LV.TopLevelDiagram}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `Terms (dup)` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
-  - `Diagram (dup)` : `ref{LV.TopLevelDiagram}`
+  - `Terms out` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
+  - `Diagram out` : `ref{LV.TopLevelDiagram}`
 - **Calls**: `WriteTag.xnode:xnode_FindTerms.vi`, `Simple Error Handler.vi`
 
 ### GenCodeScripts-ReplaceContent.vi
@@ -475,14 +476,14 @@ Write Tag XNode script that opens the code template and replaces its placeholder
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/GenCodeScripts-ReplaceContent.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
 - **Inputs**:
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `template` : `path` *(required)*
   - `Terms` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}` *(required)*
   - `Diagram` : `ref{LV.TopLevelDiagram}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `Terms (dup)` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
-  - `Diagram (dup)` : `ref{LV.TopLevelDiagram}`
+  - `Terms out` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}`
+  - `Diagram out` : `ref{LV.TopLevelDiagram}`
 - **Calls**: `Trim Whitespace.vi`, `WriteTag.xnode:xnode_FindTerms.vi`
 
 ### GenerateCode.vi
@@ -591,6 +592,7 @@ XNode helper that returns the code generation term matching the terminal referen
 - **Kind**: VI; member of WriteTag.xnode; XNode script
 - **Inputs**:
   - `Terms` : `array{cluster{ref{LV.Terminal}.Term,string.Id}.Code Gen Term}` *(required)*
+  - `String` : `string` *(required)*
 - **Outputs**:
   - `Terminal` : `ref{LV.Terminal}`
 

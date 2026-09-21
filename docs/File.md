@@ -80,7 +80,7 @@ Returns TRUE when path exists, and passes the path through. It adds error handli
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `file or folder exists?` : `bool`
-  - `dup path` : `path`
+  - `path out` : `path`
 - **Calls**: `Check if File or Folder Exists.vi`
 
 ## Convert File Extension.vim
@@ -128,7 +128,7 @@ Creates the directory wired to Directory Path together with every missing parent
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Created Directories` : `array{path.dup directory path}`
-  - `dup Directory Path` : `path`
+  - `Directory Path out` : `path`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -164,13 +164,13 @@ Keeps the paths whose folder, relative to Root Dir, matches the regular expressi
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Filter Paths if Folder matches Pattern.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `REP ( ^[_.] as Default)\0Aempty to disable this feature` : `string` *(required)*
+  - `REP (^[_.] default, empty disables)` : `string` *(required)*
   - `Root Dir` : `path` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Paths` : `array{path.Path}` *(required)*
 - **Outputs**:
-  - `error in (no error) (dup)` : `cluster{bool.status,int32.code,string.source}`
-  - `Filted Paths` : `array{path.Path}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `Filtered Paths` : `array{path.Path}`
 - **Calls**: `Compare Two Paths.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -190,7 +190,7 @@ Searches Searching Directory for the first file whose name matches Function Name
 - **Inputs**:
   - `exts` : `array{string.new ending (none)}` *(required)*
   - `Function Name` : `string` *(required)*
-  - `Recrusively(F)` : `bool` *(required)*
+  - `Recursively(F)` : `bool` *(required)*
   - `Searching Directory` : `path` *(required)*
 - **Outputs**:
   - `Config File` : `path`
@@ -204,7 +204,7 @@ Searches Searching Directory for the first file matching pattern and returns its
 - **Kind**: VI
 - **Inputs**:
   - `pattern(ini by default)` : `string`
-  - `Recrusively(F)` : `bool`
+  - `Recursively(F)` : `bool`
   - `Searching Directory` : `path`
 - **Outputs**:
   - `Matched Config File` : `path`
@@ -228,7 +228,7 @@ Removes the characters that Windows does not allow in a file or folder name, so 
   - `replace string ("")` : `string`
   - `String In` : `string`
 - **Outputs**:
-  - `Filesafe String Out` : `string`
+  - `File Safe String Out` : `string`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -262,10 +262,10 @@ Moves the files directly inside Folder Path into Dest Foder Path, skipping the n
 - **Kind**: VI
 - **Inputs**:
   - `Clear Empty Folder?(T)` : `bool`
-  - `exclued files` : `array{string.exclued files}`
+  - `excluded files` : `array{string.exclued files}`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `overwrite (F)` : `bool`
-  - `Dest Foder Path` : `path` *(required)*
+  - `Dest Folder Path` : `path` *(required)*
   - `Folder Path` : `path` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
@@ -326,7 +326,7 @@ Recursively lists every file under Folder Path whose name matches pattern, honou
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Recursive File List2.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Folders to Exclude\0AREP ( ^[_.] as Default)\0Aempty to disable this feature` : `string`
+  - `Folders to Exclude (REP, empty disables)` : `string`
   - `pattern` : `string`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Continue Recursing on Error? (F)` : `bool`
@@ -336,7 +336,7 @@ Recursively lists every file under Folder Path whose name matches pattern, honou
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Number of Files` : `int32`
   - `All Files in Dir` : `array{path}`
-  - `dup Folder Path` : `path`
+  - `Folder Path out` : `path`
   - `All Folders` : `array{path.Folder Path}`
 - **Calls**: `List Directory and LLBs.vi`
 
@@ -364,7 +364,7 @@ Recursively lists every folder under Folder Path whose name matches pattern, ski
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Number of Folders` : `int32`
   - `All Folders` : `array{path.Folder Path}`
-  - `dup Folder Path` : `path`
+  - `Folder Path out` : `path`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -381,7 +381,7 @@ Recursively lists every folder under Folder Path whose name matches pattern. Fol
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Recursive Folder List2.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `Folders to Exclude\0AREP ( ^[_.] as Default)\0Aempty to disable this feature` : `string`
+  - `Folders to Exclude (REP, empty disables)` : `string`
   - `pattern` : `string`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Continue Recursing on Error? (F)` : `bool`
@@ -390,7 +390,7 @@ Recursively lists every folder under Folder Path whose name matches pattern. Fol
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Number of Folders` : `int32`
   - `All Folders` : `array{path.Folder Path}`
-  - `dup Folder Path` : `path`
+  - `Folder Path out` : `path`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -464,6 +464,7 @@ Opens a TDMS file and writes the name and type information of every channel in c
 - **Inputs**:
   - `group name in (Group)` : `string`
   - `Limit(-1)` : `int32` *(required)*
+  - `NameRule` : `cluster{cluster{uint16{Fixed File Name,Indexed File Name,TimeBased File Name}.Rule,path.Path,string.filename}.FileNameRule,uint16{open,open or create,create or replace,create,open (read-only)}.FileOperation,uint16{big-endian\2C network order,native\2C host order,little-endian}.byte order (2:little-endian),bool.disable buffering? (T)}` *(required)*
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `TimeChannel("" Empty to Skip)` : `string` *(required)*
   - `Array` : `array{variant.Variant}`
@@ -579,7 +580,7 @@ Reports whether XML in contains an element with the given label.
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `exist?` : `bool`
-  - `label (dup)` : `string`
+  - `label out` : `string`
   - `XML out` : `string`
 - **Calls**: `XML_MatchPatten.vi`
 
@@ -597,7 +598,7 @@ Searches an array of key-value pairs for key and returns found? together with th
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `found?` : `bool`
   - `value` : `string`
-  - `keyValues (dup)` : `array{cluster{string.key,string.value}}`
+  - `keyValues out` : `array{cluster{string.key,string.value}}`
 
 ### XML_GetTag.vi
 
@@ -609,7 +610,7 @@ Returns the name of the outermost tag in XML.
   - `XML` : `string` *(required)*
 - **Outputs**:
   - `TAG` : `string`
-  - `XML(dup)` : `string`
+  - `XML out` : `string`
 - **Calls**: `Trim Whitespace.vi`
 
 ### XML_Load.vi
@@ -701,6 +702,6 @@ Returns TRUE when XML contains both the opening and the closing tag of the eleme
   - `Tag` : `string` *(required)*
   - `XML` : `string` *(required)*
 - **Outputs**:
-  - `VALID?` : `bool`
-  - `XML (dup)` : `string`
+  - `valid?` : `bool`
+  - `XML out` : `string`
 - **Calls**: `Trim Whitespace.vi`, `_REP_FrontLabel.vi`, `_REP_BackLabel.vi`

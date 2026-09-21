@@ -11,7 +11,7 @@ Returns TRUE only on the second call after the Run button is clicked, and FALSE 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Second Call.vi`
 - **Kind**: VI
 - **Outputs**:
-  - `Second Call?\3A T/F` : `bool`
+  - `second call?` : `bool`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -33,7 +33,7 @@ Creates a locker, a queue-based mutual exclusion object, and returns its referen
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `locker(dup)` : `ref{Queue}{variant}`
+  - `locker out` : `ref{Queue}{variant}`
 
 ### locker-Destroy.vi
 
@@ -58,7 +58,7 @@ Blocks until the locker is free and then takes it. Every locker-lock must be pai
   - `queue` : `ref{Queue}{variant}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `locker(dup)` : `ref{Queue}{variant}`
+  - `locker out` : `ref{Queue}{variant}`
 
 ### locker-unlock.vi
 
@@ -71,7 +71,7 @@ Returns the locker so that a waiting locker-lock call can proceed.
   - `locker` : `ref{Queue}{variant}` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
-  - `locker(dup)` : `ref{Queue}{variant}`
+  - `locker out` : `ref{Queue}{variant}`
 
 ## Synchronization / SyncStart
 

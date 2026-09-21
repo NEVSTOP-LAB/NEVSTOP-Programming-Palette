@@ -12,11 +12,11 @@ Checks whether a Windows process matching str is running, by querying the task l
 - **Kind**: VI
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `str` : `string` *(required)*
+  - `process name` : `string` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `process exist?` : `bool`
-  - `service name` : `string`
+  - `process name out` : `string`
   - `console out` : `string`
 - **Calls**: `System Exec.vi`, `Trim Whitespace.vi`
 
@@ -28,11 +28,11 @@ Checks whether a Windows service matching str is installed, by querying the serv
 - **Kind**: VI
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `str` : `string` *(required)*
+  - `service name` : `string` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `service exist?` : `bool`
-  - `service name` : `string`
+  - `service name out` : `string`
   - `console out` : `string`
 - **Calls**: `System Exec.vi`, `Trim Whitespace.vi`, `ini_configuration.lvlib:TextToLines.vi`
 
@@ -43,7 +43,7 @@ Appends the error on the error in cluster to a log file, creating the folder and
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Error File Logger.vi`
 - **Kind**: VI
 - **Inputs**:
-  - `errlog Name` : `string`
+  - `Log File Name` : `string`
   - `Module` : `string` *(required)*
   - `Clear Error?` : `bool`
   - `ContainerFolder(Empty for Application Folder)` : `path`
@@ -69,7 +69,7 @@ Writes a .reg patch file that adds EXE Path to one of the Windows run or run-onc
 - **Kind**: VI
 - **Inputs**:
   - `registry path` : `uint16{HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run,HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce,HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run,HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce}`
-  - `RegPath` : `path`
+  - `Registry File Path` : `path`
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
   - `Key Name(Empty to use exe name)` : `string`
   - `Arguments` : `string`
@@ -121,11 +121,11 @@ Terminates the Windows process named by str and returns its standard error and c
 - **Kind**: VI
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `str` : `string` *(required)*
+  - `process name` : `string` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `standard error` : `string`
-  - `service name` : `string`
+  - `process name out` : `string`
   - `console out` : `string`
 - **Calls**: `System Exec.vi`
 
@@ -308,6 +308,7 @@ Sets a Windows environment variable permanently by running setx, so the value su
   - `Key` : `string` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `standard output` : `string`
 - **Calls**: `System Exec.vi`, `Error Cluster From Error Code.vi`
 
 ### Set System Environment Variable.vi

@@ -12,12 +12,12 @@ Monitors a VI in the background and returns TRUE when its front panel is maximis
 - **Kind**: VI
 - **Inputs**:
   - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
-  - `Backstage Update Peroid (ms)` : `int32`
+  - `Backstage Update Period (ms)` : `int32`
   - `VI Ref (calling VI)` : `ref{LV.VI}`
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `Triggered` : `bool`
-  - `VI Ref (calling VI) (dup)` : `ref{LV.VI}`
+  - `VI Ref (calling VI) out` : `ref{LV.VI}`
 - **Calls**: `Periodic Trigger Timer.vi`, `Using ParentVIRef If Input Invalid.vi`
 
 <details><summary>Previous description (before this rewrite)</summary>
@@ -56,9 +56,9 @@ Returns the current time in seconds as a timestamp and passes the error cluster 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Get Time in Second with Error Input.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
 - **Inputs**:
-  - `Error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
 - **Outputs**:
-  - `Error out` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`
   - `current time` : `timestamp`
 
 ## Periodic Trigger Timer.vi
@@ -68,7 +68,12 @@ Returns TRUE once per time interval and FALSE the rest of the time. Wire reset t
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Periodic Trigger Timer.vi`
 - **Kind**: VI
 - **Inputs**:
+  - `time (ms)` : `uint32` *(required)*
   - `reset` : `bool`
+- **Outputs**:
+  - `Triggered` : `bool`
+  - `time since last call` : `uint32`
+  - `timer value` : `uint32`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -106,9 +111,12 @@ Holds for the configured period while returning the elapsed time, so a loop can 
 - **Kind**: VI
 - **Inputs**:
   - `Reset?(F)` : `bool`
-  - `error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
+  - `Period(ms)` : `int32` *(required)*
 - **Outputs**:
   - `error out` : `cluster{bool.status,int32.code,string.source}`
+  - `Idle(ms)` : `int32`
+  - `Used(ms)` : `int32`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -129,7 +137,7 @@ Reports whether the configured timeout has elapsed and returns the time since th
   - `timeout(s)` : `double` *(required)*
 - **Outputs**:
   - `timeout?` : `bool`
-  - `time esliped?` : `double`
+  - `time elapsed?` : `double`
 
 <details><summary>Previous description (before this rewrite)</summary>
 
@@ -166,7 +174,7 @@ Waits the given number of milliseconds and passes the error cluster through unch
 - **Kind**: VI
 - **Inputs**:
   - `milliseconds to wait(100ms)` : `uint32` *(required)*
-  - `Error in` : `cluster{bool.status,int32.code,string.source}`
+  - `error in (no error)` : `cluster{bool.status,int32.code,string.source}`
 - **Outputs**:
   - `millisecond timer value` : `uint32`
-  - `Error out` : `cluster{bool.status,int32.code,string.source}`
+  - `error out` : `cluster{bool.status,int32.code,string.source}`

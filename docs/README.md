@@ -31,5 +31,6 @@ Total: **273** VIs.
 2. A description was written for each VI.
 3. The description was written into each VI's `STRG` block, and the file was rebuilt only after every other block proved byte-identical to the original.
 4. These pages were generated from the same records.
+5. Connector-pane terminal names were then reviewed against what each terminal does; every change is listed in [Terminal-Renames.md](Terminal-Renames.md).
 
 VIs whose name or parent folder starts with an underscore are internal and are excluded, because LabVIEW keeps them off the generated palette.
