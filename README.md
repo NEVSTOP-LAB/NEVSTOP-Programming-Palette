@@ -9,6 +9,12 @@
 
 Collection of the reuse VIs from NEVSTOP-LAB.
 
+## Documentation
+
+[`docs/`](docs/README.md) is the VI reference, one page per palette folder. Each entry lists the
+VI's description, its path, its connector pane terminals and the subVIs it calls. The same
+description is stored in the VI itself, so it also shows in LabVIEW's Context Help.
+
 ## Development Environment
 
 - LabVEW 2017
