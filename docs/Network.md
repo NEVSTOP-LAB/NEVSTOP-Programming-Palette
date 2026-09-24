@@ -1,13 +1,13 @@
 # Network
 
-中文：Network helpers： IP discovery， TCP 数据 transmission 和 the UDP++ packet protocol。
+中文：网络辅助工具：IP 地址发现、TCP 数据传输和 UDP++ 数据包协议。
 English: Network helpers: IP discovery, TCP data transmission and the UDP++ packet protocol.
 
 17 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Network`.
 
 ## Available Port.vi
 
-中文：a UDP 端口 number that the operating system 报告 作为 free 用于 use。
+中文：返回操作系统报告为可用的 UDP 端口号。
 English: Returns a UDP port number that the operating system reports as free for use.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/Available Port.vi`
@@ -26,7 +26,7 @@ Return an available UDP port the operating system determines is valid for use.
 
 ## IP Address List.vi
 
-中文：the IP addresses 的 the 当前 machine 作为 an 数组 的 strings。 Set ignore Gateway IP? 到 leave out the 默认 gateway address。
+中文：以字符串数组形式返回当前计算机的 IP 地址。将 ignore Gateway IP? 设为 TRUE，可排除默认网关地址。
 English: Returns the IP addresses of the current machine as an array of strings. Set ignore Gateway IP? to leave out the default gateway address.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Address List.vi`
@@ -48,7 +48,7 @@ Return an string &lt;b&gt;Array&lt;/b&gt; whose elements are all IP network addr
 
 ## TCP Ping(DotNET).vi
 
-中文：Pings hostName/IP 地址 using the。NET Ping 类 和 返回 the round-trip status。 The 超时() input is 在 milliseconds。
+中文：使用 .NET Ping 类对 hostName/IP Address 执行 ping，并返回往返状态。timeout(100) 输入的单位为毫秒。
 English: Pings hostName/IP Address using the .NET Ping class and returns the round-trip status. The timeout(100) input is in milliseconds.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Ping(DotNET).vi`
@@ -74,7 +74,7 @@ This function uses ping command to detect the reachability between current machi
 
 ### IP Reporter PythonCode Folder.vi
 
-中文：打开 the 文件夹 holding the IP Reporter Python sources 在 the 默认 文件 browser。
+中文：在默认文件浏览器中打开存放 IP Reporter Python 源代码的文件夹。
 English: Opens the folder holding the IP Reporter Python sources in the default file browser.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/IP Reporter PythonCode Folder.vi`
@@ -84,7 +84,7 @@ English: Opens the folder holding the IP Reporter Python sources in the default 
 
 ### Scan Distributed Nodes.vi
 
-中文：Listens 在 the IP Reporter multicast report 地址 和 端口 和 collects the node information broadcast 通过 Start IP Reporter。 It scans 用于 the configured period 在 毫秒 和 返回 one Information entry per node。
+中文：监听 IP Reporter 多播报告地址和端口，并收集由 Start IP Reporter 广播的节点信息。此 VI 会在设定的时间内（ms）扫描，并为每个节点返回一个 Information 条目。
 English: Listens on the IP Reporter multicast report address and port and collects the node information broadcast by Start IP Reporter. It scans for the configured period in ms and returns one Information entry per node.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/Scan Distributed Nodes.vi`
@@ -108,7 +108,7 @@ Creates a read-only UDP multicast session and receives data on the specified por
 
 ### Start IP Reporter.vi
 
-中文：在后台启动 IP Reporter，并返回一个包含上报节点信息的 notifier。Settings 包含上报地址、接收端口、网关过滤和主机名。
+中文：在后台启动 IP Reporter，并返回一个携带节点上报信息的 notifier。Settings 包含报告地址、接收端口、网关筛选条件和主机名。
 English: Starts the IP Reporter in the background and returns a notifier carrying the reported node information. Settings carries the report address, receiver port, gateway filter and host name.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/Start IP Reporter.vi`
@@ -126,7 +126,7 @@ English: Starts the IP Reporter in the background and returns a notifier carryin
 
 ### TCP Client Template.vit
 
-中文：Template 用于 a TCP client loop。 Wire the server 地址 和 端口， then enqueue the 字符串 到 send onto DataQueue 和 dequeue the received 字符串 从 it。
+中文：TCP 客户端循环的模板。连线服务器地址和端口后，将待发送字符串入队到 DataQueue，并从中取出接收到的字符串。
 English: Template for a TCP client loop. Wire the server address and port, then enqueue the strings to send onto DataQueue and dequeue the received strings from it.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Client Template.vit`
@@ -136,7 +136,7 @@ English: Template for a TCP client loop. Wire the server address and port, then 
 
 ### TCP Loop - Client as Consumer.vi
 
-中文：TCP transmission loop acting 作为 the client。 It connects 到 ip 地址：端口 和 dequeues 字符串 从 DataQueue， sending 每个 one over the connection。 params 设置 the 打开 超时， the transmission 超时 和 the idle 时间 在 ms。
+中文：作为客户端运行的 TCP 传输循环。此循环连接到 ip address:port，从 DataQueue 中取出字符串并通过连接逐一发送。params 用于设置打开超时、传输超时和空闲时间，单位均为 ms。
 English: TCP transmission loop acting as the client. It connects to ip address:port and dequeues strings from DataQueue, sending each one over the connection. params sets the open timeout, the transmission timeout and the idle time in ms.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Loop - Client as Consumer.vi`
@@ -175,7 +175,7 @@ Used for data transmission via TCP/IP.
 
 ### TCP Loop - Server as Producer.vi
 
-中文：TCP transmission loop acting 作为 the server。 It listens 在 端口 和 sends the 字符串 taken 从 DataQueue 到 the connected client。 Set Discard 数据 当 not connected?(T) 到 drop 数据 当 无 client is attached。
+中文：作为服务器运行的 TCP 传输循环。此循环监听 port，并将从 DataQueue 中取出的字符串发送给已连接的客户端。将 Discard Data when not connected?(T) 设为 TRUE，可在没有客户端连接时丢弃数据。
 English: TCP transmission loop acting as the server. It listens on port and sends the strings taken from DataQueue to the connected client. Set Discard Data when not connected?(T) to drop data while no client is attached.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Loop - Server as Producer.vi`
@@ -215,7 +215,7 @@ Used for data transmission via TCP/IP.
 
 ### TCP Server Template.vit
 
-中文：Template 用于 a TCP server loop。 It generates a sine waveform 和 enqueues it 用于 the server transmission loop， 其 listens 在 the 连线的 port。
+中文：TCP 服务器循环的模板。它生成正弦波形并将其加入队列，供监听连线端口的服务器传输循环使用。
 English: Template for a TCP server loop. It generates a sine waveform and enqueues it for the server transmission loop, which listens on the wired port.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Server Template.vit`
@@ -227,7 +227,7 @@ English: Template for a TCP server loop. It generates a sine waveform and enqueu
 
 ### SplitUDPPacks.vi
 
-中文：Calculates how 到 divide 大小 bytes 到 packets 的 y bytes。 The leading elements 的 output 数组 are y 和 the 最后一个 element carries the remainder， so 大小 使用 y gives [，，，，]。
+中文：计算如何将 size 个字节拆分为每包 y 个字节。输出数组中前面的元素均为 y，最后一个元素包含余数；例如 size 为 201 且 y 为 50 时，结果为 [50,50,50,50,1]。
 English: Calculates how to divide size bytes into packets of y bytes. The leading elements of output array are y and the last element carries the remainder, so size 201 with y 50 gives [50,50,50,50,1].
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/SplitUDPPacks.vi`
@@ -249,7 +249,7 @@ For example, if &lt;b&gt;size&lt;/b&gt; is 201, &lt;b&gt;y&lt;/b&gt; is 50, then
 
 ### SUMCheck.vim
 
-中文：a checksum 用于 数组， computed 通过 flattening the 数据 到 bytes 和 summing them。 UDP++ 使用 it 到 validate a received packet。
+中文：通过将 Array 展平为字节并求和，计算其校验和。UDP++ 使用此校验和验证收到的数据包。
 English: Returns a checksum for Array, computed by flattening the data to bytes and summing them. UDP++ uses it to validate a received packet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/SUMCheck.vim`
@@ -269,7 +269,7 @@ Return the sums of all elements in &lt;b&gt;Array&lt;/b&gt;.
 
 ### UDP Read Data Array By Singlepack.vim
 
-中文：one packet 的 a split UDP 数组 transmission 和 返回 the number 的 elements decoded so far。 total 大小 is the 大小 的 the whole 数组 和 pack 大小 matches the packet 大小 used 通过 UDP Write 数据 Array。
+中文：读取分包 UDP 数组传输中的一个数据包，并返回目前已解码的元素数量。total size 为整个数组的大小；pack size 与 UDP Write Data Array 使用的数据包大小一致。
 English: Reads one packet of a split UDP array transmission and returns the number of elements decoded so far. total size is the size of the whole array and pack size matches the packet size used by UDP Write Data Array.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Read Data Array By Singlepack.vim`
@@ -299,7 +299,7 @@ Reads a datagram from a UDP socket, returning the results in data out. This func
 
 ### UDP Read Data Array.vim
 
-中文：每个 packet 的 a split UDP 数组 transmission 和 返回 the reassembled array。 The 超时 在 毫秒 applies 到 每个 read。
+中文：读取分包 UDP 数组传输中的所有数据包，并返回重组后的数组。超时（ms）分别应用于每次读取。
 English: Reads every packet of a split UDP array transmission and returns the reassembled array. The timeout in ms applies to each read.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Read Data Array.vim`
@@ -325,7 +325,7 @@ Reads a datagram from a UDP socket, returning the results in data out. This func
 
 ### UDP Read Memory.vi
 
-中文：a split UDP 数据 stream 和 返回 it 作为 a string。 The call 返回 作为 soon 作为 任意 bytes arrive 和 waits the full 超时 在 毫秒 仅 当 nothing is received。
+中文：读取分包 UDP 数据流并以字符串形式返回。收到任意字节后即立即返回；只有在未收到任何数据时，才会等待完整的超时时间（ms）。
 English: Reads a split UDP data stream and returns it as a string. The call returns as soon as any bytes arrive and waits the full timeout in ms only when nothing is received.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Read Memory.vi`
@@ -354,7 +354,7 @@ The function returns data when it receives any bytes, and waits the full timeout
 
 ### UDP Write Data Array.vim
 
-中文：the 数组 连线的 到 数据 到 packets 的 pack 大小 和 sends them 到 the 给定的 地址 和 端口， returning a per-packet checksum。
+中文：将连线到 Data 的数组按 pack size 拆分为数据包，并发送到指定的 address 和 port，同时返回每个数据包的校验和。
 English: Splits the array wired to Data into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Write Data Array.vim`
@@ -383,7 +383,7 @@ Split the Array &lt;b&gt;Data&lt;/b&gt; into packets of &lt;b&gt;pack size&lt;/b
 
 ### UDP Write Memory.vi
 
-中文：the 字符串 连线的 到 字符串 到 packets 的 pack 大小 和 sends them 到 the 给定的 地址 和 端口， returning a per-packet checksum。
+中文：将连线到 String 的字符串按 pack size 拆分为数据包，并发送到指定的 address 和 port，同时返回每个数据包的校验和。
 English: Splits the string wired to String into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Write Memory.vi`

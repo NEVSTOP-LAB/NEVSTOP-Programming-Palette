@@ -1,6 +1,6 @@
 # Configuration
 
-中文：Reading 和 writing configuration： cluster/string config 表， Excel sheets 和 INI files。
+中文：配置读取与写入工具：簇/字符串配置表、Excel 工作表和 INI 文件。
 English: Reading and writing configuration: cluster/string config tables, Excel sheets and INI files.
 
 52 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Configuration`.
@@ -9,7 +9,7 @@ English: Reading and writing configuration: cluster/string config tables, Excel 
 
 ### Filter Unmarked Lines.vi
 
-中文：移除 the 行 的 a configuration 表 whose 单元格 在 Col 索引 does not match unmarked RegExp。 Set Ignore 空 Cell? 到 leave 行 使用 an 空 单元格 在 place。
+中文：移除配置表中 Col Index 列的单元格不匹配未标记 RegExp 的行。将 Ignore Empty Cell? 设为 TRUE，可保留包含空单元格的行。
 English: Removes the rows of a configuration table whose cell in Col Index does not match unmarked RegExp. Set Ignore Empty Cell? to leave rows with an empty cell in place.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Filter Unmarked Lines.vi`
@@ -27,7 +27,7 @@ English: Removes the rows of a configuration table whose cell in Col Index does 
 
 ### Flatten Cluster To CfgTable(with DataName).vi
 
-中文：a cluster 到 a 二维 configuration 表， naming 每个 行 在…之后 its 数据 路径 below ParentName。 Format 和 数组 delimiters (|) control how 值 和 数组 elements are written。
+中文：将簇转换为二维配置表，并根据 ParentName 下方的数据路径为每一行命名。Format 和 Array delimiters (|) 用于控制值和数组元素的写入格式。
 English: Converts a cluster into a two-dimensional configuration table, naming each row after its data path below ParentName. Format and Array delimiters (|) control how values and array elements are written.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Flatten Cluster To CfgTable(with DataName).vi`
@@ -46,7 +46,7 @@ English: Converts a cluster into a two-dimensional configuration table, naming e
 
 ### Flatten Cluster To CfgTable.vi
 
-中文：a cluster 到 a 二维 configuration 表 从 the cluster's own 类型 information， 不使用 数据 names。 It is the simple entry point 到 Flatten Cluster 到 CfgTable(使用 DataName)。vi。
+中文：根据簇自身的类型信息将簇转换为二维配置表，不使用数据名称。这是 Flatten Cluster To CfgTable(with DataName).vi 的简化入口。
 English: Converts a cluster into a two-dimensional configuration table from the cluster's own type information, without data names. It is the simple entry point to Flatten Cluster To CfgTable(with DataName).vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Flatten Cluster To CfgTable.vi`
@@ -61,7 +61,7 @@ English: Converts a cluster into a two-dimensional configuration table from the 
 
 ### Flatten Cluster To CfgTable.vim
 
-中文：VI，转换 a configuration cluster 到 a 字符串 表， 其 is how a cluster configuration is written out。 The timestamp format 和 the 数组 delimiters can be set。
+中文：多态 VI：将配置簇转换为字符串表，以便写出簇配置。可以设置时间戳格式和数组分隔符。
 English: Polymorphic VI that converts a configuration cluster into a string table, which is how a cluster configuration is written out. The timestamp format and the array delimiters can be set.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Flatten Cluster To CfgTable.vim`
@@ -87,7 +87,7 @@ Convert cluster to string array. Usually it's used for convert configurations to
 
 ### Indexed String To Enum.vi
 
-中文：a 字符串 到 an enum value。 A leading number selects the entry 通过 索引， otherwise the entry is chosen 通过 匹配 the 字符串 内容 case-insensitively。
+中文：将字符串转换为枚举值。若字符串以数字开头，则按索引选择枚举项；否则按字符串内容进行不区分大小写的匹配来选择枚举项。
 English: Converts a string into an enum value. A leading number selects the entry by index, otherwise the entry is chosen by matching the string content case-insensitively.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Indexed String To Enum.vi`
@@ -111,7 +111,7 @@ Convert String to enum. If string starts with numbers. The conversion is based o
 
 ### Merge CfgTables.vi
 
-中文：Merges the 行 的 CfgTable 行 在 到 引用 CfgTable， 匹配 行 在 the 列 给定的 通过 Key Index。 行 whose key is not present are appended。
+中文：将 CfgTable Row in 中的行合并到 Reference CfgTable，并根据 Key Index 指定的列匹配行。若某行的键不存在，则将该行追加到表中。
 English: Merges the rows of CfgTable Row in into Reference CfgTable, matching rows on the column given by Key Index. Rows whose key is not present are appended.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Merge CfgTables.vi`
@@ -127,7 +127,7 @@ English: Merges the rows of CfgTable Row in into Reference CfgTable, matching ro
 
 ### Parse CfgTable(with DataName).vi
 
-中文：解析 a configuration 表 back 到 a cluster， using the 数据 名称 recorded 在 the 表 到 place 每个 value。 The cluster 类型 comes 从 Cluster Configuration Typedef， 和 Elements 报告 how many elements were read。
+中文：将配置表解析回簇，并使用表中记录的数据名称确定每个值的位置。簇类型由 Cluster Configuration Typedef 指定，Elements 用于报告读取的元素数量。
 English: Parses a configuration table back into a cluster, using the data names recorded in the table to place each value. The cluster type comes from Cluster Configuration Typedef, and Elements reports how many elements were read.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Parse CfgTable(with DataName).vi`
@@ -158,7 +158,7 @@ Copyright (c) 2021, NEVSTOP
 
 ### Parse CfgTable.vi
 
-中文：解析 a configuration 表 back 到 the cluster described 通过 Cluster Configuration Typedef。 It is the simple entry point 到 Parse CfgTable(使用 DataName)。vi。
+中文：将配置表解析为 Cluster Configuration Typedef 所描述的簇。这是 Parse CfgTable(with DataName).vi 的简化入口。
 English: Parses a configuration table back into the cluster described by Cluster Configuration Typedef. It is the simple entry point to Parse CfgTable(with DataName).vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Parse CfgTable.vi`
@@ -175,7 +175,7 @@ English: Parses a configuration table back into the cluster described by Cluster
 
 ### Parse CfgTable.vim
 
-中文：VI，转换 a 字符串 表 back 到 a configuration cluster。 It is the inverse 的 Flatten Cluster 到 CfgTable。vim。
+中文：多态 VI：将字符串表转换回配置簇。它是 Flatten Cluster To CfgTable.vim 的逆向操作。
 English: Polymorphic VI that converts a string table back into a configuration cluster. It is the inverse of Flatten Cluster To CfgTable.vim.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Parse CfgTable.vim`
@@ -201,7 +201,7 @@ Convert String Array to Cluster. Usually this VI is used to convert a table conf
 
 ### Remove Comments Lines.vi
 
-中文：移除 the 行 的 a configuration 表 that start 使用 the comment token， whose 默认 is ^#。
+中文：移除以注释标记开头的配置表行；注释标记默认为 ^#。
 English: Removes the rows of a configuration table that start with the comment token, whose default is ^#.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Remove Comments Lines.vi`
@@ -225,7 +225,7 @@ Remove Comment Rows from 2D Array String Table.
 
 ### Replace Configuration Table By ID.vi
 
-中文：Palette helper grouping the 两个 Replace Configuration 表 通过 ID instances， 其 replace a 单个 行 或 an 数组 的 行 selected 通过 their ID column。
+中文：将两个 Replace Configuration Table By ID 实例归为一组的调色板辅助项；它们根据 ID 列替换单行或多行。
 English: Palette helper grouping the two Replace Configuration Table By ID instances, which replace a single row or an array of rows selected by their ID column.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Replace Configuration Table By ID.vi`
@@ -235,7 +235,7 @@ English: Palette helper grouping the two Replace Configuration Table By ID insta
 
 ### Replace EmptyCell Mark.vi
 
-中文：Replaces the empty-cell marker 在 a configuration 表 使用 an 空 string。 The marker is 给定的 通过 EmptyCellToken 和 defaults 到 ^[\/]$。
+中文：将配置表中的空单元格标记替换为空字符串。标记由 EmptyCellToken 指定，默认为 ^[\/]$。
 English: Replaces the empty-cell marker in a configuration table with an empty string. The marker is given by EmptyCellToken and defaults to ^[\/]$.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Replace EmptyCell Mark.vi`
@@ -251,7 +251,7 @@ English: Replaces the empty-cell marker in a configuration table with an empty s
 
 ### Splite MultiLine Cell.vi
 
-中文：a multi-line 单元格 在 列 Col 索引 的 a configuration 表 back 到 separate 行， so a 值 containing 行 breaks round-trips。
+中文：将配置表中 Col Index 列的多行单元格拆分为多行，以确保包含换行符的值能够正确往返转换。
 English: Splits a multi-line cell in column Col Index of a configuration table back into separate rows, so a value containing line breaks round-trips.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Splite MultiLine Cell.vi`
@@ -266,7 +266,7 @@ English: Splits a multi-line cell in column Col Index of a configuration table b
 
 ### String To Indexed Enum.vi
 
-中文：a 字符串 到 an enum 值， either 从 a leading 索引 number 或 通过 匹配 the 字符串 against the enum labels case-insensitively。
+中文：将字符串转换为枚举值：若字符串以索引数字开头，则按该索引选择；否则将字符串与枚举标签进行不区分大小写的匹配。
 English: Converts a string into an enum value, either from a leading index number or by matching the string against the enum labels case-insensitively.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/String To Indexed Enum.vi`
@@ -292,7 +292,7 @@ Convert String to enum. If string starts with numbers. The conversion is based o
 
 ### CloseXL_App.vi
 
-中文：关闭 the Excel 应用程序 引用 已打开 通过 OpenXL_App。vi。
+中文：关闭由 OpenXL_App.vi 打开的 Excel 应用程序引用。
 English: Closes the Excel application reference opened by OpenXL_App.vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CloseXL_App.vi`
@@ -306,7 +306,7 @@ English: Closes the Excel application reference opened by OpenXL_App.vi.
 
 ### CloseXL_Workbook.vi
 
-中文：关闭 the 打开 Excel 工作簿 和 releases the 工作簿 reference。 Set Save? (F) 到 save the 工作簿 在…之前 closing。
+中文：关闭已打开的 Excel 工作簿并释放工作簿引用。将 Save? (F) 设为 TRUE，可在关闭前保存工作簿。
 English: Closes the open Excel workbook and releases the workbook reference. Set Save? (F) to save the workbook before closing.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CloseXL_Workbook.vi`
@@ -322,7 +322,7 @@ English: Closes the open Excel workbook and releases the workbook reference. Set
 
 ### CloseXL_Worksheet.vi
 
-中文：关闭 the 打开 Excel 工作表 和 releases its ActiveX reference。
+中文：关闭已打开的 Excel 工作表并释放其 ActiveX 引用。
 English: Closes the open Excel worksheet and releases its ActiveX reference.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CloseXL_Worksheet.vi`
@@ -337,7 +337,7 @@ English: Closes the open Excel worksheet and releases its ActiveX reference.
 
 ### CreateXL_Workbook.vi
 
-中文：a new Excel 工作簿， prompting 用于 a 路径 当 none is 连线的， 和 添加 the 已打开 工作簿 引用 到 the 引用 cluster。
+中文：创建新的 Excel 工作簿；若未连线路径，则提示用户选择路径，并将打开的工作簿引用添加到引用簇中。
 English: Creates a new Excel workbook, prompting for a path when none is wired, and adds the opened workbook reference to the reference cluster.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CreateXL_Workbook.vi`
@@ -353,7 +353,7 @@ English: Creates a new Excel workbook, prompting for a path when none is wired, 
 
 ### Excel - Read Sheet.vi
 
-中文：a whole Excel 工作表 到 a 二维 字符串 array。 Sheet(第一个) selects the 工作表 通过 索引， 和 the 应用程序， 工作簿 和 工作表 引用 are 已打开 和 已关闭 around the read。
+中文：将整个 Excel 工作表读入二维字符串数组。Sheet(First) 按索引选择工作表；读取前后会打开并关闭应用程序、工作簿和工作表引用。
 English: Reads a whole Excel worksheet into a two-dimensional string array. Sheet(First) selects the worksheet by index, and the application, workbook and worksheet references are opened and closed around the read.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/Excel - Read Sheet.vi`
@@ -369,7 +369,7 @@ English: Reads a whole Excel worksheet into a two-dimensional string array. Shee
 
 ### Excel - Write Sheet.vi
 
-中文：a 二维 字符串 数组 到 an Excel 工作表， creating the 工作簿 当 the 文件 does not exist。 Sheet(第一个) selects the 工作表 通过 index。
+中文：将二维字符串数组写入 Excel 工作表；若文件不存在，则创建工作簿。Sheet(First) 按索引选择工作表。
 English: Writes a two-dimensional string array into an Excel worksheet, creating the workbook when the file does not exist. Sheet(First) selects the worksheet by index.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/Excel - Write Sheet.vi`
@@ -385,7 +385,7 @@ English: Writes a two-dimensional string array into an Excel worksheet, creating
 
 ### GetXL_AllCellValues.vi
 
-中文：the used 范围 的 the 打开 工作表 到 a 二维 字符串 array。
+中文：将已打开工作表的已用区域读入二维字符串数组。
 English: Reads the used range of the open worksheet into a two-dimensional string array.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_AllCellValues.vi`
@@ -401,7 +401,7 @@ English: Reads the used range of the open worksheet into a two-dimensional strin
 
 ### GetXL_CellValue_Dbl.vi
 
-中文：a 单个 单元格， 或 the top-left 单元格 的 the 范围 between Start 和 End， 作为 a double。
+中文：以 double 类型读取单个单元格，或读取 Start 与 End 所界定区域的左上角单元格。
 English: Reads a single cell, or the top-left cell of the range between Start and End, as a double.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValue_Dbl.vi`
@@ -419,7 +419,7 @@ English: Reads a single cell, or the top-left cell of the range between Start an
 
 ### GetXL_CellValue_String.vi
 
-中文：a 单个 单元格， 或 the top-left 单元格 的 the 范围 between Start 和 End， 作为 a string。
+中文：以字符串形式读取单个单元格，或读取 Start 与 End 所界定区域的左上角单元格。
 English: Reads a single cell, or the top-left cell of the range between Start and End, as a string.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValue_String.vi`
@@ -437,7 +437,7 @@ English: Reads a single cell, or the top-left cell of the range between Start an
 
 ### GetXL_CellValues.vi
 
-中文：VI，读取 a 单个 单元格 或 a 二维 范围 的 cells 从 the 打开 Excel 工作表， 作为 either double 或 字符串 data。
+中文：多态 VI：从已打开的 Excel 工作表中读取单个单元格或二维单元格区域，并以 double 或字符串形式返回数据。
 English: Polymorphic VI that reads a single cell or a two-dimensional range of cells from the open Excel worksheet, as either double or string data.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues.vi`
@@ -461,7 +461,7 @@ This polymorphic VI reads in either a single cell or a 2D range of cells from an
 
 ### GetXL_CellValues_2D_Dbl.vi
 
-中文：the 范围 between Start 和 End 从 the 打开 工作表 作为 a 二维 数组 的 doubles。
+中文：以二维 double 数组形式读取已打开工作表中 Start 与 End 所界定的区域。
 English: Reads the range between Start and End from the open worksheet as a two-dimensional array of doubles.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues_2D_Dbl.vi`
@@ -479,7 +479,7 @@ English: Reads the range between Start and End from the open worksheet as a two-
 
 ### GetXL_CellValues_2D_String.vi
 
-中文：the 范围 between Start 和 End 从 the 打开 工作表 作为 a 二维 数组 的 strings。
+中文：以二维字符串数组形式读取已打开工作表中 Start 与 End 所界定的区域。
 English: Reads the range between Start and End from the open worksheet as a two-dimensional array of strings.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues_2D_String.vi`
@@ -497,7 +497,7 @@ English: Reads the range between Start and End from the open worksheet as a two-
 
 ### GetXL_WorkSheetName.vi
 
-中文：the 名称 的 the 打开 worksheet。
+中文：返回已打开工作表的名称。
 English: Returns the name of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_WorkSheetName.vi`
@@ -512,7 +512,7 @@ English: Returns the name of the open worksheet.
 
 ### GetXL_WorkSheetSize.vi
 
-中文：the 大小 的 the used 范围 的 the 打开 worksheet。
+中文：读取已打开工作表的已用区域大小。
 English: Reads the size of the used range of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_WorkSheetSize.vi`
@@ -529,7 +529,7 @@ English: Reads the size of the used range of the open worksheet.
 
 ### GetXL_WorkSheetsNum.vi
 
-中文：the number 的 worksheets 在 the 打开 workbook。
+中文：返回已打开工作簿中的工作表数量。
 English: Returns the number of worksheets in the open workbook.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_WorkSheetsNum.vi`
@@ -545,7 +545,7 @@ English: Returns the number of worksheets in the open workbook.
 
 ### OpenXL_App.vi
 
-中文：Starts Excel through ActiveX automation 和 返回 the 应用程序 和 workbooks 引用 used 通过 the 其他 Excel VIs。
+中文：通过 ActiveX 自动化启动 Excel，并返回其他 Excel VI 使用的应用程序和工作簿引用。
 English: Starts Excel through ActiveX automation and returns the application and workbooks references used by the other Excel VIs.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/OpenXL_App.vi`
@@ -558,7 +558,7 @@ English: Starts Excel through ActiveX automation and returns the application and
 
 ### OpenXL_Workbook.vi
 
-中文：打开 the Excel 工作簿 在 路径， prompting 用于 a 文件 当 the 路径 is 空， 和 添加 the 已打开 工作簿 引用 到 the 引用 cluster。
+中文：打开路径指定的 Excel 工作簿；若路径为空，则提示用户选择文件，并将打开的工作簿引用添加到引用簇中。
 English: Opens the Excel workbook at path, prompting for a file when the path is empty, and adds the opened workbook reference to the reference cluster.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/OpenXL_Workbook.vi`
@@ -574,7 +574,7 @@ English: Opens the Excel workbook at path, prompting for a file when the path is
 
 ### OpenXL_WorkSheet.vi
 
-中文：打开 a 工作表 的 the 当前 workbook。 Sheet accepts either the 工作表 索引 或 its name。
+中文：打开当前工作簿中的工作表。Sheet 可以是工作表索引，也可以是工作表名称。
 English: Opens a worksheet of the current workbook. Sheet accepts either the worksheet index or its name.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/OpenXL_WorkSheet.vi`
@@ -589,7 +589,7 @@ English: Opens a worksheet of the current workbook. Sheet accepts either the wor
 
 ### Row Col To Range Format.vi
 
-中文：a zero-based 行 和 列 pair 到 the A1-style 范围 字符串 Excel expects， such 作为 A1 或 AB12。
+中文：将从零开始计数的行、列索引对转换为 Excel 所需的 A1 样式区域字符串，例如 A1 或 AB12。
 English: Converts a zero-based row and column pair into the A1-style range string Excel expects, such as A1 or AB12.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/Row Col To Range Format.vi`
@@ -602,7 +602,7 @@ English: Converts a zero-based row and column pair into the A1-style range strin
 
 ### SetXL_AllCellValues.vi
 
-中文：a 二维 字符串 数组 到 the used 范围 的 the 打开 worksheet。
+中文：将二维字符串数组写入已打开工作表的已用区域。
 English: Writes a two-dimensional string array into the used range of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_AllCellValues.vi`
@@ -618,7 +618,7 @@ English: Writes a two-dimensional string array into the used range of the open w
 
 ### SetXL_CellValue_Dbl.vi
 
-中文：a double 到 a 单元格， 或 到 the 范围 between Start 和 End， 的 the 打开 worksheet。
+中文：将 double 值写入已打开工作表中的单元格，或写入 Start 与 End 所界定的区域。
 English: Writes a double into a cell, or into the range between Start and End, of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValue_Dbl.vi`
@@ -636,7 +636,7 @@ English: Writes a double into a cell, or into the range between Start and End, o
 
 ### SetXL_CellValue_String.vi
 
-中文：a 字符串 到 a 单元格， 或 到 the 范围 between Start 和 End， 的 the 打开 worksheet。
+中文：将字符串写入已打开工作表中的单元格，或写入 Start 与 End 所界定的区域。
 English: Writes a string into a cell, or into the range between Start and End, of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValue_String.vi`
@@ -654,7 +654,7 @@ English: Writes a string into a cell, or into the range between Start and End, o
 
 ### SetXL_CellValues.vi
 
-中文：VI，写入 a 单个 单元格 或 a 二维 范围 的 cells 到 the 打开 Excel 工作表， 作为 either double 或 字符串 data。
+中文：多态 VI：将单个单元格或二维单元格区域写入已打开的 Excel 工作表，数据可以是 double 或字符串。
 English: Polymorphic VI that writes a single cell or a two-dimensional range of cells into the open Excel worksheet, as either double or string data.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValues.vi`
@@ -678,7 +678,7 @@ This polymorphic VI reads in either a single cell or a 2D range of cells from an
 
 ### SetXL_CellValues_2D_Dbl.vi
 
-中文：a 二维 数组 的 doubles 到 the 打开 工作表， starting 在 Start。
+中文：从 Start 开始，将二维 double 数组写入已打开的工作表。
 English: Writes a two-dimensional array of doubles into the open worksheet, starting at Start.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValues_2D_Dbl.vi`
@@ -695,7 +695,7 @@ English: Writes a two-dimensional array of doubles into the open worksheet, star
 
 ### SetXL_CellValues_2D_String.vi
 
-中文：a 二维 数组 的 字符串 到 the 打开 工作表， starting 在 Start。
+中文：从 Start 开始，将二维字符串数组写入已打开的工作表。
 English: Writes a two-dimensional array of strings into the open worksheet, starting at Start.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValues_2D_String.vi`
@@ -714,7 +714,7 @@ English: Writes a two-dimensional array of strings into the open worksheet, star
 
 ### Lines Filter-[].vi
 
-中文：保留 仅 the 行 的 a configuration 文件 that contain a section header 在 square brackets， 和 trims them。
+中文：仅保留配置文件中包含方括号节标题的行，并去除这些行首尾的空白。
 English: Keeps only the lines of a configuration file that contain a section header in square brackets, and trims them.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines Filter-[].vi`
@@ -728,7 +728,7 @@ English: Keeps only the lines of a configuration file that contain a section hea
 
 ### Lines Filter-Annotation.vi
 
-中文：移除 the annotation 行， 其 start 使用 Annotation Seperator(#)， 从 a configuration 文件 和 trims the remaining lines。
+中文：从配置文件中移除以 Annotation Seperator(#) 开头的注释行，并去除其余行首尾的空白。
 English: Removes the annotation lines, which start with Annotation Seperator(#), from a configuration file and trims the remaining lines.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines Filter-Annotation.vi`
@@ -753,7 +753,7 @@ English: Removes the annotation lines, which start with Annotation Seperator(#),
 
 ### Lines GetSessionByName.vi
 
-中文：Extracts the 行 belonging 到 the 会话 named [] 会话 名称 从 a configuration 文件， 和 返回 the 行 that were left over 作为 well。
+中文：从配置文件中提取属于 [] Session Name 所指定会话的行，同时返回剩余的行。
 English: Extracts the lines belonging to the session named [] Session Name from a configuration file, and returns the lines that were left over as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines GetSessionByName.vi`
@@ -770,7 +770,7 @@ English: Extracts the lines belonging to the session named [] Session Name from 
 
 ### Lines ListSessions.vi
 
-中文：the 名称 的 每个 会话 found 在 a configuration 文件， 和 返回 the 行 that were left over 作为 well。
+中文：列出配置文件中所有会话的名称，同时返回剩余的行。
 English: Lists the names of every session found in a configuration file, and returns the lines that were left over as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines ListSessions.vi`
@@ -786,7 +786,7 @@ English: Lists the names of every session found in a configuration file, and ret
 
 ### Lines LoadArrayOfSessions.vi
 
-中文：Loads the 会话 named 会话 名称 从 行 和 返回 it 两者 作为 a list 的 行 和 作为 an 数组 的 key-value pairs， 使用 the annotation 行 removed。
+中文：从 Lines 中加载名为 Session Name 的会话，并同时以行列表和键值对数组的形式返回；注释行会被移除。
 English: Loads the session named Session Name from Lines and returns it both as a list of lines and as an array of key-value pairs, with the annotation lines removed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines LoadArrayOfSessions.vi`
@@ -805,7 +805,7 @@ English: Loads the session named Session Name from Lines and returns it both as 
 
 ### Lines LoadMatrixOfSessions.vi
 
-中文：Loads 每个 会话 在 行 whose 名称 matches the regular expression 会话 名称(Rxp) 和 追加 its key-value pairs 到 数组 在， building a 二维 configuration matrix。
+中文：加载 Lines 中名称与正则表达式 Session Name(Rxp) 匹配的所有会话，并将其键值对追加到 Array in，从而构建二维配置矩阵。
 English: Loads every session in Lines whose name matches the regular expression Session Name(Rxp) and appends its key-value pairs to Array in, building a two-dimensional configuration matrix.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines LoadMatrixOfSessions.vi`
@@ -824,7 +824,7 @@ English: Loads every session in Lines whose name matches the regular expression 
 
 ### LinesToText.vi
 
-中文：an 数组 的 行 到 a 单个 string。 当 a Section 名称 is 连线的， the section header is written 在 前 的 the lines。
+中文：将行数组合并为单个字符串。若连线了 Section name，则在行内容前写入节标题。
 English: Joins an array of lines into a single string. When a Section name is wired, the section header is written in front of the lines.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/LinesToText.vi`
@@ -840,7 +840,7 @@ English: Joins an array of lines into a single string. When a Section name is wi
 
 ### TextToLines.vi
 
-中文：a 字符串 到 its lines。 Set Remove 空 Lines?(T) 到 drop the 空 ones。
+中文：将字符串拆分为多行。将 Remove Empty Lines?(T) 设为 TRUE，可移除空行。
 English: Splits a string into its lines. Set Remove Empty Lines?(T) to drop the empty ones.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/TextToLines.vi`
@@ -856,7 +856,7 @@ English: Splits a string into its lines. Set Remove Empty Lines?(T) to drop the 
 
 ### TextToSessionBlocks.vi
 
-中文：the 文本 的 a configuration 文件 到 blocks， one per session。
+中文：将配置文件文本拆分为多个块，每个会话对应一个块。
 English: Splits the text of a configuration file into blocks, one per session.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/TextToSessionBlocks.vi`
@@ -872,7 +872,7 @@ English: Splits the text of a configuration file into blocks, one per session.
 
 ### Read Controls of Panel from INI.vi
 
-中文：the 值 的 the 前 面板 controls 的 VI Ref 从 a standard LabVIEW configuration (INI) file。 Use it together 使用 Write Controls 的 面板 到 INI。vi。
+中文：从标准 LabVIEW 配置（INI）文件中读取 VI Ref 前面板控件的值。可与 Write Controls of Panel to INI.vi 配合使用。
 English: Reads the values of the front panel controls of VI Ref from a standard LabVIEW configuration (INI) file. Use it together with Write Controls of Panel to INI.vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Read Controls of Panel from INI.vi`
@@ -898,7 +898,7 @@ Use this VI in conjunction with the &lt;B&gt;Write Panel to INI&lt;/B&gt; from t
 
 ### Read Session Cluster with Initial Value.vim
 
-中文：VI，读取 a cluster 从 a configuration section， keeping the 值 的 cfg cluster 在 用于 每个 key the section does not provide。
+中文：多态 VI：从配置节中读取簇；对于该节未提供的键，保留 cfg cluster in 中已有的值。
 English: Polymorphic VI that reads a cluster from a configuration section, keeping the values of cfg cluster in for every key the section does not provide.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Read Session Cluster with Initial Value.vim`
@@ -924,7 +924,7 @@ Read INI file section to variant.
 
 ### Simple Load Ini Configuraton.vim
 
-中文：VI，打开 an INI 文件， 读取 the cluster 从 the named section using 默认 Settings 用于 缺失 keys， 和 关闭 the 文件 again。
+中文：多态 VI：打开 INI 文件，使用 Default Settings 为缺失的键提供默认值，从指定节读取簇，然后关闭文件。
 English: Polymorphic VI that opens an INI file, reads the cluster from the named section using Default Settings for missing keys, and closes the file again.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Simple Load Ini Configuraton.vim`
@@ -941,7 +941,7 @@ English: Polymorphic VI that opens an INI file, reads the cluster from the named
 
 ### Write Controls of Panel to INI.vi
 
-中文：the 值 的 the 前 面板 controls 的 VI Ref 到 a LabVIEW configuration (INI) 文件 作为 key-value pairs。 Use it together 使用 Read Controls 的 面板 从 INI。vi。
+中文：将 VI Ref 前面板控件的值以键值对形式写入 LabVIEW 配置（INI）文件。可与 Read Controls of Panel from INI.vi 配合使用。
 English: Writes the values of the front panel controls of VI Ref to a LabVIEW configuration (INI) file as key-value pairs. Use it together with Read Controls of Panel from INI.vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Write Controls of Panel to INI.vi`

@@ -1,13 +1,13 @@
 # Synchronization
 
-中文：Synchronisation primitives： the locker 队列 和 the SyncStart barrier。
+中文：同步原语：locker 队列和 SyncStart 屏障。
 English: Synchronisation primitives: the locker queue and the SyncStart barrier.
 
 7 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization`.
 
 ## Second Call.vi
 
-中文：TRUE 仅 在 the second call 在…之后 the Run 按钮 is clicked， 和 FALSE 在 每个 其他 call。
+中文：单击 Run 按钮后，仅在第二次调用时返回 TRUE；其他调用均返回 FALSE。
 English: Returns TRUE only on the second call after the Run button is clicked, and FALSE on every other call.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Second Call.vi`
@@ -27,7 +27,7 @@ Indicates that a subVI or section of a block diagram is running for the second t
 
 ### locker-Create.vi
 
-中文：a locker， a queue-based mutual exclusion object， 和 返回 its reference。 The 队列 is seeded 使用 one element so the 第一个 locker-lock call can take it。
+中文：创建一个 locker（一种基于队列的互斥对象）并返回其引用。队列中预先放入一个元素，因此首次调用 locker-lock 时即可取得该元素。
 English: Creates a locker, a queue-based mutual exclusion object, and returns its reference. The queue is seeded with one element so the first locker-lock call can take it.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-Create.vi`
@@ -40,7 +40,7 @@ English: Creates a locker, a queue-based mutual exclusion object, and returns it
 
 ### locker-Destroy.vi
 
-中文：Releases a locker created 通过 locker-Create。vi。 Call it once 用于 每个 locker-Create。
+中文：释放由 locker-Create.vi 创建的 locker。每个 locker-Create 只需调用一次。
 English: Releases a locker created by locker-Create.vi. Call it once for every locker-Create.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-Destroy.vi`
@@ -53,7 +53,7 @@ English: Releases a locker created by locker-Create.vi. Call it once for every l
 
 ### locker-lock.vi
 
-中文：the locker is free 和 then takes it。 每个 locker-lock must be paired 使用 a locker-unlock。
+中文：等待 locker 空闲后将其取出。每次调用 locker-lock 都必须与一次 locker-unlock 配对。
 English: Blocks until the locker is free and then takes it. Every locker-lock must be paired with a locker-unlock.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-lock.vi`
@@ -67,7 +67,7 @@ English: Blocks until the locker is free and then takes it. Every locker-lock mu
 
 ### locker-unlock.vi
 
-中文：the locker so that a waiting locker-lock call can proceed。
+中文：归还 locker，以便等待中的 locker-lock 调用继续执行。
 English: Returns the locker so that a waiting locker-lock call can proceed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-unlock.vi`
@@ -83,7 +83,7 @@ English: Returns the locker so that a waiting locker-lock call can proceed.
 
 ### SyncStart-TriggerStart.vim
 
-中文：Sends a software start trigger 到 每个 SyncStart-Wait waiting 在 the 相同 名称 和 state。
+中文：向所有正在等待相同 Name 和 state 的 SyncStart-Wait 发送软件启动触发信号。
 English: Sends a software start trigger to every SyncStart-Wait waiting on the same name and state.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/SyncStart/SyncStart-TriggerStart.vim`
@@ -106,7 +106,7 @@ Send a software trigger start.
 
 ### SyncStart-Wait.vim
 
-中文：a 匹配 SyncStart-TriggerStart arrives， then returns。 Wire force destroy(F) 到 abandon the wait， 和 名称 到 select the 队列 (an 空 名称 使用 the 顶层 VI 名称)。
+中文：阻塞等待，直到收到匹配的 SyncStart-TriggerStart 后返回。将 force destroy(F) 连线可放弃等待；Name 用于选择队列（名称为空时使用顶层 VI 名称）。
 English: Blocks until a matching SyncStart-TriggerStart arrives, then returns. Wire force destroy(F) to abandon the wait, and Name to select the queue (an empty name uses the top-level VI name).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/SyncStart/SyncStart-Wait.vim`

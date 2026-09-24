@@ -1,13 +1,13 @@
 # Graphics & Sound
 
-中文：Colour helpers 用于 前 面板 controls。
+中文：用于前面板控件的颜色辅助工具。
 English: Colour helpers for front panel controls.
 
 1 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Graphics & Sound`.
 
 ## Str To Colorbox.vi
 
-中文：将颜色字符串转换为 LabVIEW 颜色框控件显示的 32-bit RGB 值。
+中文：将颜色字符串转换为 LabVIEW 颜色框控件所显示的 32-bit RGB 值。
 English: Converts a colour string into the 32-bit RGB value that a LabVIEW colour box control displays.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Graphics & Sound/Str To Colorbox.vi`

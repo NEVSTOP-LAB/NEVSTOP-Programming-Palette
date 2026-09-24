@@ -1,13 +1,13 @@
 # Comparison
 
-中文：Comparison 和 change-detection helpers， including the 数据 Changed family。
+中文：比较与变化检测辅助工具，包括 Data Changed 系列。
 English: Comparison and change-detection helpers, including the Data Changed family.
 
 11 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Comparison`.
 
 ## Compare Two Numbers.vim
 
-中文：VI，compares 两个 numbers 和 返回 their order 作为 an enum 的 Greater， Equal 或 Less。 两者 inputs are also passed through unchanged。
+中文：多态 VI：比较两个数值，并以 Greater、Equal 或 Less 枚举值返回它们的大小关系。同时原样传递两个输入值。
 English: Polymorphic VI that compares two numbers and returns their order as an enum of Greater, Equal or Less. Both inputs are also passed through unchanged.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Compare Two Numbers.vim`
@@ -22,7 +22,7 @@ English: Polymorphic VI that compares two numbers and returns their order as an 
 
 ## Data Changed - First Call Ignore.vim
 
-中文：VI，返回 TRUE 当 the 值 连线的 到 Variant differs 从 the 值 seen 在 the previous call。 The 第一个 call 在…之后 the VI starts 返回 FALSE。
+中文：可重入多态 VI：当连线到 Variant 的值与上一次调用时的值不同时返回 TRUE。VI 启动后的首次调用返回 FALSE。
 English: Reentrant polymorphic VI that returns TRUE when the value wired to Variant differs from the value seen on the previous call. The first call after the VI starts returns FALSE.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Data Changed - First Call Ignore.vim`
@@ -43,7 +43,7 @@ This is a polymorphic VI that will output a true if the data flowing into it has
 
 ## Data Changed - First Call Included.vim
 
-中文：VI，返回 TRUE 当 the 值 连线的 到 Variant differs 从 the 值 seen 在 the previous call。 The 第一个 call 在…之后 the VI starts 返回 TRUE。
+中文：可重入多态 VI：当连线到 Variant 的值与上一次调用时的值不同时返回 TRUE。VI 启动后的首次调用返回 TRUE。
 English: Reentrant polymorphic VI that returns TRUE when the value wired to Variant differs from the value seen on the previous call. The first call after the VI starts returns TRUE.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Data Changed - First Call Included.vim`
@@ -64,7 +64,7 @@ This is a polymorphic VI that will output a true if the data flowing into it has
 
 ## Data Changed - WIthout First Call Check.vim
 
-中文：VI，返回 TRUE 当 the 值 连线的 到 Variant differs 从 the 值 seen 在 the previous call。 First-call 状态 is not tracked， so the result is purely the comparison against the stored value。
+中文：可重入多态 VI：当连线到 Variant 的值与上一次调用时的值不同时返回 TRUE。此 VI 不跟踪首次调用状态，因此结果仅取决于当前值与存储值的比较。
 English: Reentrant polymorphic VI that returns TRUE when the value wired to Variant differs from the value seen on the previous call. First-call state is not tracked, so the result is purely the comparison against the stored value.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Data Changed - WIthout First Call Check.vim`
@@ -85,7 +85,7 @@ This is a polymorphic VI that will output a true if the data flowing into it has
 
 ## In Range.vim
 
-中文：VI，tests 是否 值 lies between A 和 B， whichever bound is the larger one。 Numeric 和 timestamp inputs are supported。
+中文：多态 VI：测试 Value 是否位于 A 和 B 所界定的范围内（无论哪个值较大）。支持数值和时间戳输入。
 English: Polymorphic VI that tests whether Value lies between A and B, whichever bound is the larger one. Numeric and timestamp inputs are supported.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/In Range.vim`
@@ -109,7 +109,7 @@ Determines whether x falls within a range specified by A and B (no matter the gr
 
 ## Runtime False Constant.vi
 
-中文：a boolean constant。 在 the Run-Time Engine the output is always FALSE； 在 the development 环境 the constant is exposed so it can be changed 当 debugging。
+中文：返回一个布尔常量。在 Run-Time Engine 中，输出始终为 FALSE；在开发环境中，该常量会显示出来，可在调试时更改。
 English: Returns a boolean constant. In the Run-Time Engine the output is always FALSE; in the development environment the constant is exposed so it can be changed while debugging.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Runtime False Constant.vi`
@@ -129,7 +129,7 @@ This VI outputs a false boolean constant if the run time engine is on. When the 
 
 ## Runtime True Constant.vi
 
-中文：a boolean constant。 在 the Run-Time Engine the output is always TRUE； 在 the development 环境 the constant is exposed so it can be changed 当 debugging。
+中文：返回一个布尔常量。在 Run-Time Engine 中，输出始终为 TRUE；在开发环境中，该常量会显示出来，可在调试时更改。
 English: Returns a boolean constant. In the Run-Time Engine the output is always TRUE; in the development environment the constant is exposed so it can be changed while debugging.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Runtime True Constant.vi`
@@ -149,7 +149,7 @@ This VI outputs a true boolean constant if the run time engine is on. When the r
 
 ## Select Greater.vim
 
-中文：VI，compares A 和 B 和 返回 the greater 的 the two。
+中文：多态 VI：比较 A 和 B，并返回两者中较大的值。
 English: Polymorphic VI that compares A and B and returns the greater of the two.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Select Greater.vim`
@@ -170,7 +170,7 @@ This VI compares A and B and outputs the greater one.
 
 ## Select Lesser.vim
 
-中文：VI，compares A 和 B 和 返回 the smaller 的 the two。
+中文：多态 VI：比较 A 和 B，并返回两者中较小的值。
 English: Polymorphic VI that compares A and B and returns the smaller of the two.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Select Lesser.vim`
@@ -191,7 +191,7 @@ This VI compares A and B and outputs the smaller one.
 
 ## Select Valid Refnum.vim
 
-中文：VI，返回 whichever 的 the 两个 refnum， 路径 或 number inputs is non-empty。 Use it 到 fall back 到 a 默认 当 the preferred 引用 is invalid。
+中文：多态 VI：返回两个 refnum、路径或数值输入中非空的那个。当首选引用无效时，可用此 VI 回退到默认值。
 English: Polymorphic VI that returns whichever of the two refnum, path or number inputs is non-empty. Use it to fall back to a default when the preferred reference is invalid.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/Select Valid Refnum.vim`
@@ -212,7 +212,7 @@ Judge if the Referred Number/Path/Refum is valid. If true, this VI outputs the R
 
 ## String to Boolean.vi
 
-中文：a 字符串 到 a boolean 从 a recognised word list： 值 such 作为， Active， TRUE， 在 和 有效 give TRUE， 当， Inactive， FALSE， Off 和 无效 give FALSE。 Leading 和 trailing whitespace is trimmed 和 匹配 is case-insensitive。 任意 其他 字符串 返回 the 默认(F) value。
+中文：根据一组已识别的词语将字符串转换为布尔值：1、Active、True、On 和 Valid 等值对应 TRUE；0、Inactive、False、Off 和 Invalid 对应 FALSE。转换前会去除首尾空白，且匹配时不区分大小写。其他字符串均返回 Default(F) 值。
 English: Converts a string to a boolean from a recognised word list: values such as 1, Active, True, On and Valid give TRUE, while 0, Inactive, False, Off and Invalid give FALSE. Leading and trailing whitespace is trimmed and matching is case-insensitive. Any other string returns the Default(F) value.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Comparison/String to Boolean.vi`

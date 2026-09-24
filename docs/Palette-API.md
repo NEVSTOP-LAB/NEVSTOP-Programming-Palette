@@ -1,13 +1,13 @@
 # NEVSTOP Programming Palette API
 
-中文：顶层 palette entry point 用于 the NEVSTOP Programming Palette。
+中文：NEVSTOP Programming Palette 的顶层调色板入口。
 English: Top-level palette entry point for the NEVSTOP Programming Palette.
 
 1 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette`.
 
 ## NEVSTOP-Programming-Palette-API.vi
 
-中文：Aggregates the 工具 VIs used 通过 the palette's own tooling， coordinating the 应用程序， 文件 和 front-panel helpers behind one diagram。
+中文：汇总调色板自身工具所用的实用 VI，并在同一程序框图中协调应用程序、文件和前面板辅助工具。
 English: Aggregates the utility VIs used by the palette's own tooling, coordinating the application, file and front-panel helpers behind one diagram.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/NEVSTOP-Programming-Palette-API.vi`
