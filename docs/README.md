@@ -23,8 +23,6 @@ Every entry also carries the description written into that VI's own **VI Descrip
 | [Waveform](Waveform.md) | 3 | Waveform construction from arrays, FFT data and generated signals. |
 | [NEVSTOP Programming Palette API](Palette-API.md) | 1 | Top-level palette entry point for the NEVSTOP Programming Palette. |
 
-Total: **273** VIs.
-
 ## How this was produced
 
 1. Every in-scope VI was exported to LabVIEW AIXML to read its connector pane, its subVI calls and its existing description.
@@ -61,8 +59,6 @@ VIs whose name or parent folder starts with an underscore are internal and are e
 | [Time](Time.md) | 9 | 时间辅助：周期触发、超时、经过时间与节拍控制。 |
 | [Waveform](Waveform.md) | 3 | 从数组、FFT 数据与生成信号构建波形。 |
 | [NEVSTOP Programming Palette API](Palette-API.md) | 1 | NEVSTOP Programming Palette 的顶层入口。 |
-
-总计：**273** 个 VI。
 
 ## 文档生成方式
 
