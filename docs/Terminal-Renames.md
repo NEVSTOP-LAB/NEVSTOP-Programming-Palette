@@ -4,7 +4,7 @@ Every connector-pane terminal name that was changed, and why. The name of a term
 **is** the label of the front panel object behind it, so a rename changes what the VI
 shows in Context Help and on its front panel.
 
-中文：列出所有更改过的连接器窗格端子名称及更改原因。端子名称 **is** 其对应前面板对象的标签，因此重命名会改变 VI 在 Context Help 和前面板上显示的名称。
+中文：列出所有更改过的连接器窗格端子名称及更改原因。端子名称**就是**其对应前面板对象的标签，因此重命名会改变 VI 在 Context Help 和前面板上显示的名称。
 English: Every connector-pane terminal name that was changed, and why. The name of a terminal **is** the label of the front panel object behind it, so a rename changes what the VI shows in Context Help and on its front panel.
 
 ## What counted as a rename
