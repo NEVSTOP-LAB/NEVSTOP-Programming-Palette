@@ -167,7 +167,7 @@ Filter contained paths.
 
 ## Filter Paths if Folder matches Pattern.vi
 
-中文：仅保留其相对于 Root Dir 的文件夹路径不匹配 REP 中正则表达式的路径。默认模式 ^[_.] 会排除位于隐藏文件夹或下划线开头文件夹中的路径；模式为空时不进行筛选。
+中文：仅保留其相对于 Root Dir 的文件夹路径匹配 REP 中正则表达式的路径。默认模式 ^[_.] 会排除位于隐藏文件夹或下划线开头文件夹中的路径；模式为空时不进行筛选。
 English: Keeps the paths whose folder, relative to Root Dir, matches the regular expression in REP. The default pattern ^[_.] removes paths inside hidden or underscore-prefixed folders; an empty pattern disables the filter.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Filter Paths if Folder matches Pattern.vi`

@@ -5,6 +5,9 @@ English: Signal conditioning on booleans and numbers: edges, latency, filtering 
 
 9 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Signal`.
 
+中文：说明：以下部分 VI 名称沿用原始文件名，可能包含历史拼写（例如 Keeped、Filtter、Recursivelly）；文档按原名保留以便与项目文件一一对应。
+English: Note: some VI names below keep original filenames and may include legacy spellings (for example Keeped, Filtter, Recursivelly); documentation preserves original names for exact file mapping.
+
 ## Change Keeped Value.vim
 
 中文：在多次调用之间保留一个值：当 change? 为 TRUE 时，输出采用新值；当 change? 为 FALSE 时，输出保持上一次接受的值。
