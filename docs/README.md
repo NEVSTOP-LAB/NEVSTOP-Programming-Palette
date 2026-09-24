@@ -23,7 +23,7 @@ Every entry also carries the description written into that VI's own **VI Descrip
 | [Waveform](Waveform.md) | 3 | Waveform construction from arrays, FFT data and generated signals. |
 | [NEVSTOP Programming Palette API](Palette-API.md) | 1 | Top-level palette entry point for the NEVSTOP Programming Palette. |
 
-Total: **273** VIs.
+Total: **274** VIs.
 
 ## How this was produced
 
@@ -62,7 +62,7 @@ VIs whose name or parent folder starts with an underscore are internal and are e
 | [Waveform](Waveform.md) | 3 | 从数组、FFT 数据与生成信号构建波形。 |
 | [NEVSTOP Programming Palette API](Palette-API.md) | 1 | NEVSTOP Programming Palette 的顶层入口。 |
 
-总计：**273** 个 VI。
+总计：**274** 个 VI。
 
 ## 文档生成方式
 

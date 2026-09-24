@@ -5,6 +5,9 @@ English: Path and file helpers, text and TDMS logging, and a small XML reader.
 
 34 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/File`.
 
+中文：说明：以下部分 VI 名称沿用原始文件名，可能包含历史拼写（例如 Non-Existant）；文档按原名保留以便与项目文件一一对应。
+English: Note: some VI names below keep original filenames and may include legacy spellings (for example Non-Existant); documentation preserves original names for exact file mapping.
+
 ## Append Path to Root if Relative.vim
 
 中文：多态 VI：输入路径为绝对路径时原样返回；为相对路径时，则将其追加到 Root Path。Scale、数组及其他路径形式均采用相同的处理逻辑。
@@ -167,8 +170,8 @@ Filter contained paths.
 
 ## Filter Paths if Folder matches Pattern.vi
 
-中文：仅保留其相对于 Root Dir 的文件夹路径匹配 REP 中正则表达式的路径。默认模式 ^[_.] 会排除位于隐藏文件夹或下划线开头文件夹中的路径；模式为空时不进行筛选。
-English: Keeps the paths whose folder, relative to Root Dir, matches the regular expression in REP. The default pattern ^[_.] removes paths inside hidden or underscore-prefixed folders; an empty pattern disables the filter.
+中文：筛除其相对于 Root Dir 的文件夹路径匹配 REP 中正则表达式的路径。默认模式 ^[_.] 会排除位于隐藏文件夹或下划线开头文件夹中的路径；模式为空时不进行筛选。
+English: Filters out the paths whose folder, relative to Root Dir, matches the regular expression in REP. The default pattern ^[_.] removes paths inside hidden or underscore-prefixed folders; an empty pattern disables the filter.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Filter Paths if Folder matches Pattern.vi`
 - **Kind**: VI
