@@ -200,7 +200,7 @@ Clear the error when the error code is 1055, otherwise report the error and clos
 
 ## Terminate Vi CallStack Chain.vi
 
-中文：Waits 用于 the call chain 的 VI Refnum(Null) 到 finish 和 then either stops it 或 kills the 进程， depending 在 Kill Process?。 The 毫秒 超时 (毫秒) input bounds the wait。
+中文：等待 VI Refnum(Null) 的调用链执行完成，然后根据 Kill Process? 选择停止调用链或终止进程。ms timeout (500ms) 输入用于限制等待时长。
 English: Waits for the call chain of VI Refnum(Null) to finish and then either stops it or kills the process, depending on Kill Process?. The ms timeout (500ms) input bounds the wait.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Terminate Vi CallStack Chain.vi`

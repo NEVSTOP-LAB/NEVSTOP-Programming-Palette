@@ -7,7 +7,7 @@ English: Numeric helpers: buffers, checksums, sweep calculation and string to nu
 
 ## Calc Sweep Points.vi
 
-中文：Calculates the point list 的 a sweep 从 Start， Stop， Span， Step 和 Points。 Span takes priority over Stop 当 it is not NaN， 和 Step is used 当 Points equals。
+中文：根据 Start、Stop、Span、Step 和 Points 计算扫频点列表。当 Span 不是 NaN 时优先于 Stop；当 Points equals 0 时使用 Step。
 English: Calculates the point list of a sweep from Start, Stop, Span, Step and Points. Span takes priority over Stop when it is not NaN, and Step is used when Points equals 0.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/Calc Sweep Points.vi`

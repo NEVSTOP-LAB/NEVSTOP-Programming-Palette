@@ -108,8 +108,8 @@ Creates a read-only UDP multicast session and receives data on the specified por
 
 ### Start IP Reporter.vi
 
-中文：Starts the IP Reporter 在 the background 和 返回 a notifier carrying the reported node information。 Setttings carries the report 地址， receiver 端口， gateway filter 和 host name。
-English: Starts the IP Reporter in the background and returns a notifier carrying the reported node information. Setttings carries the report address, receiver port, gateway filter and host name.
+中文：在后台启动 IP Reporter，并返回一个包含上报节点信息的 notifier。Settings 包含上报地址、接收端口、网关过滤和主机名。
+English: Starts the IP Reporter in the background and returns a notifier carrying the reported node information. Settings carries the report address, receiver port, gateway filter and host name.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/Start IP Reporter.vi`
 - **Kind**: VI

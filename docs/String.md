@@ -153,7 +153,7 @@ Format input &lt;b&gt;Variant&lt;/b&gt; into string.
 
 ## Generate UUID.vi
 
-中文：Generates a universally unique identifier 和 返回 it 作为 the standard -character UUID string。
+中文：生成一个通用唯一标识符，并以标准的 36-character UUID 字符串形式返回。
 English: Generates a universally unique identifier and returns it as the standard 36-character UUID string.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Generate UUID.vi`

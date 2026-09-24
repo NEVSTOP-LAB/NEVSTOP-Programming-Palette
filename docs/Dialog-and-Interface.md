@@ -106,7 +106,7 @@ Clear all error.
 
 ## Double Click in Mouse Down Event.vi
 
-中文：a second Mouse Down event arrives within max click space(。s) 的 the previous one。 Wire it 到 a Mouse Down event case 到 detect a double click。
+中文：当第二次 Mouse Down 事件在上一次事件后的 max click space(0.2s) 内到达时返回 TRUE。将其接入 Mouse Down 事件 case 以检测双击。
 English: Returns TRUE when a second Mouse Down event arrives within max click space(0.2s) of the previous one. Wire it into a Mouse Down event case to detect a double click.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Double Click in Mouse Down Event.vi`

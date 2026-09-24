@@ -40,7 +40,7 @@ VIs whose name or parent folder starts with an underscore are internal and are e
 # NEVSTOP Programming Palette - VI 参考文档（中文）
 
 本目录收录了该 Palette 中随包发布的 VI 文档，并按 Palette 文件夹分组整理。
-每个条目也会同步写入对应 VI 的 **VI Description**。
+每个条目都与对应 VI 的 **VI Description** 一致。
 
 | Palette 文件夹 | VI 数量 | 摘要 |
 | --- | --- | --- |

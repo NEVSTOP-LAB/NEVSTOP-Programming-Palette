@@ -1,6 +1,6 @@
 # Waveform
 
-中文：Waveform construction 从 数组， FFT 数据 和 生成的 signals。
+中文：用于根据数组、FFT 数据和生成信号构建波形的工具。
 English: Waveform construction from arrays, FFT data and generated signals.
 
 3 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Waveform`.
