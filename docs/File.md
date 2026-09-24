@@ -1,12 +1,17 @@
 # File
 
-Path and file helpers, text and TDMS logging, and a small XML reader.
+中文：路径和文件辅助工具、文本与 TDMS 日志记录，以及简易 XML 读取器。
+English: Path and file helpers, text and TDMS logging, and a small XML reader.
 
 34 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/File`.
 
+中文：说明：以下部分 VI 名称沿用原始文件名，可能包含历史拼写（例如 Non-Existant）；文档按原名保留以便与项目文件一一对应。
+English: Note: some VI names below keep original filenames and may include legacy spellings (for example Non-Existant); documentation preserves original names for exact file mapping.
+
 ## Append Path to Root if Relative.vim
 
-Polymorphic VI that returns the input path unchanged when it is absolute, and appends it to Root Path when it is relative. Scale, array and other path shapes are handled by the same logic.
+中文：多态 VI：输入路径为绝对路径时原样返回；为相对路径时，则将其追加到 Root Path。Scale、数组及其他路径形式均采用相同的处理逻辑。
+English: Polymorphic VI that returns the input path unchanged when it is absolute, and appends it to Root Path when it is relative. Scale, array and other path shapes are handled by the same logic.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Append Path to Root if Relative.vim`
 - **Kind**: polymorphic VI (.vim); polymorphic wrapper (no diagram of its own)
@@ -27,7 +32,8 @@ Ouputs "Absolute or Relative Path".  If "Absolute or Relative Path" is relative 
 
 ## Application Directory 2.vi
 
-Returns the application directory with Relative path (.) appended. An empty relative path returns the application directory itself.
+中文：返回应用程序目录，并追加 Relative path (.)。若相对路径为空，则直接返回应用程序目录。
+English: Returns the application directory with Relative path (.) appended. An empty relative path returns the application directory itself.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Application Directory 2.vi`
 - **Kind**: VI
@@ -47,7 +53,8 @@ Application directory path.
 
 ## Build FilePath By Rule.vi
 
-Builds a file path from FileNameRule, which selects a fixed name, an indexed name or a time-based name. Relative paths are resolved against the application directory, missing folders are created, and the Time input defaults to the current time.
+中文：根据 FileNameRule 构建文件路径；该规则可选择固定名称、带索引的名称或基于时间的名称。相对路径以应用程序目录为基准解析，缺失的文件夹会自动创建，Time 输入默认为当前时间。
+English: Builds a file path from FileNameRule, which selects a fixed name, an indexed name or a time-based name. Relative paths are resolved against the application directory, missing folders are created, and the Time input defaults to the current time.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Build FilePath By Rule.vi`
 - **Kind**: VI
@@ -70,7 +77,8 @@ Build file path with timestamp.
 
 ## Check if File or Folder Exists 2.vi
 
-Returns TRUE when path exists, and passes the path through. It adds error handling and tolerates an empty path, where the vi.lib version returns an error.
+中文：当 path 存在时返回 TRUE，并原样传递该路径。此 VI 增加了错误处理，并允许 path 为空；vi.lib 版本在这种情况下会返回错误。
+English: Returns TRUE when path exists, and passes the path through. It adds error handling and tolerates an empty path, where the vi.lib version returns an error.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Check if File or Folder Exists 2.vi`
 - **Kind**: VI
@@ -85,7 +93,8 @@ Returns TRUE when path exists, and passes the path through. It adds error handli
 
 ## Convert File Extension.vim
 
-Polymorphic VI that replaces the extension of a file name or path. The new ending may be given with or without a leading period, or as an empty string to remove the extension, and the previous extension is returned.
+中文：多态 VI：替换文件名或路径的扩展名。新扩展名可带或不带前导句点；也可以为空字符串，以移除扩展名。此 VI 还会返回原扩展名。
+English: Polymorphic VI that replaces the extension of a file name or path. The new ending may be given with or without a leading period, or as an empty string to remove the extension, and the previous extension is returned.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Convert File Extension.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -117,7 +126,8 @@ prev ending =&gt; ".txt"
 
 ## Create Directory if Non-Existant.vi
 
-Creates the directory wired to Directory Path together with every missing parent directory, and returns the list of directories it created.
+中文：创建连线到 Directory Path 的目录以及所有缺失的父目录，并返回创建的目录列表。
+English: Creates the directory wired to Directory Path together with every missing parent directory, and returns the list of directories it created.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Create Directory if Non-Existant.vi`
 - **Kind**: VI
@@ -140,7 +150,8 @@ Will create all directories above and including the directory defined by the "Di
 
 ## Filter Contained Paths.vi
 
-Removes from Output Array every path that is already contained in another path in the same array, so only the outermost paths remain.
+中文：从 Output Array 中移除已包含在同一数组其他路径中的路径，只保留最外层路径。
+English: Removes from Output Array every path that is already contained in another path in the same array, so only the outermost paths remain.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Filter Contained Paths.vi`
 - **Kind**: VI
@@ -159,7 +170,8 @@ Filter contained paths.
 
 ## Filter Paths if Folder matches Pattern.vi
 
-Keeps the paths whose folder, relative to Root Dir, matches the regular expression in REP. The default pattern ^[_.] removes paths inside hidden or underscore-prefixed folders; an empty pattern disables the filter.
+中文：依据 REP 中的正则表达式（基于相对于 Root Dir 的文件夹路径）对路径进行筛选。默认模式 ^[_.] 会排除位于隐藏文件夹或下划线开头文件夹中的路径；模式为空时不进行筛选。
+English: Filters paths according to the regular expression in REP based on each folder path relative to Root Dir. The default pattern ^[_.] removes paths inside hidden or underscore-prefixed folders; an empty pattern disables the filter.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Filter Paths if Folder matches Pattern.vi`
 - **Kind**: VI
@@ -183,7 +195,8 @@ Filter path if folder matches pattern.
 
 ## First Matched Config File with Ext Options.vi
 
-Searches Searching Directory for the first file whose name matches Function Name with any of the extensions in exts. Set Recrusively(F) to search subfolders as well.
+中文：在 Searching Directory 中查找第一个名称与 Function Name 匹配且扩展名属于 exts 的文件。将 Recrusively(F) 设为 TRUE，可同时搜索子文件夹。
+English: Searches Searching Directory for the first file whose name matches Function Name with any of the extensions in exts. Set Recrusively(F) to search subfolders as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/First Matched Config File with Ext Options.vi`
 - **Kind**: VI
@@ -198,7 +211,8 @@ Searches Searching Directory for the first file whose name matches Function Name
 
 ## First Matched Config File.vi
 
-Searches Searching Directory for the first file matching pattern and returns its path. The default pattern is *.ini, and Recrusively(F) extends the search to subfolders.
+中文：在 Searching Directory 中查找第一个匹配 pattern 的文件，并返回其路径。默认 pattern 为 *.ini；Recrusively(F) 可将搜索范围扩展到子文件夹。
+English: Searches Searching Directory for the first file matching pattern and returns its path. The default pattern is *.ini, and Recrusively(F) extends the search to subfolders.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/First Matched Config File.vi`
 - **Kind**: VI
@@ -220,7 +234,8 @@ Search first matched file. The default match pattern is *.ini.
 
 ## Make String Safe in Path.vi
 
-Removes the characters that Windows does not allow in a file or folder name, so the result can be used inside a path. Wire replace string to substitute those characters instead of deleting them.
+中文：移除 Windows 文件名或文件夹名中不允许使用的字符，使结果可用于路径。将 replace string 连线后，可用指定字符串替换这些字符，而不是直接删除。
+English: Removes the characters that Windows does not allow in a file or folder name, so the result can be used inside a path. Wire replace string to substitute those characters instead of deleting them.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Make String Safe in Path.vi`
 - **Kind**: VI
@@ -256,7 +271,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Move Contained Files to Folder.vi
 
-Moves the files directly inside Folder Path into Dest Foder Path, skipping the names listed in exclued files. Set overwrite (F) to replace existing files and Clear Empty Folder?(T) to delete source folders left empty.
+中文：将 Folder Path 中直接包含的文件移动到 Dest Foder Path，并跳过 exclued files 中列出的名称。将 overwrite (F) 设为 TRUE 可替换现有文件；将 Clear Empty Folder?(T) 设为 TRUE 可删除移动后为空的源文件夹。
+English: Moves the files directly inside Folder Path into Dest Foder Path, skipping the names listed in exclued files. Set overwrite (F) to replace existing files and Clear Empty Folder?(T) to delete source folders left empty.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Move Contained Files to Folder.vi`
 - **Kind**: VI
@@ -281,7 +297,8 @@ Move files in source folder to destination folder.
 
 ## Path Type -- Enum.vi
 
-Classifies a path as an absolute path, a relative path or &lt;Not A Path&gt;.
+中文：将路径分类为绝对路径、相对路径或 &lt;Not A Path&gt;。
+English: Classifies a path as an absolute path, a relative path or &lt;Not A Path&gt;.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Path Type -- Enum.vi`
 - **Kind**: VI
@@ -300,7 +317,8 @@ Return path type "&lt;Not A Path&gt;", "Absolute path", or "Relative path".
 
 ## Recursive Build Path.vi
 
-Appends file name to Path when that name is not already an existing file path, and returns Path unchanged otherwise.
+中文：若 file name 尚不是现有文件路径，则将其追加到 Path；否则原样返回 Path。
+English: Appends file name to Path when that name is not already an existing file path, and returns Path unchanged otherwise.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Recursive Build Path.vi`
 - **Kind**: VI
@@ -321,7 +339,8 @@ Build path or return file path.
 
 ## Recursive File List2.vi
 
-Recursively lists every file under Folder Path whose name matches pattern, honouring the folder exclusion regular expression. Set Treat LLBs as Folders? to look inside LLBs as well, and Continue Recursing on Error? (F) to carry on past a folder that cannot be read.
+中文：递归列出 Folder Path 下名称匹配 pattern 的所有文件，并遵循文件夹排除正则表达式。将 Treat LLBs as Folders? 设为 TRUE，可同时搜索 LLB 内部；将 Continue Recursing on Error? (F) 设为 TRUE，可在文件夹无法读取时继续搜索。
+English: Recursively lists every file under Folder Path whose name matches pattern, honouring the folder exclusion regular expression. Set Treat LLBs as Folders? to look inside LLBs as well, and Continue Recursing on Error? (F) to carry on past a folder that cannot be read.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Recursive File List2.vi`
 - **Kind**: VI
@@ -350,7 +369,8 @@ Lists the contents of a folder or LLB.
 
 ## Recursive Folder List.vi
 
-Recursively lists every folder under Folder Path whose name matches pattern, skipping the names listed in Folders to Exclude.
+中文：递归列出 Folder Path 下名称匹配 pattern 的所有文件夹，并跳过 Folders to Exclude 中列出的名称。
+English: Recursively lists every folder under Folder Path whose name matches pattern, skipping the names listed in Folders to Exclude.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Recursive Folder List.vi`
 - **Kind**: VI
@@ -376,7 +396,8 @@ Lists the contents of a folder or LLB.
 
 ## Recursive Folder List2.vi
 
-Recursively lists every folder under Folder Path whose name matches pattern. Folders to Exclude takes a regular expression and defaults to ^[_.], so hidden and underscore-prefixed folders are skipped.
+中文：递归列出 Folder Path 下名称匹配 pattern 的所有文件夹。Folders to Exclude 接受正则表达式，默认值为 ^[_.]，因此会跳过隐藏文件夹和以下划线开头的文件夹。
+English: Recursively lists every folder under Folder Path whose name matches pattern. Folders to Exclude takes a regular expression and defaults to ^[_.], so hidden and underscore-prefixed folders are skipped.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Recursive Folder List2.vi`
 - **Kind**: VI
@@ -402,7 +423,8 @@ Lists the contents of a folder or LLB.
 
 ## Recursive Remove Contained Empty Folders.vi
 
-Deletes every empty folder below Path, working from the deepest level upwards so folders that only become empty are removed as well.
+中文：删除 Path 下的所有空文件夹，并从最深层开始向上处理，因此因删除下层内容而变为空的文件夹也会一并删除。
+English: Deletes every empty folder below Path, working from the deepest level upwards so folders that only become empty are removed as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Recursive Remove Contained Empty Folders.vi`
 - **Kind**: VI
@@ -423,7 +445,8 @@ Remove empty folders.
 
 ## Topmost VI Directory.vi
 
-Returns the directory of the top-level VI with Relative path (.) appended. In the development environment it falls back to the application directory.
+中文：返回顶层 VI 所在目录，并追加 Relative path (.)。在开发环境中，若无法获取该目录，则回退到应用程序目录。
+English: Returns the directory of the top-level VI with Relative path (.) appended. In the development environment it falls back to the application directory.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Topmost VI Directory.vi`
 - **Kind**: VI
@@ -435,7 +458,8 @@ Returns the directory of the top-level VI with Relative path (.) appended. In th
 
 ## Use Application Directory if Input is Empty.vi
 
-Returns Directory unchanged, and substitutes the application directory when the input path is empty.
+中文：原样返回 Directory；若输入路径为空，则替换为应用程序目录。
+English: Returns Directory unchanged, and substitutes the application directory when the input path is empty.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/Use Application Directory if Input is Empty.vi`
 - **Kind**: VI
@@ -457,7 +481,8 @@ Use application directory if input path is not exist.
 
 ### Log Channels to TDMS.vi
 
-Opens a TDMS file and writes the name and type information of every channel in channel names together with the matching values from Array, then closes the file. Limit caps the number of samples per channel, and TimeChannel names the channel used for the time axis (empty to skip it).
+中文：打开 TDMS 文件，将每个通道的名称和类型信息写入 channel names，并写入 Array 中对应的值，然后关闭文件。Limit 限制每个通道的样本数；TimeChannel 指定用于时间轴的通道名称（为空时跳过该通道）。
+English: Opens a TDMS file and writes the name and type information of every channel in channel names together with the matching values from Array, then closes the file. Limit caps the number of samples per channel, and TimeChannel names the channel used for the time axis (empty to skip it).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/TDMS/Log Channels to TDMS.vi`
 - **Kind**: VI
@@ -487,7 +512,8 @@ Log channels data and channel group information.
 
 ### TxtFile Append.vi
 
-Appends Content to the text file in Config File dir, creating the folder and the file when they are missing.
+中文：将 Content 追加到 Config File dir 中的文本文件；若文件夹或文件不存在，则创建它们。
+English: Appends Content to the text file in Config File dir, creating the folder and the file when they are missing.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/TextFile/TxtFile Append.vi`
 - **Kind**: VI
@@ -510,7 +536,8 @@ Append text file.
 
 ### TxtFile Load.vi
 
-Reads a text file and returns its contents. A file encoded as UTF-8 is converted to text, so non-ASCII characters are read correctly.
+中文：读取文本文件并返回其内容。UTF-8 编码的文件会转换为文本，因此非 ASCII 字符也能正确读取。
+English: Reads a text file and returns its contents. A file encoded as UTF-8 is converted to text, so non-ASCII characters are read correctly.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/TextFile/TxtFile Load.vi`
 - **Kind**: VI
@@ -532,7 +559,8 @@ Read text file.
 
 ### TxtFile Save.vi
 
-Writes text to the file at Path, creating the containing folder when it does not exist.
+中文：将文本写入 Path 指定的文件；若其所在文件夹不存在，则创建该文件夹。
+English: Writes text to the file at Path, creating the containing folder when it does not exist.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/TextFile/TxtFile Save.vi`
 - **Kind**: VI
@@ -556,7 +584,8 @@ Write text file.
 
 ### XML_AppendSubContent.vi
 
-Appends Append Content before the closing tag of the outermost element in XML in, so a child element can be added to an existing document.
+中文：将 Append Content 添加到 XML in 最外层元素的结束标签之前，以便向现有文档添加子元素。
+English: Appends Append Content before the closing tag of the outermost element in XML in, so a child element can be added to an existing document.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_AppendSubContent.vi`
 - **Kind**: VI
@@ -569,7 +598,8 @@ Appends Append Content before the closing tag of the outermost element in XML in
 
 ### XML_CheckExist.vi
 
-Reports whether XML in contains an element with the given label.
+中文：报告 XML in 是否包含指定 label 的元素。
+English: Reports whether XML in contains an element with the given label.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_CheckExist.vi`
 - **Kind**: VI
@@ -586,7 +616,8 @@ Reports whether XML in contains an element with the given label.
 
 ### XML_FoundValueByKey.vi
 
-Searches an array of key-value pairs for key and returns found? together with the matching value.
+中文：在键值对数组中查找 key，并同时返回 found? 和匹配的值。
+English: Searches an array of key-value pairs for key and returns found? together with the matching value.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_FoundValueByKey.vi`
 - **Kind**: VI
@@ -602,7 +633,8 @@ Searches an array of key-value pairs for key and returns found? together with th
 
 ### XML_GetTag.vi
 
-Returns the name of the outermost tag in XML.
+中文：返回 XML 中最外层标签的名称。
+English: Returns the name of the outermost tag in XML.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_GetTag.vi`
 - **Kind**: VI
@@ -615,7 +647,8 @@ Returns the name of the outermost tag in XML.
 
 ### XML_Load.vi
 
-Reads an XML file and returns its content as an array of strings, with the line breaks and indentation removed.
+中文：读取 XML 文件并以字符串数组形式返回其内容，同时移除换行符和缩进。
+English: Reads an XML file and returns its content as an array of strings, with the line breaks and indentation removed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_Load.vi`
 - **Kind**: VI
@@ -629,7 +662,8 @@ Reads an XML file and returns its content as an array of strings, with the line 
 
 ### XML_MatchLabel.vi
 
-Extracts every key-value pair found in an XML fragment into an array, using a regular expression over the attribute text.
+中文：使用正则表达式检查属性文本，并将 XML 片段中的每个键值对提取到数组中。
+English: Extracts every key-value pair found in an XML fragment into an array, using a regular expression over the attribute text.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_MatchLabel.vi`
 - **Kind**: VI
@@ -643,7 +677,8 @@ Extracts every key-value pair found in an XML fragment into an array, using a re
 
 ### XML_MatchPatten.vi
 
-Splits XML at the first or last occurrence of the element named by tag, starting the search at offset, and returns the text before and after the match together with the offset past it.
+中文：从 offset 开始搜索，在 XML in 中第一个或最后一个匹配 Tag 指定元素的位置处分割，并返回匹配前后的文本以及匹配后的偏移量。
+English: Splits XML at the first or last occurrence of the element named by tag, starting the search at offset, and returns the text before and after the match together with the offset past it.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_MatchPatten.vi`
 - **Kind**: VI
@@ -661,7 +696,8 @@ Splits XML at the first or last occurrence of the element named by tag, starting
 
 ### XML_Parse.vi
 
-Parses the element named Tag out of XML and returns its content, the surrounding before and after substrings, and the element's attributes as key-value pairs.
+中文：从 XML 中解析出名为 Tag 的元素，并返回其内容、前后文本片段以及以键值对形式表示的元素属性。
+English: Parses the element named Tag out of XML and returns its content, the surrounding before and after substrings, and the element's attributes as key-value pairs.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_Parse.vi`
 - **Kind**: VI
@@ -680,7 +716,8 @@ Parses the element named Tag out of XML and returns its content, the surrounding
 
 ### XML_StripContent.vi
 
-Removes the element named Tag from XML and returns the content of that element separately.
+中文：从 XML 中移除名为 Tag 的元素，并单独返回该元素的内容。
+English: Removes the element named Tag from XML and returns the content of that element separately.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_StripContent.vi`
 - **Kind**: VI
@@ -694,7 +731,8 @@ Removes the element named Tag from XML and returns the content of that element s
 
 ### XML_ValidateCompleteness.vi
 
-Returns TRUE when XML contains both the opening and the closing tag of the element named Tag, which detects a truncated document.
+中文：当 XML 同时包含名为 Tag 的元素的开始标签和结束标签时返回 TRUE，可用于检测文档是否被截断。
+English: Returns TRUE when XML contains both the opening and the closing tag of the element named Tag, which detects a truncated document.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/File/XML/XML_ValidateCompleteness.vi`
 - **Kind**: VI

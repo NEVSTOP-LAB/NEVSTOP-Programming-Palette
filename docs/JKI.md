@@ -1,12 +1,14 @@
 # JKI
 
-JKI state machine helpers and state iterators.
+中文：JKI 状态机辅助工具和状态迭代器。
+English: JKI state machine helpers and state iterators.
 
 5 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/JKI`.
 
 ## JKI Insert State by Bool.vi
 
-Builds the next JKI state string from a boolean: the string wired to TRUE(Empty) or False(Empty) is inserted, before or after Remaining States depending on High Priority(FALSE).
+中文：根据布尔值构建下一个 JKI 状态字符串：连线到 TRUE(Empty) 或 False(Empty) 的字符串会插入到 Remaining States 之前或之后，具体位置由 High Priority(FALSE) 决定。
+English: Builds the next JKI state string from a boolean: the string wired to TRUE(Empty) or False(Empty) is inserted, before or after Remaining States depending on High Priority(FALSE).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/JKI/JKI Insert State by Bool.vi`
 - **Kind**: VI
@@ -30,7 +32,8 @@ Depending on the High Priority and Bool input, this VI generates a concatenated 
 
 ## JKI State Machine.vi
 
-JKI State Machine template with linked message, data and error tunnels and the OK button event case removed. Use it as the starting point for a JKI state machine.
+中文：JKI 状态机模板，其中保留了连接的 message、data 和 error 隧道，并移除了 OK 按钮事件分支。可将其用作 JKI 状态机的起点。
+English: JKI State Machine template with linked message, data and error tunnels and the OK button event case removed. Use it as the starting point for a JKI state machine.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/JKI/JKI State Machine.vi`
 - **Kind**: VI
@@ -47,7 +50,8 @@ Same as JKI State Machine Template. Linked message,data and error tunnels. Remov
 
 ## State Iterator With Stop.vim
 
-Iterates a state enum from Start State to End State one value per call. When Stop? is TRUE the current iteration is still completed, so the iteration always ends on End State.
+中文：每次调用将状态枚举从 Start State 迭代一个值，直至 End State。即使 Stop? 为 TRUE，当前迭代仍会完成，因此迭代始终在 End State 结束。
+English: Iterates a state enum from Start State to End State one value per call. When Stop? is TRUE the current iteration is still completed, so the iteration always ends on End State.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/JKI/State Iterator With Stop.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -71,7 +75,8 @@ This VI iterates the states specified from Start State to End State in StateMach
 
 ## State Iterator(Advance).vim
 
-Iterates a state enum from Start State to End State, one value per call, advancing by index.
+中文：每次调用将状态枚举从 Start State 迭代一个值，直至 End State，并按索引推进。
+English: Iterates a state enum from Start State to End State, one value per call, advancing by index.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/JKI/State Iterator(Advance).vim`
 - **Kind**: polymorphic VI (.vim)
@@ -93,7 +98,8 @@ This VI iterates states specified by the indexes in StateMachine Enum input sequ
 
 ## State Iterator.vim
 
-Iterates a state enum one value per call, wrapping back to the first state after the last one.
+中文：每次调用将状态枚举迭代一个值；到达最后一个状态后，会回到第一个状态继续循环。
+English: Iterates a state enum one value per call, wrapping back to the first state after the last one.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/JKI/State Iterator.vim`
 - **Kind**: polymorphic VI (.vim)

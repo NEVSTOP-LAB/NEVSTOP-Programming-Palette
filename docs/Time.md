@@ -1,12 +1,14 @@
 # Time
 
-Timing helpers: periodic triggers, timeouts, elapsed time and pacing.
+中文：计时辅助工具：周期性触发、超时、已用时间和循环节拍控制。
+English: Timing helpers: periodic triggers, timeouts, elapsed time and pacing.
 
 9 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Time`.
 
 ## Background UI Trigger Timer.vi
 
-Monitors a VI in the background and returns TRUE when its front panel is maximised, restored or updated, checked at the Backstage Update Period (ms) interval.
+中文：在后台监视 VI，并按 Backstage Update Period (ms) 指定的间隔检查其前面板是否最大化、还原或更新；发生这些情况时返回 TRUE。
+English: Monitors a VI in the background and returns TRUE when its front panel is maximised, restored or updated, checked at the Backstage Update Period (ms) interval.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Background UI Trigger Timer.vi`
 - **Kind**: VI
@@ -30,7 +32,8 @@ Detects the running state of the VI in the background and triggers when the VI i
 
 ## Diff Timer.vi
 
-Returns the time in seconds since the previous call, measured with the high-resolution relative seconds counter.
+中文：返回自上次调用以来经过的时间（秒），该时间由高分辨率相对秒计数器测得。
+English: Returns the time in seconds since the previous call, measured with the high-resolution relative seconds counter.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Diff Timer.vi`
 - **Kind**: VI
@@ -51,7 +54,8 @@ Detects the time difference of each cycle of VI operation.
 
 ## Get Time in Second with Error Input.vi
 
-Returns the current time in seconds as a timestamp and passes the error cluster through.
+中文：以时间戳形式返回当前时间（秒），并原样传递错误簇。
+English: Returns the current time in seconds as a timestamp and passes the error cluster through.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Get Time in Second with Error Input.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -63,7 +67,8 @@ Returns the current time in seconds as a timestamp and passes the error cluster 
 
 ## Periodic Trigger Timer.vi
 
-Returns TRUE once per time interval and FALSE the rest of the time. Wire reset to restart the interval.
+中文：每个时间间隔返回一次 TRUE，其余时间返回 FALSE。将 reset 连线可重新开始计时。
+English: Returns TRUE once per time interval and FALSE the rest of the time. Wire reset to restart the interval.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Periodic Trigger Timer.vi`
 - **Kind**: VI
@@ -85,7 +90,8 @@ This VI will periodically output a Boolean TRUE on a specified time interval.  T
 
 ## Tick Count (ms).vi
 
-Returns the millisecond timer value of the Tick Count (ms) primitive with error in and error out terminals added.
+中文：返回 Tick Count (ms) 原语的毫秒计时值，并增加 error in 和 error out 端子。
+English: Returns the millisecond timer value of the Tick Count (ms) primitive with error in and error out terminals added.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Tick Count (ms).vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -105,7 +111,8 @@ Tick Count (ms) primitive with added error handling
 
 ## TimeKeeper(ms).vi
 
-Holds for the configured period while returning the elapsed time, so a loop can be paced to a fixed period. Wire Reset?(F) to restart.
+中文：等待指定的周期，同时返回已用时间，从而使循环按固定周期运行。将 Reset?(F) 连线可重新开始计时。
+English: Holds for the configured period while returning the elapsed time, so a loop can be paced to a fixed period. Wire Reset?(F) to restart.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/TimeKeeper(ms).vi`
 - **Kind**: VI
@@ -128,7 +135,8 @@ Enter a period and this VI will hold for a period of time based on the input whi
 
 ## Timeout Timer.vi
 
-Reports whether the configured timeout has elapsed and returns the time since the timer was last reset.
+中文：报告指定的超时是否已经到期，并返回自计时器上次重置以来经过的时间。
+English: Reports whether the configured timeout has elapsed and returns the time since the timer was last reset.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Timeout Timer.vi`
 - **Kind**: VI
@@ -149,7 +157,8 @@ Enter the desired timeout and this VI will tell you whether to time out or not.
 
 ## Use Current Time If Input is Empty.vi
 
-Passes a timestamp through unchanged, and substitutes the current time when the input timestamp is empty.
+中文：原样传递时间戳；若输入时间戳为空，则替换为当前时间。
+English: Passes a timestamp through unchanged, and substitutes the current time when the input timestamp is empty.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Use Current Time If Input is Empty.vi`
 - **Kind**: VI
@@ -168,7 +177,8 @@ Input a timestamp and output it directly when the timestamp is normal, and outpu
 
 ## Wait If Error(ms).vi
 
-Waits the given number of milliseconds and passes the error cluster through unchanged.
+中文：等待指定的毫秒数，并原样传递错误簇。
+English: Waits the given number of milliseconds and passes the error cluster through unchanged.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Time/Wait If Error(ms).vi`
 - **Kind**: VI

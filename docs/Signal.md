@@ -1,12 +1,17 @@
 # Signal
 
-Signal conditioning on booleans and numbers: edges, latency, filtering and countdown.
+中文：布尔值和数值信号处理工具：边沿检测、延迟、滤波和倒计数。
+English: Signal conditioning on booleans and numbers: edges, latency, filtering and countdown.
 
 9 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Signal`.
 
+中文：说明：以下部分 VI 名称沿用原始文件名，可能包含历史拼写（例如 Keeped）；文档按原名保留以便与项目文件一一对应。
+English: Note: some VI names below keep original filenames and may include legacy spellings (for example Keeped); documentation preserves original names for exact file mapping.
+
 ## Change Keeped Value.vim
 
-Holds a value across calls: the output follows the new value while change? is TRUE, and keeps the last accepted value while change? is FALSE.
+中文：在多次调用之间保留一个值：当 change? 为 TRUE 时，输出采用新值；当 change? 为 FALSE 时，输出保持上一次接受的值。
+English: Holds a value across calls: the output follows the new value while change? is TRUE, and keeps the last accepted value while change? is FALSE.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Change Keeped Value.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -28,7 +33,8 @@ If the change? terminal is set to TRUE, the VI outputs the keeped value that is 
 
 ## Falling Edge.vi
 
-Returns TRUE for one call when signal changes from TRUE to FALSE.
+中文：当 Signal 从 TRUE 变为 FALSE 时，仅在一次调用中返回 TRUE。
+English: Returns TRUE for one call when signal changes from TRUE to FALSE.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Falling Edge.vi`
 - **Kind**: VI
@@ -47,7 +53,8 @@ To detect signal falling edge from boolean 1 to 0.
 
 ## Number Count Down.vi
 
-Polymorphic wrapper that counts a number down once per call, for a single value or for every element of an array.
+中文：多态封装 VI：每次调用将数值减一，既可处理单个值，也可处理数组中的每个元素。
+English: Polymorphic wrapper that counts a number down once per call, for a single value or for every element of an array.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Number Count Down.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -56,7 +63,8 @@ Polymorphic wrapper that counts a number down once per call, for a single value 
 
 ## Rising Edge.vi
 
-Returns TRUE for one call when signal changes from FALSE to TRUE.
+中文：当 Signal 从 FALSE 变为 TRUE 时，仅在一次调用中返回 TRUE。
+English: Returns TRUE for one call when signal changes from FALSE to TRUE.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Rising Edge.vi`
 - **Kind**: VI
@@ -75,7 +83,8 @@ To detect signal rising edge from boolean 0 to 1.
 
 ## Signal Change Detector with Period.vim
 
-Measures how long Signal has been unchanged and returns TRUE while that time is still within the target period (ms). Wire reset(F) to restart the measurement.
+中文：测量 Signal 保持不变的时长；当该时长仍在目标周期 (ms) 内时返回 TRUE。将 reset(F) 连线可重新开始测量。
+English: Measures how long Signal has been unchanged and returns TRUE while that time is still within the target period (ms). Wire reset(F) to restart the measurement.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Signal Change Detector with Period.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -98,7 +107,8 @@ Indicates the time that has elapsed since signal changed and also reture true if
 
 ## Signal Change with Latency.vim
 
-Follows Signal but applies the timing duration (ms) to both transitions, so a change shorter than that duration is filtered out. The time elapsed since the last change is returned as well.
+中文：跟随 Signal，但对两个方向的状态转换都应用 timing duration (ms)，因此持续时间短于该时长的变化会被滤除。此 VI 还会返回自上次变化以来经过的时间。
+English: Follows Signal but applies the timing duration (ms) to both transitions, so a change shorter than that duration is filtered out. The time elapsed since the last change is returned as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Signal Change with Latency.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -122,7 +132,8 @@ The output signal(safe) follows input signal. Signal(safe) turns F and T with a 
 
 ## Toggle Output(U64).vi
 
-Toggles the Signal output every time the iteration count reaches the configured period. Wire reset(F) to restart the toggle period.
+中文：每当迭代计数达到设定周期时，切换 Signal 输出。将 reset(F) 连线可重新开始切换周期。
+English: Toggles the Signal output every time the iteration count reaches the configured period. Wire reset(F) to restart the toggle period.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Toggle Output(U64).vi`
 - **Kind**: VI
@@ -142,7 +153,8 @@ Setting numbers of iteration as toggle period.
 
 ## Turn F Immediatly But Ture T with Latency.vi
 
-Follows Signal, turning the output FALSE immediately but delaying the transition to TRUE by the timing duration (ms).
+中文：跟随 Signal；输出立即变为 FALSE，但变为 TRUE 的转换会延迟 timing duration (ms)。
+English: Follows Signal, turning the output FALSE immediately but delaying the transition to TRUE by the timing duration (ms).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Turn F Immediatly But Ture T with Latency.vi`
 - **Kind**: VI
@@ -165,7 +177,8 @@ The output signal(safe) follows input signal. Signal(safe) turns F immediately a
 
 ## Turn T Immediatly But Ture F with Latency.vi
 
-Follows Signal, turning the output TRUE immediately but delaying the transition to FALSE by the timing duration (ms).
+中文：跟随 Signal；输出立即变为 TRUE，但变为 FALSE 的转换会延迟 timing duration (ms)。
+English: Follows Signal, turning the output TRUE immediately but delaying the transition to FALSE by the timing duration (ms).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Signal/Turn T Immediatly But Ture F with Latency.vi`
 - **Kind**: VI
