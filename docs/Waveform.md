@@ -1,12 +1,14 @@
 # Waveform
 
-Waveform construction from arrays, FFT data and generated signals.
+中文：Waveform construction from arrays, FFT data and generated signals.
+English: Waveform construction from arrays, FFT data and generated signals.
 
 3 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Waveform`.
 
 ## Double Array To Waveform.vi
 
-Builds waveforms from one or more double arrays, using each array as the Y data and the current time as t0.
+中文：Builds waveforms from one or more double arrays, using each array as the Y data and the current time as t0.
+English: Builds waveforms from one or more double arrays, using each array as the Y data and the current time as t0.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Waveform/Double Array To Waveform.vi`
 - **Kind**: VI
@@ -25,7 +27,8 @@ Input one or more double array. This VI well automatically generate waveforms fr
 
 ## FFTData To Waveform.vi
 
-Converts FFT data into waveforms, mapping f0 to t0, df to dt and the real part to Y.
+中文：Converts FFT data into waveforms, mapping f0 to t0, df to dt and the real part to Y.
+English: Converts FFT data into waveforms, mapping f0 to t0, df to dt and the real part to Y.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Waveform/FFTData To Waveform.vi`
 - **Kind**: VI
@@ -44,7 +47,8 @@ Input a FFT signal. This VI will converting FFT signal to waveform. The "f0" in 
 
 ## Generate Random Waveform.vi
 
-Generates sine, triangle, sawtooth or square waveforms from the settings cluster. Frequency, amplitude and phase vary randomly within the ranges given by range and amplitude.
+中文：Generates sine, triangle, sawtooth or square waveforms from the settings cluster. Frequency, amplitude and phase vary randomly within the ranges given by range and amplitude.
+English: Generates sine, triangle, sawtooth or square waveforms from the settings cluster. Frequency, amplitude and phase vary randomly within the ranges given by range and amplitude.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Waveform/Generate Random Waveform.vi`
 - **Kind**: VI

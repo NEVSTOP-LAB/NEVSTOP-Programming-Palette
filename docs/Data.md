@@ -1,12 +1,14 @@
 # Data
 
-Data type inspection and conversion, plus the Tag reader and writer XNodes.
+中文：Data type inspection and conversion, plus the Tag reader and writer XNodes.
+English: Data type inspection and conversion, plus the Tag reader and writer XNodes.
 
 37 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Data`.
 
 ## ArrayToCluster.vi
 
-Converts an array into a cluster, taking the element types from the array's own type information.
+中文：Converts an array into a cluster, taking the element types from the array's own type information.
+English: Converts an array into a cluster, taking the element types from the array's own type information.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/ArrayToCluster.vi`
 - **Kind**: VI
@@ -27,7 +29,8 @@ This VI converts an array to a cluster.
 
 ## Change Data With Attributes.vim
 
-Polymorphic VI that copies the attributes of Variant in onto the Data input and returns the result as a variant, so a new value can be carried together with the original attributes.
+中文：Polymorphic VI that copies the attributes of Variant in onto the Data input and returns the result as a variant, so a new value can be carried together with the original attributes.
+English: Polymorphic VI that copies the attributes of Variant in onto the Data input and returns the result as a variant, so a new value can be carried together with the original attributes.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Change Data With Attributes.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -49,7 +52,8 @@ This VI retrieves the names and data from Variant in and sets them in the Data i
 
 ## Changed Data Filter(FNiN).vim
 
-Filters variant data according to the length of checked data, padding shorter inputs with zeros. Wire Reset(F) to control whether the filtering runs on this call.
+中文：Filters variant data according to the length of checked data, padding shorter inputs with zeros. Wire Reset(F) to control whether the filtering runs on this call.
+English: Filters variant data according to the length of checked data, padding shorter inputs with zeros. Wire Reset(F) to control whether the filtering runs on this call.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Changed Data Filter(FNiN).vim`
 - **Kind**: polymorphic VI (.vim)
@@ -75,7 +79,8 @@ This VI is used to gilter the input variant data according to the length of chec
 
 ## Clear Mutation History of lvClass.vi
 
-Clears the mutation history stored in the LabVIEW class at Path and returns the history records that were removed.
+中文：Clears the mutation history stored in the LabVIEW class at Path and returns the history records that were removed.
+English: Clears the mutation history stored in the LabVIEW class at Path and returns the history records that were removed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Clear Mutation History of lvClass.vi`
 - **Kind**: VI
@@ -89,7 +94,8 @@ Clears the mutation history stored in the LabVIEW class at Path and returns the 
 
 ## ClusterToArray.vi
 
-Converts a cluster into an array, taking the element type from the cluster's type information so it works for any cluster.
+中文：Converts a cluster into an array, taking the element type from the cluster's type information so it works for any cluster.
+English: Converts a cluster into an array, taking the element type from the cluster's type information so it works for any cluster.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/ClusterToArray.vi`
 - **Kind**: VI
@@ -111,7 +117,8 @@ This VI converts a cluster to an array by specifying it to the array type.
 
 ## Data To SingleElementsArray.vi
 
-Flattens a cluster into an array of its individual elements, naming each by its path below parentUrl joined with Seperator. The flat name list and a two-dimensional tree description are returned as well.
+中文：Flattens a cluster into an array of its individual elements, naming each by its path below parentUrl joined with Seperator. The flat name list and a two-dimensional tree description are returned as well.
+English: Flattens a cluster into an array of its individual elements, naming each by its path below parentUrl joined with Seperator. The flat name list and a two-dimensional tree description are returned as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Data To SingleElementsArray.vi`
 - **Kind**: VI
@@ -137,7 +144,8 @@ This VI converts a Cluster to a DataElementArray with each elements specified by
 
 ## Enum Data Patch.vi
 
-Patches the string values of an enum carried in data in, using the enum type information in Ref, so an enum whose labels have changed still decodes correctly.
+中文：Patches the string values of an enum carried in data in, using the enum type information in Ref, so an enum whose labels have changed still decodes correctly.
+English: Patches the string values of an enum carried in data in, using the enum type information in Ref, so an enum whose labels have changed still decodes correctly.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Enum Data Patch.vi`
 - **Kind**: VI
@@ -160,7 +168,8 @@ This VI patches the Enum Data by setting the string value specified by Ref.
 
 ## Feedback Node with Reset.vim
 
-Polymorphic VI that stores and returns the previous value of checked data, with a Reset(F) input that clears the stored value.
+中文：Polymorphic VI that stores and returns the previous value of checked data, with a Reset(F) input that clears the stored value.
+English: Polymorphic VI that stores and returns the previous value of checked data, with a Reset(F) input that clears the stored value.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Feedback Node with Reset.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -180,7 +189,8 @@ This VI creates a feedback node with a reset button.
 
 ## Get DataType Description.vi
 
-Palette helper grouping the data type description VIs, which return a readable description and an MD5 hash for a data type.
+中文：Palette helper grouping the data type description VIs, which return a readable description and an MD5 hash for a data type.
+English: Palette helper grouping the data type description VIs, which return a readable description and an MD5 hash for a data type.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Get DataType Description.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -189,7 +199,8 @@ Palette helper grouping the data type description VIs, which return a readable d
 
 ## SingleElementsArray To Data.vi
 
-Rebuilds a cluster from an array of named elements, using Pototype to supply the target type.
+中文：Rebuilds a cluster from an array of named elements, using Pototype to supply the target type.
+English: Rebuilds a cluster from an array of named elements, using Pototype to supply the target type.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/SingleElementsArray To Data.vi`
 - **Kind**: VI
@@ -214,7 +225,8 @@ This VI converts a DataELementArray to a Cluster.
 
 ### List Tags.vim
 
-Polymorphic VI that lists the tag names held in a tag map data value reference into an array, optionally together with their values.
+中文：Polymorphic VI that lists the tag names held in a tag map data value reference into an array, optionally together with their values.
+English: Polymorphic VI that lists the tag names held in a tag map data value reference into an array, optionally together with their values.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/List Tags.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -230,7 +242,8 @@ Polymorphic VI that lists the tag names held in a tag map data value reference i
 
 ### Read Tag.vim
 
-Polymorphic VI that reads the value stored under name from a tag map and reports whether the tag was found. Wire Type to select the data type of the returned value.
+中文：Polymorphic VI that reads the value stored under name from a tag map and reports whether the tag was found. Wire Type to select the data type of the returned value.
+English: Polymorphic VI that reads the value stored under name from a tag map and reports whether the tag was found. Wire Type to select the data type of the returned value.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/Read Tag.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -247,7 +260,8 @@ Polymorphic VI that reads the value stored under name from a tag map and reports
 
 ### Write Tag.vim
 
-Polymorphic VI that stores Value under name in a tag map, adding the tag when it is not present yet.
+中文：Polymorphic VI that stores Value under name in a tag map, adding the tag when it is not present yet.
+English: Polymorphic VI that stores Value under name in a tag map, adding the tag when it is not present yet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/Write Tag.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -264,7 +278,8 @@ Polymorphic VI that stores Value under name in a tag map, adding the tag when it
 
 ### AdaptToInputs.vi
 
-Read Tag XNode script that adapts the node's terminals to the data types wired to its inputs.
+中文：Read Tag XNode script that adapts the node's terminals to the data types wired to its inputs.
+English: Read Tag XNode script that adapts the node's terminals to the data types wired to its inputs.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/AdaptToInputs.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -279,7 +294,8 @@ Read Tag XNode script that adapts the node's terminals to the data types wired t
 
 ### GenCodeScripts-AddSubVI.vi
 
-Read Tag XNode script that places the subVI the generated code needs onto the caller's block diagram.
+中文：Read Tag XNode script that places the subVI the generated code needs onto the caller's block diagram.
+English: Read Tag XNode script that places the subVI the generated code needs onto the caller's block diagram.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/GenCodeScripts-AddSubVI.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -296,7 +312,8 @@ Read Tag XNode script that places the subVI the generated code needs onto the ca
 
 ### GenCodeScripts-ReplaceContent.vi
 
-Read Tag XNode script that opens the code template and replaces its placeholder content with the generated terms.
+中文：Read Tag XNode script that opens the code template and replaces its placeholder content with the generated terms.
+English: Read Tag XNode script that opens the code template and replaces its placeholder content with the generated terms.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/GenCodeScripts-ReplaceContent.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -313,7 +330,8 @@ Read Tag XNode script that opens the code template and replaces its placeholder 
 
 ### GenerateCode.vi
 
-Read Tag XNode script that generates the block diagram code performing the tag read, and reports whether code was generated.
+中文：Read Tag XNode script that generates the block diagram code performing the tag read, and reports whether code was generated.
+English: Read Tag XNode script that generates the block diagram code performing the tag read, and reports whether code was generated.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/GenerateCode.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -331,7 +349,8 @@ Read Tag XNode script that generates the block diagram code performing the tag r
 
 ### GetDisplayName3.vi
 
-Read Tag XNode script that returns the type name and instance name displayed on the node.
+中文：Read Tag XNode script that returns the type name and instance name displayed on the node.
+English: Read Tag XNode script that returns the type name and instance name displayed on the node.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/GetDisplayName3.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -345,7 +364,8 @@ Read Tag XNode script that returns the type name and instance name displayed on 
 
 ### GetImage.vi
 
-Read Tag XNode script that returns the picture drawn on the node.
+中文：Read Tag XNode script that returns the picture drawn on the node.
+English: Read Tag XNode script that returns the picture drawn on the node.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/GetImage.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -359,7 +379,8 @@ Read Tag XNode script that returns the picture drawn on the node.
 
 ### GetTerms4.vi
 
-Read Tag XNode script that describes the node's connector pane terminals, including their names, types, bounds and directions.
+中文：Read Tag XNode script that describes the node's connector pane terminals, including their names, types, bounds and directions.
+English: Read Tag XNode script that describes the node's connector pane terminals, including their names, types, bounds and directions.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/GetTerms4.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -373,7 +394,8 @@ Read Tag XNode script that describes the node's connector pane terminals, includ
 
 ### Initialize.vi
 
-Read Tag XNode script that initialises the node's state.
+中文：Read Tag XNode script that initialises the node's state.
+English: Read Tag XNode script that initialises the node's state.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/Initialize.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -383,7 +405,8 @@ Read Tag XNode script that initialises the node's state.
 
 ### UpdateState2.vi
 
-Read Tag XNode script that refreshes the node state when its version or the wired types change, and reports whether the state is still good.
+中文：Read Tag XNode script that refreshes the node state when its version or the wired types change, and reports whether the state is still good.
+English: Read Tag XNode script that refreshes the node state when its version or the wired types change, and reports whether the state is still good.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/UpdateState2.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -399,7 +422,8 @@ Read Tag XNode script that refreshes the node state when its version or the wire
 
 ### xnode_ConnectPane.vi
 
-XNode helper that returns the connector pane direction and bounds for the terminal at the given index.
+中文：XNode helper that returns the connector pane direction and bounds for the terminal at the given index.
+English: XNode helper that returns the connector pane direction and bounds for the terminal at the given index.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/xnode_ConnectPane.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -411,7 +435,8 @@ XNode helper that returns the connector pane direction and bounds for the termin
 
 ### xnode_FindTerms.vi
 
-XNode helper that returns the code generation term matching the terminal reference it is given.
+中文：XNode helper that returns the code generation term matching the terminal reference it is given.
+English: XNode helper that returns the code generation term matching the terminal reference it is given.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/xnode_FindTerms.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -423,7 +448,8 @@ XNode helper that returns the code generation term matching the terminal referen
 
 ### xnode_ShowDiagram.vi
 
-XNode helper that shows or hides the generated block diagram according to show?.
+中文：XNode helper that shows or hides the generated block diagram according to show?.
+English: XNode helper that shows or hides the generated block diagram according to show?.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/ReadTag/xnode_ShowDiagram.vi`
 - **Kind**: VI; member of ReadTag.xnode; XNode script
@@ -439,7 +465,8 @@ XNode helper that shows or hides the generated block diagram according to show?.
 
 ### AdaptToInputs.vi
 
-Write Tag XNode script that adapts the node's terminals to the data types wired to its inputs.
+中文：Write Tag XNode script that adapts the node's terminals to the data types wired to its inputs.
+English: Write Tag XNode script that adapts the node's terminals to the data types wired to its inputs.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/AdaptToInputs.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -454,7 +481,8 @@ Write Tag XNode script that adapts the node's terminals to the data types wired 
 
 ### GenCodeScripts-AddSubVI.vi
 
-Write Tag XNode script that places the subVI the generated code needs onto the caller's block diagram.
+中文：Write Tag XNode script that places the subVI the generated code needs onto the caller's block diagram.
+English: Write Tag XNode script that places the subVI the generated code needs onto the caller's block diagram.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/GenCodeScripts-AddSubVI.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -471,7 +499,8 @@ Write Tag XNode script that places the subVI the generated code needs onto the c
 
 ### GenCodeScripts-ReplaceContent.vi
 
-Write Tag XNode script that opens the code template and replaces its placeholder content with the generated terms.
+中文：Write Tag XNode script that opens the code template and replaces its placeholder content with the generated terms.
+English: Write Tag XNode script that opens the code template and replaces its placeholder content with the generated terms.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/GenCodeScripts-ReplaceContent.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -488,7 +517,8 @@ Write Tag XNode script that opens the code template and replaces its placeholder
 
 ### GenerateCode.vi
 
-Write Tag XNode script that generates the block diagram code performing the tag write, and reports whether code was generated.
+中文：Write Tag XNode script that generates the block diagram code performing the tag write, and reports whether code was generated.
+English: Write Tag XNode script that generates the block diagram code performing the tag write, and reports whether code was generated.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/GenerateCode.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -506,7 +536,8 @@ Write Tag XNode script that generates the block diagram code performing the tag 
 
 ### GetDisplayName3.vi
 
-Write Tag XNode script that returns the type name and instance name displayed on the node.
+中文：Write Tag XNode script that returns the type name and instance name displayed on the node.
+English: Write Tag XNode script that returns the type name and instance name displayed on the node.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/GetDisplayName3.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -520,7 +551,8 @@ Write Tag XNode script that returns the type name and instance name displayed on
 
 ### GetImage.vi
 
-Write Tag XNode script that returns the picture drawn on the node.
+中文：Write Tag XNode script that returns the picture drawn on the node.
+English: Write Tag XNode script that returns the picture drawn on the node.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/GetImage.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -534,7 +566,8 @@ Write Tag XNode script that returns the picture drawn on the node.
 
 ### GetTerms4.vi
 
-Write Tag XNode script that describes the node's connector pane terminals, including their names, types, bounds and directions.
+中文：Write Tag XNode script that describes the node's connector pane terminals, including their names, types, bounds and directions.
+English: Write Tag XNode script that describes the node's connector pane terminals, including their names, types, bounds and directions.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/GetTerms4.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -548,7 +581,8 @@ Write Tag XNode script that describes the node's connector pane terminals, inclu
 
 ### Initialize.vi
 
-Write Tag XNode script that initialises the node's state.
+中文：Write Tag XNode script that initialises the node's state.
+English: Write Tag XNode script that initialises the node's state.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/Initialize.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -558,7 +592,8 @@ Write Tag XNode script that initialises the node's state.
 
 ### UpdateState2.vi
 
-Write Tag XNode script that refreshes the node state when its version or the wired types change, and reports whether the state is still good.
+中文：Write Tag XNode script that refreshes the node state when its version or the wired types change, and reports whether the state is still good.
+English: Write Tag XNode script that refreshes the node state when its version or the wired types change, and reports whether the state is still good.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/UpdateState2.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -574,7 +609,8 @@ Write Tag XNode script that refreshes the node state when its version or the wir
 
 ### xnode_ConnectPane.vi
 
-XNode helper that returns the connector pane direction and bounds for the terminal at the given index.
+中文：XNode helper that returns the connector pane direction and bounds for the terminal at the given index.
+English: XNode helper that returns the connector pane direction and bounds for the terminal at the given index.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/xnode_ConnectPane.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -586,7 +622,8 @@ XNode helper that returns the connector pane direction and bounds for the termin
 
 ### xnode_FindTerms.vi
 
-XNode helper that returns the code generation term matching the terminal reference it is given.
+中文：XNode helper that returns the code generation term matching the terminal reference it is given.
+English: XNode helper that returns the code generation term matching the terminal reference it is given.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/xnode_FindTerms.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script
@@ -598,7 +635,8 @@ XNode helper that returns the code generation term matching the terminal referen
 
 ### xnode_ShowDiagram.vi
 
-XNode helper that shows or hides the generated block diagram according to show?.
+中文：XNode helper that shows or hides the generated block diagram according to show?.
+English: XNode helper that shows or hides the generated block diagram according to show?.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Data/Tag/WriteTag/xnode_ShowDiagram.vi`
 - **Kind**: VI; member of WriteTag.xnode; XNode script

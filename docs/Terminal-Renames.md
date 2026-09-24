@@ -4,7 +4,13 @@ Every connector-pane terminal name that was changed, and why. The name of a term
 **is** the label of the front panel object behind it, so a rename changes what the VI
 shows in Context Help and on its front panel.
 
+中文：这里记录了所有被修改过的连接器窗格终端名称及其原因。终端名称**就是**其背后前面板对象的标签，因此重命名会改变 VI 在 Context Help 和前面板中显示的名称。
+English: Every connector-pane terminal name that was changed, and why. The name of a terminal **is** the label of the front panel object behind it, so a rename changes what the VI shows in Context Help and on its front panel.
+
 ## What counted as a rename
+
+中文：以下情况会被计入“重命名”。
+English: The following categories were counted as renames.
 
 | Category                           | Rule                                                                        |
 | ---------------------------------- | --------------------------------------------------------------------------- |
@@ -22,9 +28,15 @@ their wiring: LabVIEW links a subVI by terminal position and type, not by name. 
 code that reaches a control by _name_ at run time is affected - a `VI Server`
 `Get/Set Control Value` addressed by a string, or a `Call By Reference` pane.
 
+中文：重命名不会改变连接器窗格中的**位置**，因此已有调用方的连线保持不变：LabVIEW 通过端子位置和类型而非名称来连接 subVI。只有运行时按_名称_访问控件的代码会受影响，例如字符串寻址的 `VI Server` `Get/Set Control Value`，或 `Call By Reference` 面板。
+English: Renaming keeps the connector pane **positions** unchanged, so existing callers keep their wiring: LabVIEW links a subVI by terminal position and type, not by name. Only code that reaches a control by _name_ at run time is affected - a `VI Server` `Get/Set Control Value` addressed by a string, or a `Call By Reference` pane.
+
 Nothing here was renamed merely because a different name would also have been
 reasonable. Names that carry a usage hint (`Time(Empty to Use Current Time)`) were
 left alone.
+
+中文：本文档中的重命名并不是为了“换一个也说得通的名字”，而是仅在确有必要时修改。带有使用提示的名称（如 `Time(Empty to Use Current Time)`）保持不变。
+English: Nothing here was renamed merely because a different name would also have been reasonable. Names that carry a usage hint (`Time(Empty to Use Current Time)`) were left alone.
 
 ## Application/Check if Windows Process Exists.vi
 

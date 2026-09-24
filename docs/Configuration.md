@@ -1,6 +1,7 @@
 # Configuration
 
-Reading and writing configuration: cluster/string config tables, Excel sheets and INI files.
+中文：Reading and writing configuration: cluster/string config tables, Excel sheets and INI files.
+English: Reading and writing configuration: cluster/string config tables, Excel sheets and INI files.
 
 52 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Configuration`.
 
@@ -8,7 +9,8 @@ Reading and writing configuration: cluster/string config tables, Excel sheets an
 
 ### Filter Unmarked Lines.vi
 
-Removes the rows of a configuration table whose cell in Col Index does not match unmarked RegExp. Set Ignore Empty Cell? to leave rows with an empty cell in place.
+中文：Removes the rows of a configuration table whose cell in Col Index does not match unmarked RegExp. Set Ignore Empty Cell? to leave rows with an empty cell in place.
+English: Removes the rows of a configuration table whose cell in Col Index does not match unmarked RegExp. Set Ignore Empty Cell? to leave rows with an empty cell in place.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Filter Unmarked Lines.vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -25,7 +27,8 @@ Removes the rows of a configuration table whose cell in Col Index does not match
 
 ### Flatten Cluster To CfgTable(with DataName).vi
 
-Converts a cluster into a two-dimensional configuration table, naming each row after its data path below ParentName. Format and Array delimiters (|) control how values and array elements are written.
+中文：Converts a cluster into a two-dimensional configuration table, naming each row after its data path below ParentName. Format and Array delimiters (|) control how values and array elements are written.
+English: Converts a cluster into a two-dimensional configuration table, naming each row after its data path below ParentName. Format and Array delimiters (|) control how values and array elements are written.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Flatten Cluster To CfgTable(with DataName).vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -43,7 +46,8 @@ Converts a cluster into a two-dimensional configuration table, naming each row a
 
 ### Flatten Cluster To CfgTable.vi
 
-Converts a cluster into a two-dimensional configuration table from the cluster's own type information, without data names. It is the simple entry point to Flatten Cluster To CfgTable(with DataName).vi.
+中文：Converts a cluster into a two-dimensional configuration table from the cluster's own type information, without data names. It is the simple entry point to Flatten Cluster To CfgTable(with DataName).vi.
+English: Converts a cluster into a two-dimensional configuration table from the cluster's own type information, without data names. It is the simple entry point to Flatten Cluster To CfgTable(with DataName).vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Flatten Cluster To CfgTable.vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -57,7 +61,8 @@ Converts a cluster into a two-dimensional configuration table from the cluster's
 
 ### Flatten Cluster To CfgTable.vim
 
-Polymorphic VI that converts a configuration cluster into a string table, which is how a cluster configuration is written out. The timestamp format and the array delimiters can be set.
+中文：Polymorphic VI that converts a configuration cluster into a string table, which is how a cluster configuration is written out. The timestamp format and the array delimiters can be set.
+English: Polymorphic VI that converts a configuration cluster into a string table, which is how a cluster configuration is written out. The timestamp format and the array delimiters can be set.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Flatten Cluster To CfgTable.vim`
 - **Kind**: polymorphic VI (.vim); member of ClusterCfgTable.lvlib
@@ -82,7 +87,8 @@ Convert cluster to string array. Usually it's used for convert configurations to
 
 ### Indexed String To Enum.vi
 
-Converts a string into an enum value. A leading number selects the entry by index, otherwise the entry is chosen by matching the string content case-insensitively.
+中文：Converts a string into an enum value. A leading number selects the entry by index, otherwise the entry is chosen by matching the string content case-insensitively.
+English: Converts a string into an enum value. A leading number selects the entry by index, otherwise the entry is chosen by matching the string content case-insensitively.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Indexed String To Enum.vi`
 - **Kind**: VI
@@ -105,7 +111,8 @@ Convert String to enum. If string starts with numbers. The conversion is based o
 
 ### Merge CfgTables.vi
 
-Merges the rows of CfgTable Row in into Reference CfgTable, matching rows on the column given by Key Index. Rows whose key is not present are appended.
+中文：Merges the rows of CfgTable Row in into Reference CfgTable, matching rows on the column given by Key Index. Rows whose key is not present are appended.
+English: Merges the rows of CfgTable Row in into Reference CfgTable, matching rows on the column given by Key Index. Rows whose key is not present are appended.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Merge CfgTables.vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -120,7 +127,8 @@ Merges the rows of CfgTable Row in into Reference CfgTable, matching rows on the
 
 ### Parse CfgTable(with DataName).vi
 
-Parses a configuration table back into a cluster, using the data names recorded in the table to place each value. The cluster type comes from Cluster Configuration Typedef, and Elements reports how many elements were read.
+中文：Parses a configuration table back into a cluster, using the data names recorded in the table to place each value. The cluster type comes from Cluster Configuration Typedef, and Elements reports how many elements were read.
+English: Parses a configuration table back into a cluster, using the data names recorded in the table to place each value. The cluster type comes from Cluster Configuration Typedef, and Elements reports how many elements were read.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Parse CfgTable(with DataName).vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -150,7 +158,8 @@ Copyright (c) 2021, NEVSTOP
 
 ### Parse CfgTable.vi
 
-Parses a configuration table back into the cluster described by Cluster Configuration Typedef. It is the simple entry point to Parse CfgTable(with DataName).vi.
+中文：Parses a configuration table back into the cluster described by Cluster Configuration Typedef. It is the simple entry point to Parse CfgTable(with DataName).vi.
+English: Parses a configuration table back into the cluster described by Cluster Configuration Typedef. It is the simple entry point to Parse CfgTable(with DataName).vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Parse CfgTable.vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -166,7 +175,8 @@ Parses a configuration table back into the cluster described by Cluster Configur
 
 ### Parse CfgTable.vim
 
-Polymorphic VI that converts a string table back into a configuration cluster. It is the inverse of Flatten Cluster To CfgTable.vim.
+中文：Polymorphic VI that converts a string table back into a configuration cluster. It is the inverse of Flatten Cluster To CfgTable.vim.
+English: Polymorphic VI that converts a string table back into a configuration cluster. It is the inverse of Flatten Cluster To CfgTable.vim.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Parse CfgTable.vim`
 - **Kind**: polymorphic VI (.vim); member of ClusterCfgTable.lvlib
@@ -191,7 +201,8 @@ Convert String Array to Cluster. Usually this VI is used to convert a table conf
 
 ### Remove Comments Lines.vi
 
-Removes the rows of a configuration table that start with the comment token, whose default is ^#.
+中文：Removes the rows of a configuration table that start with the comment token, whose default is ^#.
+English: Removes the rows of a configuration table that start with the comment token, whose default is ^#.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Remove Comments Lines.vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -214,7 +225,8 @@ Remove Comment Rows from 2D Array String Table.
 
 ### Replace Configuration Table By ID.vi
 
-Palette helper grouping the two Replace Configuration Table By ID instances, which replace a single row or an array of rows selected by their ID column.
+中文：Palette helper grouping the two Replace Configuration Table By ID instances, which replace a single row or an array of rows selected by their ID column.
+English: Palette helper grouping the two Replace Configuration Table By ID instances, which replace a single row or an array of rows selected by their ID column.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Replace Configuration Table By ID.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -223,7 +235,8 @@ Palette helper grouping the two Replace Configuration Table By ID instances, whi
 
 ### Replace EmptyCell Mark.vi
 
-Replaces the empty-cell marker in a configuration table with an empty string. The marker is given by EmptyCellToken and defaults to ^[\/]$.
+中文：Replaces the empty-cell marker in a configuration table with an empty string. The marker is given by EmptyCellToken and defaults to ^[\/]$.
+English: Replaces the empty-cell marker in a configuration table with an empty string. The marker is given by EmptyCellToken and defaults to ^[\/]$.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Replace EmptyCell Mark.vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -238,7 +251,8 @@ Replaces the empty-cell marker in a configuration table with an empty string. Th
 
 ### Splite MultiLine Cell.vi
 
-Splits a multi-line cell in column Col Index of a configuration table back into separate rows, so a value containing line breaks round-trips.
+中文：Splits a multi-line cell in column Col Index of a configuration table back into separate rows, so a value containing line breaks round-trips.
+English: Splits a multi-line cell in column Col Index of a configuration table back into separate rows, so a value containing line breaks round-trips.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Splite MultiLine Cell.vi`
 - **Kind**: VI; member of ClusterCfgTable.lvlib
@@ -252,7 +266,8 @@ Splits a multi-line cell in column Col Index of a configuration table back into 
 
 ### String To Indexed Enum.vi
 
-Converts a string into an enum value, either from a leading index number or by matching the string against the enum labels case-insensitively.
+中文：Converts a string into an enum value, either from a leading index number or by matching the string against the enum labels case-insensitively.
+English: Converts a string into an enum value, either from a leading index number or by matching the string against the enum labels case-insensitively.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/String To Indexed Enum.vi`
 - **Kind**: VI
@@ -277,7 +292,8 @@ Convert String to enum. If string starts with numbers. The conversion is based o
 
 ### CloseXL_App.vi
 
-Closes the Excel application reference opened by OpenXL_App.vi.
+中文：Closes the Excel application reference opened by OpenXL_App.vi.
+English: Closes the Excel application reference opened by OpenXL_App.vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CloseXL_App.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -290,7 +306,8 @@ Closes the Excel application reference opened by OpenXL_App.vi.
 
 ### CloseXL_Workbook.vi
 
-Closes the open Excel workbook and releases the workbook reference. Set Save? (F) to save the workbook before closing.
+中文：Closes the open Excel workbook and releases the workbook reference. Set Save? (F) to save the workbook before closing.
+English: Closes the open Excel workbook and releases the workbook reference. Set Save? (F) to save the workbook before closing.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CloseXL_Workbook.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -305,7 +322,8 @@ Closes the open Excel workbook and releases the workbook reference. Set Save? (F
 
 ### CloseXL_Worksheet.vi
 
-Closes the open Excel worksheet and releases its ActiveX reference.
+中文：Closes the open Excel worksheet and releases its ActiveX reference.
+English: Closes the open Excel worksheet and releases its ActiveX reference.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CloseXL_Worksheet.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -319,7 +337,8 @@ Closes the open Excel worksheet and releases its ActiveX reference.
 
 ### CreateXL_Workbook.vi
 
-Creates a new Excel workbook, prompting for a path when none is wired, and adds the opened workbook reference to the reference cluster.
+中文：Creates a new Excel workbook, prompting for a path when none is wired, and adds the opened workbook reference to the reference cluster.
+English: Creates a new Excel workbook, prompting for a path when none is wired, and adds the opened workbook reference to the reference cluster.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/CreateXL_Workbook.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -334,7 +353,8 @@ Creates a new Excel workbook, prompting for a path when none is wired, and adds 
 
 ### Excel - Read Sheet.vi
 
-Reads a whole Excel worksheet into a two-dimensional string array. Sheet(First) selects the worksheet by index, and the application, workbook and worksheet references are opened and closed around the read.
+中文：Reads a whole Excel worksheet into a two-dimensional string array. Sheet(First) selects the worksheet by index, and the application, workbook and worksheet references are opened and closed around the read.
+English: Reads a whole Excel worksheet into a two-dimensional string array. Sheet(First) selects the worksheet by index, and the application, workbook and worksheet references are opened and closed around the read.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/Excel - Read Sheet.vi`
 - **Kind**: VI
@@ -349,7 +369,8 @@ Reads a whole Excel worksheet into a two-dimensional string array. Sheet(First) 
 
 ### Excel - Write Sheet.vi
 
-Writes a two-dimensional string array into an Excel worksheet, creating the workbook when the file does not exist. Sheet(First) selects the worksheet by index.
+中文：Writes a two-dimensional string array into an Excel worksheet, creating the workbook when the file does not exist. Sheet(First) selects the worksheet by index.
+English: Writes a two-dimensional string array into an Excel worksheet, creating the workbook when the file does not exist. Sheet(First) selects the worksheet by index.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/Excel - Write Sheet.vi`
 - **Kind**: VI
@@ -364,7 +385,8 @@ Writes a two-dimensional string array into an Excel worksheet, creating the work
 
 ### GetXL_AllCellValues.vi
 
-Reads the used range of the open worksheet into a two-dimensional string array.
+中文：Reads the used range of the open worksheet into a two-dimensional string array.
+English: Reads the used range of the open worksheet into a two-dimensional string array.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_AllCellValues.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -379,7 +401,8 @@ Reads the used range of the open worksheet into a two-dimensional string array.
 
 ### GetXL_CellValue_Dbl.vi
 
-Reads a single cell, or the top-left cell of the range between Start and End, as a double.
+中文：Reads a single cell, or the top-left cell of the range between Start and End, as a double.
+English: Reads a single cell, or the top-left cell of the range between Start and End, as a double.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValue_Dbl.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -396,7 +419,8 @@ Reads a single cell, or the top-left cell of the range between Start and End, as
 
 ### GetXL_CellValue_String.vi
 
-Reads a single cell, or the top-left cell of the range between Start and End, as a string.
+中文：Reads a single cell, or the top-left cell of the range between Start and End, as a string.
+English: Reads a single cell, or the top-left cell of the range between Start and End, as a string.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValue_String.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -413,7 +437,8 @@ Reads a single cell, or the top-left cell of the range between Start and End, as
 
 ### GetXL_CellValues.vi
 
-Polymorphic VI that reads a single cell or a two-dimensional range of cells from the open Excel worksheet, as either double or string data.
+中文：Polymorphic VI that reads a single cell or a two-dimensional range of cells from the open Excel worksheet, as either double or string data.
+English: Polymorphic VI that reads a single cell or a two-dimensional range of cells from the open Excel worksheet, as either double or string data.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues.vi`
 - **Kind**: VI; member of excel_configuration.lvlib; polymorphic wrapper (no diagram of its own)
@@ -436,7 +461,8 @@ This polymorphic VI reads in either a single cell or a 2D range of cells from an
 
 ### GetXL_CellValues_2D_Dbl.vi
 
-Reads the range between Start and End from the open worksheet as a two-dimensional array of doubles.
+中文：Reads the range between Start and End from the open worksheet as a two-dimensional array of doubles.
+English: Reads the range between Start and End from the open worksheet as a two-dimensional array of doubles.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues_2D_Dbl.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -453,7 +479,8 @@ Reads the range between Start and End from the open worksheet as a two-dimension
 
 ### GetXL_CellValues_2D_String.vi
 
-Reads the range between Start and End from the open worksheet as a two-dimensional array of strings.
+中文：Reads the range between Start and End from the open worksheet as a two-dimensional array of strings.
+English: Reads the range between Start and End from the open worksheet as a two-dimensional array of strings.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_CellValues_2D_String.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -470,7 +497,8 @@ Reads the range between Start and End from the open worksheet as a two-dimension
 
 ### GetXL_WorkSheetName.vi
 
-Returns the name of the open worksheet.
+中文：Returns the name of the open worksheet.
+English: Returns the name of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_WorkSheetName.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -484,7 +512,8 @@ Returns the name of the open worksheet.
 
 ### GetXL_WorkSheetSize.vi
 
-Reads the size of the used range of the open worksheet.
+中文：Reads the size of the used range of the open worksheet.
+English: Reads the size of the used range of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_WorkSheetSize.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -500,7 +529,8 @@ Reads the size of the used range of the open worksheet.
 
 ### GetXL_WorkSheetsNum.vi
 
-Returns the number of worksheets in the open workbook.
+中文：Returns the number of worksheets in the open workbook.
+English: Returns the number of worksheets in the open workbook.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/GetXL_WorkSheetsNum.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -515,7 +545,8 @@ Returns the number of worksheets in the open workbook.
 
 ### OpenXL_App.vi
 
-Starts Excel through ActiveX automation and returns the application and workbooks references used by the other Excel VIs.
+中文：Starts Excel through ActiveX automation and returns the application and workbooks references used by the other Excel VIs.
+English: Starts Excel through ActiveX automation and returns the application and workbooks references used by the other Excel VIs.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/OpenXL_App.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -527,7 +558,8 @@ Starts Excel through ActiveX automation and returns the application and workbook
 
 ### OpenXL_Workbook.vi
 
-Opens the Excel workbook at path, prompting for a file when the path is empty, and adds the opened workbook reference to the reference cluster.
+中文：Opens the Excel workbook at path, prompting for a file when the path is empty, and adds the opened workbook reference to the reference cluster.
+English: Opens the Excel workbook at path, prompting for a file when the path is empty, and adds the opened workbook reference to the reference cluster.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/OpenXL_Workbook.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -542,7 +574,8 @@ Opens the Excel workbook at path, prompting for a file when the path is empty, a
 
 ### OpenXL_WorkSheet.vi
 
-Opens a worksheet of the current workbook. Sheet accepts either the worksheet index or its name.
+中文：Opens a worksheet of the current workbook. Sheet accepts either the worksheet index or its name.
+English: Opens a worksheet of the current workbook. Sheet accepts either the worksheet index or its name.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/OpenXL_WorkSheet.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -556,7 +589,8 @@ Opens a worksheet of the current workbook. Sheet accepts either the worksheet in
 
 ### Row Col To Range Format.vi
 
-Converts a zero-based row and column pair into the A1-style range string Excel expects, such as A1 or AB12.
+中文：Converts a zero-based row and column pair into the A1-style range string Excel expects, such as A1 or AB12.
+English: Converts a zero-based row and column pair into the A1-style range string Excel expects, such as A1 or AB12.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/Row Col To Range Format.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -568,7 +602,8 @@ Converts a zero-based row and column pair into the A1-style range string Excel e
 
 ### SetXL_AllCellValues.vi
 
-Writes a two-dimensional string array into the used range of the open worksheet.
+中文：Writes a two-dimensional string array into the used range of the open worksheet.
+English: Writes a two-dimensional string array into the used range of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_AllCellValues.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -583,7 +618,8 @@ Writes a two-dimensional string array into the used range of the open worksheet.
 
 ### SetXL_CellValue_Dbl.vi
 
-Writes a double into a cell, or into the range between Start and End, of the open worksheet.
+中文：Writes a double into a cell, or into the range between Start and End, of the open worksheet.
+English: Writes a double into a cell, or into the range between Start and End, of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValue_Dbl.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -600,7 +636,8 @@ Writes a double into a cell, or into the range between Start and End, of the ope
 
 ### SetXL_CellValue_String.vi
 
-Writes a string into a cell, or into the range between Start and End, of the open worksheet.
+中文：Writes a string into a cell, or into the range between Start and End, of the open worksheet.
+English: Writes a string into a cell, or into the range between Start and End, of the open worksheet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValue_String.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -617,7 +654,8 @@ Writes a string into a cell, or into the range between Start and End, of the ope
 
 ### SetXL_CellValues.vi
 
-Polymorphic VI that writes a single cell or a two-dimensional range of cells into the open Excel worksheet, as either double or string data.
+中文：Polymorphic VI that writes a single cell or a two-dimensional range of cells into the open Excel worksheet, as either double or string data.
+English: Polymorphic VI that writes a single cell or a two-dimensional range of cells into the open Excel worksheet, as either double or string data.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValues.vi`
 - **Kind**: VI; member of excel_configuration.lvlib; polymorphic wrapper (no diagram of its own)
@@ -640,7 +678,8 @@ This polymorphic VI reads in either a single cell or a 2D range of cells from an
 
 ### SetXL_CellValues_2D_Dbl.vi
 
-Writes a two-dimensional array of doubles into the open worksheet, starting at Start.
+中文：Writes a two-dimensional array of doubles into the open worksheet, starting at Start.
+English: Writes a two-dimensional array of doubles into the open worksheet, starting at Start.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValues_2D_Dbl.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -656,7 +695,8 @@ Writes a two-dimensional array of doubles into the open worksheet, starting at S
 
 ### SetXL_CellValues_2D_String.vi
 
-Writes a two-dimensional array of strings into the open worksheet, starting at Start.
+中文：Writes a two-dimensional array of strings into the open worksheet, starting at Start.
+English: Writes a two-dimensional array of strings into the open worksheet, starting at Start.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Excel/SetXL_CellValues_2D_String.vi`
 - **Kind**: VI; member of excel_configuration.lvlib
@@ -674,7 +714,8 @@ Writes a two-dimensional array of strings into the open worksheet, starting at S
 
 ### Lines Filter-[].vi
 
-Keeps only the lines of a configuration file that contain a section header in square brackets, and trims them.
+中文：Keeps only the lines of a configuration file that contain a section header in square brackets, and trims them.
+English: Keeps only the lines of a configuration file that contain a section header in square brackets, and trims them.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines Filter-[].vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -687,7 +728,8 @@ Keeps only the lines of a configuration file that contain a section header in sq
 
 ### Lines Filter-Annotation.vi
 
-Removes the annotation lines, which start with Annotation Seperator(#), from a configuration file and trims the remaining lines.
+中文：Removes the annotation lines, which start with Annotation Seperator(#), from a configuration file and trims the remaining lines.
+English: Removes the annotation lines, which start with Annotation Seperator(#), from a configuration file and trims the remaining lines.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines Filter-Annotation.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -711,7 +753,8 @@ Removes the annotation lines, which start with Annotation Seperator(#), from a c
 
 ### Lines GetSessionByName.vi
 
-Extracts the lines belonging to the session named [] Session Name from a configuration file, and returns the lines that were left over as well.
+中文：Extracts the lines belonging to the session named [] Session Name from a configuration file, and returns the lines that were left over as well.
+English: Extracts the lines belonging to the session named [] Session Name from a configuration file, and returns the lines that were left over as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines GetSessionByName.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -727,7 +770,8 @@ Extracts the lines belonging to the session named [] Session Name from a configu
 
 ### Lines ListSessions.vi
 
-Lists the names of every session found in a configuration file, and returns the lines that were left over as well.
+中文：Lists the names of every session found in a configuration file, and returns the lines that were left over as well.
+English: Lists the names of every session found in a configuration file, and returns the lines that were left over as well.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines ListSessions.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -742,7 +786,8 @@ Lists the names of every session found in a configuration file, and returns the 
 
 ### Lines LoadArrayOfSessions.vi
 
-Loads the session named Session Name from Lines and returns it both as a list of lines and as an array of key-value pairs, with the annotation lines removed.
+中文：Loads the session named Session Name from Lines and returns it both as a list of lines and as an array of key-value pairs, with the annotation lines removed.
+English: Loads the session named Session Name from Lines and returns it both as a list of lines and as an array of key-value pairs, with the annotation lines removed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines LoadArrayOfSessions.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -760,7 +805,8 @@ Loads the session named Session Name from Lines and returns it both as a list of
 
 ### Lines LoadMatrixOfSessions.vi
 
-Loads every session in Lines whose name matches the regular expression Session Name(Rxp) and appends its key-value pairs to Array in, building a two-dimensional configuration matrix.
+中文：Loads every session in Lines whose name matches the regular expression Session Name(Rxp) and appends its key-value pairs to Array in, building a two-dimensional configuration matrix.
+English: Loads every session in Lines whose name matches the regular expression Session Name(Rxp) and appends its key-value pairs to Array in, building a two-dimensional configuration matrix.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/Lines LoadMatrixOfSessions.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -778,7 +824,8 @@ Loads every session in Lines whose name matches the regular expression Session N
 
 ### LinesToText.vi
 
-Joins an array of lines into a single string. When a Section name is wired, the section header is written in front of the lines.
+中文：Joins an array of lines into a single string. When a Section name is wired, the section header is written in front of the lines.
+English: Joins an array of lines into a single string. When a Section name is wired, the section header is written in front of the lines.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/LinesToText.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -793,7 +840,8 @@ Joins an array of lines into a single string. When a Section name is wired, the 
 
 ### TextToLines.vi
 
-Splits a string into its lines. Set Remove Empty Lines?(T) to drop the empty ones.
+中文：Splits a string into its lines. Set Remove Empty Lines?(T) to drop the empty ones.
+English: Splits a string into its lines. Set Remove Empty Lines?(T) to drop the empty ones.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/TextToLines.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -808,7 +856,8 @@ Splits a string into its lines. Set Remove Empty Lines?(T) to drop the empty one
 
 ### TextToSessionBlocks.vi
 
-Splits the text of a configuration file into blocks, one per session.
+中文：Splits the text of a configuration file into blocks, one per session.
+English: Splits the text of a configuration file into blocks, one per session.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/Ini/TextToSessionBlocks.vi`
 - **Kind**: VI; member of ini_configuration.lvlib
@@ -823,7 +872,8 @@ Splits the text of a configuration file into blocks, one per session.
 
 ### Read Controls of Panel from INI.vi
 
-Reads the values of the front panel controls of VI Ref from a standard LabVIEW configuration (INI) file. Use it together with Write Controls of Panel to INI.vi.
+中文：Reads the values of the front panel controls of VI Ref from a standard LabVIEW configuration (INI) file. Use it together with Write Controls of Panel to INI.vi.
+English: Reads the values of the front panel controls of VI Ref from a standard LabVIEW configuration (INI) file. Use it together with Write Controls of Panel to INI.vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Read Controls of Panel from INI.vi`
 - **Kind**: VI
@@ -848,7 +898,8 @@ Use this VI in conjunction with the &lt;B&gt;Write Panel to INI&lt;/B&gt; from t
 
 ### Read Session Cluster with Initial Value.vim
 
-Polymorphic VI that reads a cluster from a configuration section, keeping the values of cfg cluster in for every key the section does not provide.
+中文：Polymorphic VI that reads a cluster from a configuration section, keeping the values of cfg cluster in for every key the section does not provide.
+English: Polymorphic VI that reads a cluster from a configuration section, keeping the values of cfg cluster in for every key the section does not provide.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Read Session Cluster with Initial Value.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -873,7 +924,8 @@ Read INI file section to variant.
 
 ### Simple Load Ini Configuraton.vim
 
-Polymorphic VI that opens an INI file, reads the cluster from the named section using Default Settings for missing keys, and closes the file again.
+中文：Polymorphic VI that opens an INI file, reads the cluster from the named section using Default Settings for missing keys, and closes the file again.
+English: Polymorphic VI that opens an INI file, reads the cluster from the named section using Default Settings for missing keys, and closes the file again.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Simple Load Ini Configuraton.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -889,7 +941,8 @@ Polymorphic VI that opens an INI file, reads the cluster from the named section 
 
 ### Write Controls of Panel to INI.vi
 
-Writes the values of the front panel controls of VI Ref to a LabVIEW configuration (INI) file as key-value pairs. Use it together with Read Controls of Panel from INI.vi.
+中文：Writes the values of the front panel controls of VI Ref to a LabVIEW configuration (INI) file as key-value pairs. Use it together with Read Controls of Panel from INI.vi.
+English: Writes the values of the front panel controls of VI Ref to a LabVIEW configuration (INI) file as key-value pairs. Use it together with Read Controls of Panel from INI.vi.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Configuration/OpenG Variant Configuration File/Write Controls of Panel to INI.vi`
 - **Kind**: VI

@@ -1,12 +1,14 @@
 # Application
 
-Windows and LabVIEW application utilities: processes, services, environment variables, references and restart.
+中文：Windows and LabVIEW application utilities: processes, services, environment variables, references and restart.
+English: Windows and LabVIEW application utilities: processes, services, environment variables, references and restart.
 
 18 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Application`.
 
 ## Check if Windows Process Exists.vi
 
-Checks whether a Windows process matching str is running, by querying the task list through System Exec. Returns the matched process name and the raw console output.
+中文：Checks whether a Windows process matching str is running, by querying the task list through System Exec. Returns the matched process name and the raw console output.
+English: Checks whether a Windows process matching str is running, by querying the task list through System Exec. Returns the matched process name and the raw console output.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Check if Windows Process Exists.vi`
 - **Kind**: VI
@@ -22,7 +24,8 @@ Checks whether a Windows process matching str is running, by querying the task l
 
 ## Check if Windows Service Exists.vi
 
-Checks whether a Windows service matching str is installed, by querying the service list through System Exec. Returns the matched service name and the raw console output.
+中文：Checks whether a Windows service matching str is installed, by querying the service list through System Exec. Returns the matched service name and the raw console output.
+English: Checks whether a Windows service matching str is installed, by querying the service list through System Exec. Returns the matched service name and the raw console output.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Check if Windows Service Exists.vi`
 - **Kind**: VI
@@ -38,7 +41,8 @@ Checks whether a Windows service matching str is installed, by querying the serv
 
 ## Error File Logger.vi
 
-Appends the error on the error in cluster to a log file, creating the folder and file when they do not exist, and returns the log text. Wire Clear Error? to clear the error after logging, and ContainerFolder to choose where the log is written (empty uses the application folder).
+中文：Appends the error on the error in cluster to a log file, creating the folder and file when they do not exist, and returns the log text. Wire Clear Error? to clear the error after logging, and ContainerFolder to choose where the log is written (empty uses the application folder).
+English: Appends the error on the error in cluster to a log file, creating the folder and file when they do not exist, and returns the log text. Wire Clear Error? to clear the error after logging, and ContainerFolder to choose where the log is written (empty uses the application folder).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Error File Logger.vi`
 - **Kind**: VI
@@ -63,7 +67,8 @@ Enter a file or an error and this VI will log the error and display the details.
 
 ## Generate Start-Up Registry Patch File.vi
 
-Writes a .reg patch file that adds EXE Path to one of the Windows run or run-once registry keys, so the application starts automatically. Key Name defaults to the executable name, and Arguments is appended to the command line.
+中文：Writes a .reg patch file that adds EXE Path to one of the Windows run or run-once registry keys, so the application starts automatically. Key Name defaults to the executable name, and Arguments is appended to the command line.
+English: Writes a .reg patch file that adds EXE Path to one of the Windows run or run-once registry keys, so the application starts automatically. Key Name defaults to the executable name, and Arguments is appended to the command line.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Generate Start-Up Registry Patch File.vi`
 - **Kind**: VI
@@ -80,7 +85,8 @@ Writes a .reg patch file that adds EXE Path to one of the Windows run or run-onc
 
 ## Get Vi Memory Name.vi
 
-Returns the in-memory name of the VI wired to VI in, which is how two VIs that share a file name can be told apart.
+中文：Returns the in-memory name of the VI wired to VI in, which is how two VIs that share a file name can be told apart.
+English: Returns the in-memory name of the VI wired to VI in, which is how two VIs that share a file name can be told apart.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Get Vi Memory Name.vi`
 - **Kind**: VI
@@ -102,7 +108,8 @@ Input a VI, get the Memory name of this VI,
 
 ## IsUserAnAdmin.vi
 
-Returns TRUE when the current process is running with administrator rights.
+中文：Returns TRUE when the current process is running with administrator rights.
+English: Returns TRUE when the current process is running with administrator rights.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/IsUserAnAdmin.vi`
 - **Kind**: VI
@@ -115,7 +122,8 @@ Returns TRUE when the current process is running with administrator rights.
 
 ## Kill Process.vi
 
-Terminates the Windows process named by str and returns its standard error and console output.
+中文：Terminates the Windows process named by str and returns its standard error and console output.
+English: Terminates the Windows process named by str and returns its standard error and console output.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Kill Process.vi`
 - **Kind**: VI
@@ -131,7 +139,8 @@ Terminates the Windows process named by str and returns its standard error and c
 
 ## Restart LabVIEW.vi
 
-Restarts LabVIEW when restart?(T) is TRUE. It writes a small restart script, launches it and closes the current instance.
+中文：Restarts LabVIEW when restart?(T) is TRUE. It writes a small restart script, launches it and closes the current instance.
+English: Restarts LabVIEW when restart?(T) is TRUE. It writes a small restart script, launches it and closes the current instance.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Restart LabVIEW.vi`
 - **Kind**: VI
@@ -149,7 +158,8 @@ Restart LabVIEW.
 
 ## Safely Close Reference - Half Height.vim
 
-Closes the reference wired to Reference, clearing error 1055 instead of reporting it. This is the half-height connector pane variant of Safely Close Reference.vim.
+中文：Closes the reference wired to Reference, clearing error 1055 instead of reporting it. This is the half-height connector pane variant of Safely Close Reference.vim.
+English: Closes the reference wired to Reference, clearing error 1055 instead of reporting it. This is the half-height connector pane variant of Safely Close Reference.vim.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Safely Close Reference - Half Height.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -169,7 +179,8 @@ Clear the error when the error code is 1055, otherwise report the error and clos
 
 ## Safely Close Reference.vim
 
-Closes the reference wired to Reference, clearing error 1055 instead of reporting it.
+中文：Closes the reference wired to Reference, clearing error 1055 instead of reporting it.
+English: Closes the reference wired to Reference, clearing error 1055 instead of reporting it.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Safely Close Reference.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -189,7 +200,8 @@ Clear the error when the error code is 1055, otherwise report the error and clos
 
 ## Terminate Vi CallStack Chain.vi
 
-Waits for the call chain of VI Refnum(Null) to finish and then either stops it or kills the process, depending on Kill Process?. The ms timeout (500ms) input bounds the wait.
+中文：Waits for the call chain of VI Refnum(Null) to finish and then either stops it or kills the process, depending on Kill Process?. The ms timeout (500ms) input bounds the wait.
+English: Waits for the call chain of VI Refnum(Null) to finish and then either stops it or kills the process, depending on Kill Process?. The ms timeout (500ms) input bounds the wait.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Terminate Vi CallStack Chain.vi`
 - **Kind**: VI
@@ -209,7 +221,8 @@ Use this VI to choose whether to let the program end normally or to terminate it
 
 ## Topmost VI Reference.vi
 
-Returns a reference to the top-level VI in the current call chain.
+中文：Returns a reference to the top-level VI in the current call chain.
+English: Returns a reference to the top-level VI in the current call chain.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Topmost VI Reference.vi`
 - **Kind**: VI
@@ -226,7 +239,8 @@ Returns the top-level VI reference in the call chain.
 
 ## Using ParentVIRef If Input Invalid.vi
 
-Returns the VI reference wired in, and substitutes the reference of the calling VI when the input reference is invalid. The Using Parent Ref output reports which of the two was used, so the caller knows whether the reference has to be destroyed.
+中文：Returns the VI reference wired in, and substitutes the reference of the calling VI when the input reference is invalid. The Using Parent Ref output reports which of the two was used, so the caller knows whether the reference has to be destroyed.
+English: Returns the VI reference wired in, and substitutes the reference of the calling VI when the input reference is invalid. The Using Parent Ref output reports which of the two was used, so the caller knows whether the reference has to be destroyed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Using ParentVIRef If Input Invalid.vi`
 - **Kind**: VI
@@ -246,7 +260,8 @@ This utility will fit (resize and center) a VI (defined by the "VI Ref" input) a
 
 ## Valid Refnum.vim
 
-Polymorphic VI that returns TRUE when the wired number, path or refnum is valid.
+中文：Polymorphic VI that returns TRUE when the wired number, path or refnum is valid.
+English: Polymorphic VI that returns TRUE when the wired number, path or refnum is valid.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Valid Refnum.vim`
 - **Kind**: polymorphic VI (.vim); polymorphic wrapper (no diagram of its own)
@@ -265,7 +280,8 @@ Determine if the entered number/path/refnum is invalid.
 
 ## Valid VI Reference.vi
 
-Returns TRUE when the VI reference wired to VI Refnum is valid.
+中文：Returns TRUE when the VI reference wired to VI Refnum is valid.
+English: Returns TRUE when the VI reference wired to VI Refnum is valid.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/Valid VI Reference.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -286,7 +302,8 @@ Determine if the entered VI Refnum is invalid.
 
 ### Get System Environment Variable.vi
 
-Reads the value of the named Windows environment variable.
+中文：Reads the value of the named Windows environment variable.
+English: Reads the value of the named Windows environment variable.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/SysEnvVar/Get System Environment Variable.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -298,7 +315,8 @@ Reads the value of the named Windows environment variable.
 
 ### Set Permanent SysEnvVariable.vi
 
-Sets a Windows environment variable permanently by running setx, so the value survives a restart. The value may be given literally or as a reference to another environment variable.
+中文：Sets a Windows environment variable permanently by running setx, so the value survives a restart. The value may be given literally or as a reference to another environment variable.
+English: Sets a Windows environment variable permanently by running setx, so the value survives a restart. The value may be given literally or as a reference to another environment variable.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/SysEnvVar/Set Permanent SysEnvVariable.vi`
 - **Kind**: VI
@@ -313,7 +331,8 @@ Sets a Windows environment variable permanently by running setx, so the value su
 
 ### Set System Environment Variable.vi
 
-Sets a Windows environment variable for the current process and any child processes it starts.
+中文：Sets a Windows environment variable for the current process and any child processes it starts.
+English: Sets a Windows environment variable for the current process and any child processes it starts.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/SysEnvVar/Set System Environment Variable.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)

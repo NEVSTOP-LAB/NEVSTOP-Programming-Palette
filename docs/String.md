@@ -1,12 +1,14 @@
 # String
 
-String formatting, caching and URI parsing.
+中文：String formatting, caching and URI parsing.
+English: String formatting, caching and URI parsing.
 
 20 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/String`.
 
 ## Append Tabs To String Front.vi
 
-Inserts TabCount tabs at the start of every line of Str in, so a block of text can be indented.
+中文：Inserts TabCount tabs at the start of every line of Str in, so a block of text can be indented.
+English: Inserts TabCount tabs at the start of every line of Str in, so a block of text can be indented.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Append Tabs To String Front.vi`
 - **Kind**: VI
@@ -27,7 +29,8 @@ Add &lt;b&gt;TabCount&lt;/b&gt; tabs before each line of input string &lt;b&gt;S
 
 ## Concatenate Strings If not Empty.vi
 
-Joins prefix and String with separator, omitting the separator when either side is empty. The default separator is a colon.
+中文：Joins prefix and String with separator, omitting the separator when either side is empty. The default separator is a colon.
+English: Joins prefix and String with separator, omitting the separator when either side is empty. The default separator is a colon.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Concatenate Strings If not Empty.vi`
 - **Kind**: VI
@@ -48,7 +51,8 @@ Concatenate string with &lt;b&gt;separator&lt;/b&gt; if two strings are not empt
 
 ## DataType Cacher.vi
 
-Polymorphic wrapper that caches the description of a data type, so the same type is only analysed once.
+中文：Polymorphic wrapper that caches the description of a data type, so the same type is only analysed once.
+English: Polymorphic wrapper that caches the description of a data type, so the same type is only analysed once.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/DataType Cacher.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -57,7 +61,8 @@ Polymorphic wrapper that caches the description of a data type, so the same type
 
 ## Enum to String.vim
 
-Polymorphic VI that returns the label of the enum value wired to Enum.
+中文：Polymorphic VI that returns the label of the enum value wired to Enum.
+English: Polymorphic VI that returns the label of the enum value wired to Enum.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Enum to String.vim`
 - **Kind**: polymorphic VI (.vim); polymorphic wrapper (no diagram of its own)
@@ -68,7 +73,8 @@ Polymorphic VI that returns the label of the enum value wired to Enum.
 
 ## Extend Symbol Path.vi
 
-Expands a LabVIEW symbolic path into a real path. Recognised forms include &lt;application&gt;, &lt;desktop&gt;, &lt;temp&gt;, &lt;user.lib&gt;, &lt;vi.lib&gt;, [xxx] custom symbols and %SystemVariable% environment variables.
+中文：Expands a LabVIEW symbolic path into a real path. Recognised forms include &lt;application&gt;, &lt;desktop&gt;, &lt;temp&gt;, &lt;user.lib&gt;, &lt;vi.lib&gt;, [xxx] custom symbols and %SystemVariable% environment variables.
+English: Expands a LabVIEW symbolic path into a real path. Recognised forms include &lt;application&gt;, &lt;desktop&gt;, &lt;temp&gt;, &lt;user.lib&gt;, &lt;vi.lib&gt;, [xxx] custom symbols and %SystemVariable% environment variables.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Extend Symbol Path.vi`
 - **Kind**: VI
@@ -96,7 +102,8 @@ Return the full name of &lt;b&gt;Symbolic Paths&lt;/b&gt;.
 
 ## Format Variant Attributes into String.vi
 
-Formats every attribute of the Variant into a readable string of the form VariantAttributes(name0 -&gt; value0;name1 -&gt; value1;...).
+中文：Formats every attribute of the Variant into a readable string of the form VariantAttributes(name0 -&gt; value0;name1 -&gt; value1;...).
+English: Formats every attribute of the Variant into a readable string of the form VariantAttributes(name0 -&gt; value0;name1 -&gt; value1;...).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Format Variant Attributes into String.vi`
 - **Kind**: VI
@@ -120,7 +127,8 @@ For example, return:
 
 ## Format Variant into String Advance.vi
 
-Formats any variant into a string, handling arrays, clusters, enums, refnums and LabVIEW classes. Set include Variant Attributes(F) to append the variant's attributes, and wire Format String to override the default formatting.
+中文：Formats any variant into a string, handling arrays, clusters, enums, refnums and LabVIEW classes. Set include Variant Attributes(F) to append the variant's attributes, and wire Format String to override the default formatting.
+English: Formats any variant into a string, handling arrays, clusters, enums, refnums and LabVIEW classes. Set include Variant Attributes(F) to append the variant's attributes, and wire Format String to override the default formatting.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Format Variant into String Advance.vi`
 - **Kind**: VI
@@ -145,7 +153,8 @@ Format input &lt;b&gt;Variant&lt;/b&gt; into string.
 
 ## Generate UUID.vi
 
-Generates a universally unique identifier and returns it as the standard 36-character UUID string.
+中文：Generates a universally unique identifier and returns it as the standard 36-character UUID string.
+English: Generates a universally unique identifier and returns it as the standard 36-character UUID string.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Generate UUID.vi`
 - **Kind**: VI
@@ -162,7 +171,8 @@ Generate &lt;b&gt;Universally Unique Identifier(UUID)&lt;/b&gt; according to the
 
 ## is UTF-8.vi
 
-Returns TRUE when String is valid UTF-8. Use it to test whether incoming text can be read without garbled characters.
+中文：Returns TRUE when String is valid UTF-8. Use it to test whether incoming text can be read without garbled characters.
+English: Returns TRUE when String is valid UTF-8. Use it to test whether incoming text can be read without garbled characters.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/is UTF-8.vi`
 - **Kind**: VI
@@ -183,7 +193,8 @@ The function is usually used to judge whether the input string can be read prope
 
 ## Match Multiple Pattern.vi
 
-Searches string for the first of several regular expressions, beginning at offset. The expressions are listed in regular expression separated by delimiter, and the outputs split string into the before, match, pattern matched and after substrings.
+中文：Searches string for the first of several regular expressions, beginning at offset. The expressions are listed in regular expression separated by delimiter, and the outputs split string into the before, match, pattern matched and after substrings.
+English: Searches string for the first of several regular expressions, beginning at offset. The expressions are listed in regular expression separated by delimiter, and the outputs split string into the before, match, pattern matched and after substrings.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Match Multiple Pattern.vi`
 - **Kind**: VI
@@ -212,7 +223,8 @@ As a supplement to &lt;b&gt;Match Pattern Function&lt;/b&gt;, &lt;b&gt;regular e
 
 ## Not Empty String or Path.vim
 
-Polymorphic VI that returns TRUE when the wired string, path, variant, picture or DSC tag is not empty.
+中文：Polymorphic VI that returns TRUE when the wired string, path, variant, picture or DSC tag is not empty.
+English: Polymorphic VI that returns TRUE when the wired string, path, variant, picture or DSC tag is not empty.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Not Empty String or Path.vim`
 - **Kind**: polymorphic VI (.vim); polymorphic wrapper (no diagram of its own)
@@ -231,7 +243,8 @@ Returns TRUE if &lt;b&gt;string/path&lt;/b&gt; is &lt;b&gt;not&lt;/b&gt; an empt
 
 ## String History Cacher.vi
 
-Keeps a rolling cache of the last length characters seen, appending the new String on each call. Set Include Timestamp(F) to prefix each appended line with the current date and time.
+中文：Keeps a rolling cache of the last length characters seen, appending the new String on each call. Set Include Timestamp(F) to prefix each appended line with the current date and time.
+English: Keeps a rolling cache of the last length characters seen, appending the new String on each call. Set Include Timestamp(F) to prefix each appended line with the current date and time.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/String History Cacher.vi`
 - **Kind**: VI
@@ -252,7 +265,8 @@ Return the &lt;b&gt;String Cache&lt;/b&gt; containing &lt;b&gt;length&lt;/b&gt; 
 
 ## Strip Class Function Name.vi
 
-Splits a VI's full path into the library name, the class name and the function name. Set Strip vi extension(T) to remove the .vi extension from the function name.
+中文：Splits a VI's full path into the library name, the class name and the function name. Set Strip vi extension(T) to remove the .vi extension from the function name.
+English: Splits a VI's full path into the library name, the class name and the function name. Set Strip vi extension(T) to remove the .vi extension from the function name.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/Strip Class Function Name.vi`
 - **Kind**: VI
@@ -275,7 +289,8 @@ Return &lt;b&gt;Function Name&lt;/b&gt;, &lt;b&gt;Class Name&lt;/b&gt; and &lt;b
 
 ## To Lower Case with Raw Name Cacher.vi
 
-Converts key to lower case and caches the mapping from every lower-case name it has seen back to the original spelling, which is returned as Raw name.
+中文：Converts key to lower case and caches the mapping from every lower-case name it has seen back to the original spelling, which is returned as Raw name.
+English: Converts key to lower case and caches the mapping from every lower-case name it has seen back to the original spelling, which is returned as Raw name.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/To Lower Case with Raw Name Cacher.vi`
 - **Kind**: VI
@@ -301,7 +316,8 @@ Also, the function returns historical &lt;b&gt;cacher&lt;/b&gt; data and raw val
 
 ### Construct URI.vi
 
-Builds a URI string from the protocol, address, port, path and an array of key-value arguments. Values are escaped so the result is a valid URI.
+中文：Builds a URI string from the protocol, address, port, path and an array of key-value arguments. Values are escaped so the result is a valid URI.
+English: Builds a URI string from the protocol, address, port, path and an array of key-value arguments. Values are escaped so the result is a valid URI.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/URI Parsing/Construct URI.vi`
 - **Kind**: VI; member of URI.lvlib
@@ -329,7 +345,8 @@ Copyright (c) 2017, JKI
 
 ### EscapeURI.vi
 
-Percent-encodes the characters in URI that are not allowed in a URI.
+中文：Percent-encodes the characters in URI that are not allowed in a URI.
+English: Percent-encodes the characters in URI that are not allowed in a URI.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/URI Parsing/EscapeURI.vi`
 - **Kind**: VI; member of URI.lvlib
@@ -352,7 +369,8 @@ Copyright (c) 2017, JKI
 
 ### Parse URI.vi
 
-Splits a URI string into its protocol, address, port, path and key-value arguments. Escaped characters are decoded.
+中文：Splits a URI string into its protocol, address, port, path and key-value arguments. Escaped characters are decoded.
+English: Splits a URI string into its protocol, address, port, path and key-value arguments. Escaped characters are decoded.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/URI Parsing/Parse URI.vi`
 - **Kind**: VI; member of URI.lvlib
@@ -380,7 +398,8 @@ Copyright (c) 2017, JKI
 
 ### UnescapeURI.vi
 
-Decodes the percent-encoded sequences in an escaped URI.
+中文：Decodes the percent-encoded sequences in an escaped URI.
+English: Decodes the percent-encoded sequences in an escaped URI.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/URI Parsing/UnescapeURI.vi`
 - **Kind**: VI; member of URI.lvlib
@@ -403,7 +422,8 @@ Copyright (c) 2017, JKI
 
 ### UT--Construct URIs.vi
 
-Self-checking test VI in the URI palette. It round-trips a set of URIs through Construct URI and reports Test Passed?.
+中文：Self-checking test VI in the URI palette. It round-trips a set of URIs through Construct URI and reports Test Passed?.
+English: Self-checking test VI in the URI palette. It round-trips a set of URIs through Construct URI and reports Test Passed?.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/URI Parsing/UT--Construct URIs.vi`
 - **Kind**: VI
@@ -425,7 +445,8 @@ Copyright (c) 2017, JKI
 
 ### UT--Parse URIs.vi
 
-Self-checking test VI in the URI palette. It round-trips a set of URIs through Parse URI and reports Test Passed?.
+中文：Self-checking test VI in the URI palette. It round-trips a set of URIs through Parse URI and reports Test Passed?.
+English: Self-checking test VI in the URI palette. It round-trips a set of URIs through Parse URI and reports Test Passed?.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/String/URI Parsing/UT--Parse URIs.vi`
 - **Kind**: VI

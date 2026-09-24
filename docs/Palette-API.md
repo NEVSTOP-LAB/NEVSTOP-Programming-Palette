@@ -1,12 +1,14 @@
 # NEVSTOP Programming Palette API
 
-Top-level palette entry point for the NEVSTOP Programming Palette.
+中文：Top-level palette entry point for the NEVSTOP Programming Palette.
+English: Top-level palette entry point for the NEVSTOP Programming Palette.
 
 1 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette`.
 
 ## NEVSTOP-Programming-Palette-API.vi
 
-Aggregates the utility VIs used by the palette's own tooling, coordinating the application, file and front-panel helpers behind one diagram.
+中文：Aggregates the utility VIs used by the palette's own tooling, coordinating the application, file and front-panel helpers behind one diagram.
+English: Aggregates the utility VIs used by the palette's own tooling, coordinating the application, file and front-panel helpers behind one diagram.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/NEVSTOP-Programming-Palette-API.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)

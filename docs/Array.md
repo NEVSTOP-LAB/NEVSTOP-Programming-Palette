@@ -1,12 +1,14 @@
 # Array
 
-Array helpers that go beyond the built-in array functions.
+中文：Array helpers that go beyond the built-in array functions.
+English: Array helpers that go beyond the built-in array functions.
 
 8 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Array`.
 
 ## Delete Elements from 1D Array.vim
 
-Polymorphic VI that deletes the elements at the specified indices from a 1D array, or from the rows or columns of a 2D array, and returns both the remaining array and the deleted elements.
+中文：Polymorphic VI that deletes the elements at the specified indices from a 1D array, or from the rows or columns of a 2D array, and returns both the remaining array and the deleted elements.
+English: Polymorphic VI that deletes the elements at the specified indices from a 1D array, or from the rows or columns of a 2D array, and returns both the remaining array and the deleted elements.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Delete Elements from 1D Array.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -27,7 +29,8 @@ This polymorphic VI deletes elements from a 1D or 2D &lt;B&gt;array&lt;/B&gt; at
 
 ## Filter 1D Array.vim
 
-Polymorphic VI that removes every occurrence of the items to filter from a 1D array and returns the filtered array together with the indices of the elements that were removed.
+中文：Polymorphic VI that removes every occurrence of the items to filter from a 1D array and returns the filtered array together with the indices of the elements that were removed.
+English: Polymorphic VI that removes every occurrence of the items to filter from a 1D array and returns the filtered array together with the indices of the elements that were removed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Filter 1D Array.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -49,7 +52,8 @@ This polymorphic VI filters out all instances of &lt;B&gt;items to filter&lt;/B&
 
 ## Index Array Elements.vim
 
-Polymorphic VI that returns the elements of an array at the specified indices, as an array, in the order the indices are wired.
+中文：Polymorphic VI that returns the elements of an array at the specified indices, as an array, in the order the indices are wired.
+English: Polymorphic VI that returns the elements of an array at the specified indices, as an array, in the order the indices are wired.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Index Array Elements.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -61,7 +65,8 @@ Polymorphic VI that returns the elements of an array at the specified indices, a
 
 ## Last Array Element.vim
 
-Returns the last element of a 1D array, read at index Array Size - 1. An empty array yields the element type's default value.
+中文：Returns the last element of a 1D array, read at index Array Size - 1. An empty array yields the element type's default value.
+English: Returns the last element of a 1D array, read at index Array Size - 1. An empty array yields the element type's default value.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Last Array Element.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -72,7 +77,8 @@ Returns the last element of a 1D array, read at index Array Size - 1. An empty a
 
 ## Not Empty Array.vim
 
-Polymorphic VI that returns TRUE when the input array contains at least one element.
+中文：Polymorphic VI that returns TRUE when the input array contains at least one element.
+English: Polymorphic VI that returns TRUE when the input array contains at least one element.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Not Empty Array.vim`
 - **Kind**: polymorphic VI (.vim); polymorphic wrapper (no diagram of its own)
@@ -83,7 +89,8 @@ Polymorphic VI that returns TRUE when the input array contains at least one elem
 
 ## Remove Duplicates from 1D Array.vim
 
-Polymorphic VI that removes duplicate elements from a 1D array, keeping the first occurrence of each value, and returns the indices of the elements that were removed.
+中文：Polymorphic VI that removes duplicate elements from a 1D array, keeping the first occurrence of each value, and returns the indices of the elements that were removed.
+English: Polymorphic VI that removes duplicate elements from a 1D array, keeping the first occurrence of each value, and returns the indices of the elements that were removed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Remove Duplicates from 1D Array.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -103,7 +110,8 @@ This polymorphic VI removes all duplicate elements in &lt;B&gt;Input Array&lt;/B
 
 ## Reorder 1D Array.vim
 
-Polymorphic VI that reorders a 1D array, or the rows or columns of a 2D array, according to the indices wired to the indices input.
+中文：Polymorphic VI that reorders a 1D array, or the rows or columns of a 2D array, according to the indices wired to the indices input.
+English: Polymorphic VI that reorders a 1D array, or the rows or columns of a 2D array, according to the indices wired to the indices input.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Reorder 1D Array.vim`
 - **Kind**: polymorphic VI (.vim)
@@ -123,7 +131,8 @@ This polymorphic VI reorders a 1D or 2D &lt;B&gt;array&lt;/B&gt; of any size bas
 
 ## Search 1D Array.vim
 
-Searches a 1D array for every element that matches Element Data, starting at Start Index, and returns the indices of all matches.
+中文：Searches a 1D array for every element that matches Element Data, starting at Start Index, and returns the indices of all matches.
+English: Searches a 1D array for every element that matches Element Data, starting at Start Index, and returns the indices of all matches.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Array/Search 1D Array.vim`
 - **Kind**: polymorphic VI (.vim)

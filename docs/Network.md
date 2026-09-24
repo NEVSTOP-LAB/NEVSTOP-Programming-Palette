@@ -1,12 +1,14 @@
 # Network
 
-Network helpers: IP discovery, TCP data transmission and the UDP++ packet protocol.
+中文：Network helpers: IP discovery, TCP data transmission and the UDP++ packet protocol.
+English: Network helpers: IP discovery, TCP data transmission and the UDP++ packet protocol.
 
 17 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Network`.
 
 ## Available Port.vi
 
-Returns a UDP port number that the operating system reports as free for use.
+中文：Returns a UDP port number that the operating system reports as free for use.
+English: Returns a UDP port number that the operating system reports as free for use.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/Available Port.vi`
 - **Kind**: VI
@@ -24,7 +26,8 @@ Return an available UDP port the operating system determines is valid for use.
 
 ## IP Address List.vi
 
-Returns the IP addresses of the current machine as an array of strings. Set ignore Gateway IP? to leave out the default gateway address.
+中文：Returns the IP addresses of the current machine as an array of strings. Set ignore Gateway IP? to leave out the default gateway address.
+English: Returns the IP addresses of the current machine as an array of strings. Set ignore Gateway IP? to leave out the default gateway address.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Address List.vi`
 - **Kind**: VI
@@ -45,7 +48,8 @@ Return an string &lt;b&gt;Array&lt;/b&gt; whose elements are all IP network addr
 
 ## TCP Ping(DotNET).vi
 
-Pings hostName/IP Address using the .NET Ping class and returns the round-trip status. The timeout(100) input is in milliseconds.
+中文：Pings hostName/IP Address using the .NET Ping class and returns the round-trip status. The timeout(100) input is in milliseconds.
+English: Pings hostName/IP Address using the .NET Ping class and returns the round-trip status. The timeout(100) input is in milliseconds.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Ping(DotNET).vi`
 - **Kind**: VI
@@ -70,7 +74,8 @@ This function uses ping command to detect the reachability between current machi
 
 ### IP Reporter PythonCode Folder.vi
 
-Opens the folder holding the IP Reporter Python sources in the default file browser.
+中文：Opens the folder holding the IP Reporter Python sources in the default file browser.
+English: Opens the folder holding the IP Reporter Python sources in the default file browser.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/IP Reporter PythonCode Folder.vi`
 - **Kind**: VI
@@ -79,7 +84,8 @@ Opens the folder holding the IP Reporter Python sources in the default file brow
 
 ### Scan Distributed Nodes.vi
 
-Listens on the IP Reporter multicast report address and port and collects the node information broadcast by Start IP Reporter. It scans for the configured period in ms and returns one Information entry per node.
+中文：Listens on the IP Reporter multicast report address and port and collects the node information broadcast by Start IP Reporter. It scans for the configured period in ms and returns one Information entry per node.
+English: Listens on the IP Reporter multicast report address and port and collects the node information broadcast by Start IP Reporter. It scans for the configured period in ms and returns one Information entry per node.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/Scan Distributed Nodes.vi`
 - **Kind**: VI
@@ -102,7 +108,8 @@ Creates a read-only UDP multicast session and receives data on the specified por
 
 ### Start IP Reporter.vi
 
-Starts the IP Reporter in the background and returns a notifier carrying the reported node information. Setttings carries the report address, receiver port, gateway filter and host name.
+中文：Starts the IP Reporter in the background and returns a notifier carrying the reported node information. Setttings carries the report address, receiver port, gateway filter and host name.
+English: Starts the IP Reporter in the background and returns a notifier carrying the reported node information. Setttings carries the report address, receiver port, gateway filter and host name.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/IP Reporter/Start IP Reporter.vi`
 - **Kind**: VI
@@ -119,7 +126,8 @@ Starts the IP Reporter in the background and returns a notifier carrying the rep
 
 ### TCP Client Template.vit
 
-Template for a TCP client loop. Wire the server address and port, then enqueue the strings to send onto DataQueue and dequeue the received strings from it.
+中文：Template for a TCP client loop. Wire the server address and port, then enqueue the strings to send onto DataQueue and dequeue the received strings from it.
+English: Template for a TCP client loop. Wire the server address and port, then enqueue the strings to send onto DataQueue and dequeue the received strings from it.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Client Template.vit`
 - **Kind**: template (.vit)
@@ -128,7 +136,8 @@ Template for a TCP client loop. Wire the server address and port, then enqueue t
 
 ### TCP Loop - Client as Consumer.vi
 
-TCP transmission loop acting as the client. It connects to ip address:port and dequeues strings from DataQueue, sending each one over the connection. params sets the open timeout, the transmission timeout and the idle time in ms.
+中文：TCP transmission loop acting as the client. It connects to ip address:port and dequeues strings from DataQueue, sending each one over the connection. params sets the open timeout, the transmission timeout and the idle time in ms.
+English: TCP transmission loop acting as the client. It connects to ip address:port and dequeues strings from DataQueue, sending each one over the connection. params sets the open timeout, the transmission timeout and the idle time in ms.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Loop - Client as Consumer.vi`
 - **Kind**: VI
@@ -166,7 +175,8 @@ Used for data transmission via TCP/IP.
 
 ### TCP Loop - Server as Producer.vi
 
-TCP transmission loop acting as the server. It listens on port and sends the strings taken from DataQueue to the connected client. Set Discard Data when not connected?(T) to drop data while no client is attached.
+中文：TCP transmission loop acting as the server. It listens on port and sends the strings taken from DataQueue to the connected client. Set Discard Data when not connected?(T) to drop data while no client is attached.
+English: TCP transmission loop acting as the server. It listens on port and sends the strings taken from DataQueue to the connected client. Set Discard Data when not connected?(T) to drop data while no client is attached.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Loop - Server as Producer.vi`
 - **Kind**: VI
@@ -205,7 +215,8 @@ Used for data transmission via TCP/IP.
 
 ### TCP Server Template.vit
 
-Template for a TCP server loop. It generates a sine waveform and enqueues it for the server transmission loop, which listens on the wired port.
+中文：Template for a TCP server loop. It generates a sine waveform and enqueues it for the server transmission loop, which listens on the wired port.
+English: Template for a TCP server loop. It generates a sine waveform and enqueues it for the server transmission loop, which listens on the wired port.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/TCP Data Transmission/TCP Server Template.vit`
 - **Kind**: template (.vit)
@@ -216,7 +227,8 @@ Template for a TCP server loop. It generates a sine waveform and enqueues it for
 
 ### SplitUDPPacks.vi
 
-Calculates how to divide size bytes into packets of y bytes. The leading elements of output array are y and the last element carries the remainder, so size 201 with y 50 gives [50,50,50,50,1].
+中文：Calculates how to divide size bytes into packets of y bytes. The leading elements of output array are y and the last element carries the remainder, so size 201 with y 50 gives [50,50,50,50,1].
+English: Calculates how to divide size bytes into packets of y bytes. The leading elements of output array are y and the last element carries the remainder, so size 201 with y 50 gives [50,50,50,50,1].
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/SplitUDPPacks.vi`
 - **Kind**: VI; member of UDP++.lvlib
@@ -237,7 +249,8 @@ For example, if &lt;b&gt;size&lt;/b&gt; is 201, &lt;b&gt;y&lt;/b&gt; is 50, then
 
 ### SUMCheck.vim
 
-Returns a checksum for Array, computed by flattening the data to bytes and summing them. UDP++ uses it to validate a received packet.
+中文：Returns a checksum for Array, computed by flattening the data to bytes and summing them. UDP++ uses it to validate a received packet.
+English: Returns a checksum for Array, computed by flattening the data to bytes and summing them. UDP++ uses it to validate a received packet.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/SUMCheck.vim`
 - **Kind**: polymorphic VI (.vim); member of UDP++.lvlib
@@ -256,7 +269,8 @@ Return the sums of all elements in &lt;b&gt;Array&lt;/b&gt;.
 
 ### UDP Read Data Array By Singlepack.vim
 
-Reads one packet of a split UDP array transmission and returns the number of elements decoded so far. total size is the size of the whole array and pack size matches the packet size used by UDP Write Data Array.
+中文：Reads one packet of a split UDP array transmission and returns the number of elements decoded so far. total size is the size of the whole array and pack size matches the packet size used by UDP Write Data Array.
+English: Reads one packet of a split UDP array transmission and returns the number of elements decoded so far. total size is the size of the whole array and pack size matches the packet size used by UDP Write Data Array.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Read Data Array By Singlepack.vim`
 - **Kind**: polymorphic VI (.vim); member of UDP++.lvlib
@@ -285,7 +299,8 @@ Reads a datagram from a UDP socket, returning the results in data out. This func
 
 ### UDP Read Data Array.vim
 
-Reads every packet of a split UDP array transmission and returns the reassembled array. The timeout in ms applies to each read.
+中文：Reads every packet of a split UDP array transmission and returns the reassembled array. The timeout in ms applies to each read.
+English: Reads every packet of a split UDP array transmission and returns the reassembled array. The timeout in ms applies to each read.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Read Data Array.vim`
 - **Kind**: polymorphic VI (.vim); member of UDP++.lvlib
@@ -310,7 +325,8 @@ Reads a datagram from a UDP socket, returning the results in data out. This func
 
 ### UDP Read Memory.vi
 
-Reads a split UDP data stream and returns it as a string. The call returns as soon as any bytes arrive and waits the full timeout in ms only when nothing is received.
+中文：Reads a split UDP data stream and returns it as a string. The call returns as soon as any bytes arrive and waits the full timeout in ms only when nothing is received.
+English: Reads a split UDP data stream and returns it as a string. The call returns as soon as any bytes arrive and waits the full timeout in ms only when nothing is received.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Read Memory.vi`
 - **Kind**: VI; member of UDP++.lvlib
@@ -338,7 +354,8 @@ The function returns data when it receives any bytes, and waits the full timeout
 
 ### UDP Write Data Array.vim
 
-Splits the array wired to Data into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
+中文：Splits the array wired to Data into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
+English: Splits the array wired to Data into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Write Data Array.vim`
 - **Kind**: polymorphic VI (.vim); member of UDP++.lvlib
@@ -366,7 +383,8 @@ Split the Array &lt;b&gt;Data&lt;/b&gt; into packets of &lt;b&gt;pack size&lt;/b
 
 ### UDP Write Memory.vi
 
-Splits the string wired to String into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
+中文：Splits the string wired to String into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
+English: Splits the string wired to String into packets of pack size and sends them to the given address and port, returning a per-packet checksum.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Network/UDP++/UDP Write Memory.vi`
 - **Kind**: VI; member of UDP++.lvlib

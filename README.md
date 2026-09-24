@@ -18,3 +18,24 @@ description is stored in the VI itself, so it also shows in LabVIEW's Context He
 
 - LabVEW 2017
 - VIPM 2020.3
+
+---
+
+## 中文说明
+
+来自 NEVSTOP-LAB 的可复用 VI 集合。
+
+### 文档
+
+[`docs/`](docs/README.md) 为 VI 参考文档，按 Palette 目录分页面整理。每个条目包含：
+- VI 描述
+- VI 路径
+- 连接器窗格终端
+- 调用的 subVI
+
+同一份描述也写入 VI 本体，因此在 LabVIEW 的 Context Help 中也能看到。
+
+### 开发环境
+
+- LabVEW 2017
+- VIPM 2020.3

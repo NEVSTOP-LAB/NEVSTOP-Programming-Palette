@@ -1,12 +1,14 @@
 # Synchronization
 
-Synchronisation primitives: the locker queue and the SyncStart barrier.
+中文：Synchronisation primitives: the locker queue and the SyncStart barrier.
+English: Synchronisation primitives: the locker queue and the SyncStart barrier.
 
 7 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization`.
 
 ## Second Call.vi
 
-Returns TRUE only on the second call after the Run button is clicked, and FALSE on every other call.
+中文：Returns TRUE only on the second call after the Run button is clicked, and FALSE on every other call.
+English: Returns TRUE only on the second call after the Run button is clicked, and FALSE on every other call.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Second Call.vi`
 - **Kind**: VI
@@ -25,7 +27,8 @@ Indicates that a subVI or section of a block diagram is running for the second t
 
 ### locker-Create.vi
 
-Creates a locker, a queue-based mutual exclusion object, and returns its reference. The queue is seeded with one element so the first locker-lock call can take it.
+中文：Creates a locker, a queue-based mutual exclusion object, and returns its reference. The queue is seeded with one element so the first locker-lock call can take it.
+English: Creates a locker, a queue-based mutual exclusion object, and returns its reference. The queue is seeded with one element so the first locker-lock call can take it.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-Create.vi`
 - **Kind**: VI
@@ -37,7 +40,8 @@ Creates a locker, a queue-based mutual exclusion object, and returns its referen
 
 ### locker-Destroy.vi
 
-Releases a locker created by locker-Create.vi. Call it once for every locker-Create.
+中文：Releases a locker created by locker-Create.vi. Call it once for every locker-Create.
+English: Releases a locker created by locker-Create.vi. Call it once for every locker-Create.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-Destroy.vi`
 - **Kind**: VI; polymorphic wrapper (no diagram of its own)
@@ -49,7 +53,8 @@ Releases a locker created by locker-Create.vi. Call it once for every locker-Cre
 
 ### locker-lock.vi
 
-Blocks until the locker is free and then takes it. Every locker-lock must be paired with a locker-unlock.
+中文：Blocks until the locker is free and then takes it. Every locker-lock must be paired with a locker-unlock.
+English: Blocks until the locker is free and then takes it. Every locker-lock must be paired with a locker-unlock.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-lock.vi`
 - **Kind**: VI
@@ -62,7 +67,8 @@ Blocks until the locker is free and then takes it. Every locker-lock must be pai
 
 ### locker-unlock.vi
 
-Returns the locker so that a waiting locker-lock call can proceed.
+中文：Returns the locker so that a waiting locker-lock call can proceed.
+English: Returns the locker so that a waiting locker-lock call can proceed.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/Locker/locker-unlock.vi`
 - **Kind**: VI
@@ -77,7 +83,8 @@ Returns the locker so that a waiting locker-lock call can proceed.
 
 ### SyncStart-TriggerStart.vim
 
-Sends a software start trigger to every SyncStart-Wait waiting on the same name and state.
+中文：Sends a software start trigger to every SyncStart-Wait waiting on the same name and state.
+English: Sends a software start trigger to every SyncStart-Wait waiting on the same name and state.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/SyncStart/SyncStart-TriggerStart.vim`
 - **Kind**: polymorphic VI (.vim); member of SyncStart.lvlib
@@ -99,7 +106,8 @@ Send a software trigger start.
 
 ### SyncStart-Wait.vim
 
-Blocks until a matching SyncStart-TriggerStart arrives, then returns. Wire force destroy(F) to abandon the wait, and Name to select the queue (an empty name uses the top-level VI name).
+中文：Blocks until a matching SyncStart-TriggerStart arrives, then returns. Wire force destroy(F) to abandon the wait, and Name to select the queue (an empty name uses the top-level VI name).
+English: Blocks until a matching SyncStart-TriggerStart arrives, then returns. Wire force destroy(F) to abandon the wait, and Name to select the queue (an empty name uses the top-level VI name).
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Synchronization/SyncStart/SyncStart-Wait.vim`
 - **Kind**: polymorphic VI (.vim); member of SyncStart.lvlib
