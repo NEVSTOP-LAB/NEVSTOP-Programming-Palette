@@ -315,7 +315,7 @@ English: Reads the value of the named Windows environment variable.
 
 ### Set Permanent SysEnvVariable.vi
 
-中文：通过运行 setx 永久设置 Windows 环境变量，使该值在重启后仍然保留。值可以直接指定，也可以引用另一个环境变量。
+中文：通过运行 setx 永久设置 Windows 环境变量，使该值在重启后仍然保留。赋给该环境变量的值既可以是字面字符串，也可以是对另一个环境变量展开后的引用值。
 English: Sets a Windows environment variable permanently by running setx, so the value survives a restart. The value may be given literally or as a reference to another environment variable.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Application/SysEnvVar/Set Permanent SysEnvVariable.vi`

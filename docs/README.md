@@ -70,6 +70,6 @@ VIs whose name or parent folder starts with an underscore are internal and are e
 2. 为每个 VI 编写描述。
 3. 将描述写入 VI 的 `STRG` 块，并且仅在其余块与原文件逐字节一致时才重建文件。
 4. 基于同一批记录生成本目录页面。
-5. 之后对连接器终端名称进行复核（依据终端实际功能）；所有改名均记录在 [Terminal-Renames.md](Terminal-Renames.md)。
+5. 之后对连接器窗格端子名称进行复核（依据端子实际功能）；所有改名均记录在 [Terminal-Renames.md](Terminal-Renames.md)。
 
 名称或父目录以下划线开头的 VI 属于内部项，会被排除，因为 LabVIEW 不会将它们放入自动生成的 Palette。
