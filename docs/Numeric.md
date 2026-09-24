@@ -1,13 +1,13 @@
 # Numeric
 
-中文：Numeric helpers: buffers, checksums, sweep calculation and string to number conversion.
+中文：Numeric helpers： buffers， checksums， sweep calculation 和 字符串 到 number conversion。
 English: Numeric helpers: buffers, checksums, sweep calculation and string to number conversion.
 
 11 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Numeric`.
 
 ## Calc Sweep Points.vi
 
-中文：Calculates the point list of a sweep from Start, Stop, Span, Step and Points. Span takes priority over Stop when it is not NaN, and Step is used when Points equals 0.
+中文：Calculates the point list 的 a sweep 从 Start， Stop， Span， Step 和 Points。 Span takes priority over Stop 当 it is not NaN， 和 Step is used 当 Points equals。
 English: Calculates the point list of a sweep from Start, Stop, Span, Step and Points. Span takes priority over Stop when it is not NaN, and Step is used when Points equals 0.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/Calc Sweep Points.vi`
@@ -24,7 +24,7 @@ English: Calculates the point list of a sweep from Start, Stop, Span, Step and P
 
 ## Circle Buffer.vi
 
-中文：Polymorphic wrapper that collects incoming samples into a circular buffer of #Count elements. Select the instance for a single sample per call or the one for an array of samples.
+中文：，collects incoming samples 到 a circular buffer 的 #Count elements。 Select the instance 用于 a 单个 sample per call 或 the one 用于 an 数组 的 samples。
 English: Polymorphic wrapper that collects incoming samples into a circular buffer of #Count elements. Select the instance for a single sample per call or the one for an array of samples.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/Circle Buffer.vi`
@@ -34,7 +34,7 @@ English: Polymorphic wrapper that collects incoming samples into a circular buff
 
 ## CRC16.vi
 
-中文：Computes the CRC-16 checksum of Data using polynomial 0xA001 and returns the checksum together with Data with the checksum appended. Set Swap CRC16 Bytes?(T) to FALSE to keep the checksum bytes in calculation order.
+中文：Computes the CRC-16 checksum 的 数据 using polynomial xA001 和 返回 the checksum together 使用 数据 使用 the checksum appended。 Set Swap CRC16 Bytes?(T) 到 FALSE 到 keep the checksum bytes 在 calculation order。
 English: Computes the CRC-16 checksum of Data using polynomial 0xA001 and returns the checksum together with Data with the checksum appended. Set Swap CRC16 Bytes?(T) to FALSE to keep the checksum bytes in calculation order.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/CRC16.vi`
@@ -48,7 +48,7 @@ English: Computes the CRC-16 checksum of Data using polynomial 0xA001 and return
 
 ## Interpolate Data with Fracational Ratio.vi
 
-中文：Resamples Orgin by the given Ratio using linear interpolation, so the output array length is the input length multiplied by Ratio.
+中文：Resamples Orgin 通过 the 给定的 Ratio using linear interpolation， so the output 数组 length is the input length multiplied 通过 Ratio。
 English: Resamples Orgin by the given Ratio using linear interpolation, so the output array length is the input length multiplied by Ratio.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/Interpolate Data with Fracational Ratio.vi`
@@ -61,7 +61,7 @@ English: Resamples Orgin by the given Ratio using linear interpolation, so the o
 
 ## Keep Value Stats.vi
 
-中文：Polymorphic wrapper that keeps a running statistic of the values wired to it. Select the instance for the average, the maximum or the minimum.
+中文：，保留 a 运行 statistic 的 the 值 连线的 到 it。 Select the instance 用于 the average， the maximum 或 the minimum。
 English: Polymorphic wrapper that keeps a running statistic of the values wired to it. Select the instance for the average, the maximum or the minimum.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/Keep Value Stats.vi`
@@ -71,7 +71,7 @@ English: Polymorphic wrapper that keeps a running statistic of the values wired 
 
 ## Random Number Within Range.vim
 
-中文：Generates a random number between A and B. The bounds are ordered internally, so either input may be the larger one.
+中文：Generates a random number between A 和 B。 The bounds are ordered internally， so either input may be the larger one。
 English: Generates a random number between A and B. The bounds are ordered internally, so either input may be the larger one.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/Random Number Within Range.vim`
@@ -92,7 +92,7 @@ Generates a &lt;b&gt;Random Number&lt;/b&gt; between &lt;b&gt;High&lt;/b&gt; and
 
 ## String To Float.vi
 
-中文：Converts a numeric string, including exponential and fractional forms, into a double. If the string cannot be parsed, the Default(0) value is returned.
+中文：a numeric 字符串， including exponential 和 fractional forms， 到 a double。 If the 字符串 cannot be parsed， the 默认() 值 is returned。
 English: Converts a numeric string, including exponential and fractional forms, into a double. If the string cannot be parsed, the Default(0) value is returned.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/String To Float.vi`
@@ -106,7 +106,7 @@ English: Converts a numeric string, including exponential and fractional forms, 
 
 ## String To Number.vi
 
-中文：Polymorphic wrapper that converts a numeric string into an integer of the selected representation.
+中文：，转换 a numeric 字符串 到 an integer 的 the selected representation。
 English: Polymorphic wrapper that converts a numeric string into an integer of the selected representation.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/String To Number.vi`
@@ -116,7 +116,7 @@ English: Polymorphic wrapper that converts a numeric string into an integer of t
 
 ## Trim Unnecessary Zeros of Numeric String.vi
 
-中文：Removes trailing zeros, and a trailing decimal point, from a floating-point number formatted as a string.
+中文：移除 trailing zeros， 和 a trailing decimal point， 从 a floating-point number formatted 作为 a string。
 English: Removes trailing zeros, and a trailing decimal point, from a floating-point number formatted as a string.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/Trim Unnecessary Zeros of Numeric String.vi`
@@ -130,7 +130,7 @@ English: Removes trailing zeros, and a trailing decimal point, from a floating-p
 
 ### Circle Buffer(DBL).vi
 
-中文：Maintains a circular buffer of #Count doubles, writing Data into the next slot on each call and returning the whole buffer. The integral multiple output turns TRUE once the buffer has been filled a whole number of times.
+中文：Maintains a circular buffer 的 #Count doubles， writing 数据 到 the next slot 在 每个 call 和 returning the whole buffer。 The integral multiple output turns TRUE once the buffer has been filled a whole number 的 times。
 English: Maintains a circular buffer of #Count doubles, writing Data into the next slot on each call and returning the whole buffer. The integral multiple output turns TRUE once the buffer has been filled a whole number of times.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/CircleBuffer/Circle Buffer(DBL).vi`
@@ -146,7 +146,7 @@ English: Maintains a circular buffer of #Count doubles, writing Data into the ne
 
 ### Circle Buffer(DBLArray).vi
 
-中文：Maintains a circular buffer of #Count doubles that accepts an array of samples per call and returns the buffer contents.
+中文：Maintains a circular buffer 的 #Count doubles that accepts an 数组 的 samples per call 和 返回 the buffer contents。
 English: Maintains a circular buffer of #Count doubles that accepts an array of samples per call and returns the buffer contents.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Numeric/CircleBuffer/Circle Buffer(DBLArray).vi`

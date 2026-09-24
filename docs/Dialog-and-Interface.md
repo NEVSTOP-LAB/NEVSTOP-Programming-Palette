@@ -1,13 +1,13 @@
 # Dialog & Interface
 
-中文：Front panel and dialog helpers: window fitting, button groups, event handlers and dialogs with a timeout.
+中文：前 面板 和 dialog helpers： 窗口 fitting， 按钮 groups， event handlers 和 dialogs 使用 a timeout。
 English: Front panel and dialog helpers: window fitting, button groups, event handlers and dialogs with a timeout.
 
 30 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface`.
 
 ## Autosize All Columns (Uniform Text).vi
 
-中文：Palette helper that resizes the columns of a listbox, tree, table or multicolumn listbox so their text is shown uniformly. It also refreshes the VI icon.
+中文：Palette helper that 调整大小 the 列 的 a listbox， tree， 表 或 multicolumn listbox so their 文本 is shown uniformly。 It also refreshes the VI icon。
 English: Palette helper that resizes the columns of a listbox, tree, table or multicolumn listbox so their text is shown uniformly. It also refreshes the VI icon.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Autosize All Columns (Uniform Text).vi`
@@ -25,7 +25,7 @@ Automatically organize the text size of each VI column added, and also edit VI i
 
 ## Blink LEDArray Control.vi
 
-中文：Makes the boolean array behind an LED array control blink, rotating the array by one position every interval (ms). Wire Enable to start and stop the blinking.
+中文：Makes the boolean 数组 behind an LED 数组 control blink， rotating the 数组 通过 one position 每个 interval (毫秒)。 Wire Enable 到 start 和 stop the blinking。
 English: Makes the boolean array behind an LED array control blink, rotating the array by one position every interval (ms). Wire Enable to start and stop the blinking.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Blink LEDArray Control.vi`
@@ -49,7 +49,7 @@ Input a boolean array, this VI will make the boolean array blink according to th
 
 ## Bound and Position to Rect-Bound.vi
 
-中文：Converts a Position (Left, Top) and a Bounds (Width, Height) into a LabVIEW Rect cluster holding the left, top, right and bottom edges.
+中文：a Position (Left， Top) 和 a Bounds (Width， Height) 到 a LabVIEW Rect cluster holding the left， top， right 和 bottom edges。
 English: Converts a Position (Left, Top) and a Bounds (Width, Height) into a LabVIEW Rect cluster holding the left, top, right and bottom edges.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Bound and Position to Rect-Bound.vi`
@@ -62,7 +62,7 @@ English: Converts a Position (Left, Top) and a Bounds (Width, Height) into a Lab
 
 ## Bring Window Forward (WinAPI).vi
 
-中文：Brings the window of VI reference in to the foreground and gives it the keyboard focus, using the Win32 SetForegroundWindow API. The window handle is returned.
+中文：Brings the 窗口 的 VI 引用 在 到 the foreground 和 gives it the keyboard focus， using the Win32 SetForegroundWindow API。 The 窗口 handle is returned。
 English: Brings the window of VI reference in to the foreground and gives it the keyboard focus, using the Win32 SetForegroundWindow API. The window handle is returned.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Bring Window Forward (WinAPI).vi`
@@ -86,7 +86,7 @@ Brings the thread that created the specified window into the foreground and acti
 
 ## Clear All Error.vi
 
-中文：Clears the error wired to error in and returns a no-error cluster.
+中文：清除 the 错误 连线的 到 错误 在 和 返回 a no-error cluster。
 English: Clears the error wired to error in and returns a no-error cluster.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Clear All Error.vi`
@@ -106,7 +106,7 @@ Clear all error.
 
 ## Double Click in Mouse Down Event.vi
 
-中文：Returns TRUE when a second Mouse Down event arrives within max click space(0.2s) of the previous one. Wire it into a Mouse Down event case to detect a double click.
+中文：a second Mouse Down event arrives within max click space(。s) 的 the previous one。 Wire it 到 a Mouse Down event case 到 detect a double click。
 English: Returns TRUE when a second Mouse Down event arrives within max click space(0.2s) of the previous one. Wire it into a Mouse Down event case to detect a double click.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Double Click in Mouse Down Event.vi`
@@ -126,7 +126,7 @@ Set the input interval to determine whether the mouse is double-clicked。
 
 ## EventHandler-Change Order By Enter Key.vi
 
-中文：Event handler that moves the input focus to the next control in Controls for changing order when the Enter key is pressed. Wire it into an event structure; Discard? reports whether the event should be discarded.
+中文：Event handler that 移动 the input focus 到 the next control 在 Controls 用于 changing order 当 the Enter key is pressed。 Wire it 到 an event structure； Discard? 报告 是否 the event should be discarded。
 English: Event handler that moves the input focus to the next control in Controls for changing order when the Enter key is pressed. Wire it into an event structure; Discard? reports whether the event should be discarded.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/EventHandler-Change Order By Enter Key.vi`
@@ -142,7 +142,7 @@ English: Event handler that moves the input focus to the next control in Control
 
 ## EventHandler-Double Click in Mouse Down Event.vi
 
-中文：Event handler for a Mouse Down event case that returns TRUE when two clicks arrive within max click space(0.2s) of each other.
+中文：Event handler 用于 a Mouse Down event case that 返回 TRUE 当 两个 clicks arrive within max click space(。s) 的 每个 other。
 English: Event handler for a Mouse Down event case that returns TRUE when two clicks arrive within max click space(0.2s) of each other.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/EventHandler-Double Click in Mouse Down Event.vi`
@@ -162,7 +162,7 @@ Set the input interval to determine whether the mouse is double-clicked。
 
 ## EventHandler-String Input with Prompt.vi
 
-中文：Event handler that shows HintString as a prompt inside a string control until the user types, and shows it again when the field is left empty. The font and input display style of the control are configurable.
+中文：Event handler that 显示 HintString 作为 a prompt inside a 字符串 control until the user 类型， 和 显示 it again 当 the field is left empty。 The font 和 input display style 的 the control are configurable。
 English: Event handler that shows HintString as a prompt inside a string control until the user types, and shows it again when the field is left empty. The font and input display style of the control are configurable.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/EventHandler-String Input with Prompt.vi`
@@ -180,7 +180,7 @@ English: Event handler that shows HintString as a prompt inside a string control
 
 ## Fit Controls to Rect.vi
 
-中文：Moves the front panel objects in GObjs so that their combined bounding rectangle is centred inside Rect.
+中文：the 前 面板 objects 在 GObjs so that their combined bounding rectangle is centred inside Rect。
 English: Moves the front panel objects in GObjs so that their combined bounding rectangle is centred inside Rect.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit Controls to Rect.vi`
@@ -220,7 +220,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Fit VI window to Caller Center.vi
 
-中文：Resizes and centres the window of VI Ref (calling VI) inside the window of the VI that called it.
+中文：the 窗口 的 VI Ref (calling VI) inside the 窗口 的 the VI that called it。
 English: Resizes and centres the window of VI Ref (calling VI) inside the window of the VI that called it.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Caller Center.vi`
@@ -260,7 +260,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Fit VI window to Content.vi
 
-中文：Resizes and centres the VI window around all front panel objects, adding the configured border spacing in pixels. With no VI reference wired it operates on the calling VI.
+中文：the VI 窗口 around 所有 前 面板 objects， adding the configured border spacing 在 pixels。 使用 无 VI 引用 连线的 it operates 在 the calling VI。
 English: Resizes and centres the VI window around all front panel objects, adding the configured border spacing in pixels. With no VI reference wired it operates on the calling VI.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Content.vi`
@@ -284,7 +284,7 @@ This utility will fit (resize and center) a VI (defined by the "VI Ref" input) a
 
 ## Fit VI window to Largest Dec.vi
 
-中文：Resizes and centres the VI window around the largest decoration on the front panel, adding the configured border spacing in pixels. It is a no-op when no decoration is found, and it cannot see locked decorations.
+中文：the VI 窗口 around the largest decoration 在 the 前 面板， adding the configured border spacing 在 pixels。 It is a no-op 当 无 decoration is found， 和 it cannot see locked decorations。
 English: Resizes and centres the VI window around the largest decoration on the front panel, adding the configured border spacing in pixels. It is a no-op when no decoration is found, and it cannot see locked decorations.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Largest Dec.vi`
@@ -308,7 +308,7 @@ This utility will fit (resize and center) a VI (defined by the "VI Ref" input) a
 
 ## Fit VI window to Pane Center.vi
 
-中文：Resizes and centres the VI window inside the pane wired to Pane Ref.
+中文：the VI 窗口 inside the 窗格 连线的 到 窗格 Ref。
 English: Resizes and centres the VI window inside the pane wired to Pane Ref.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Pane Center.vi`
@@ -348,7 +348,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Fit VI window to Panel Center.vi
 
-中文：Resizes and centres the VI window inside the panel wired to Panel Ref.
+中文：the VI 窗口 inside the 面板 连线的 到 面板 Ref。
 English: Resizes and centres the VI window inside the panel wired to Panel Ref.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Panel Center.vi`
@@ -388,7 +388,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Fit VI window to Rect.vi
 
-中文：Resizes and centres the VI window so that it fits inside Rect.
+中文：the VI 窗口 so that it fits inside Rect。
 English: Resizes and centres the VI window so that it fits inside Rect.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Rect.vi`
@@ -428,7 +428,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Fit VI window to Visible Content.vi
 
-中文：Resizes and centres the VI window around the visible front panel objects, adding the configured border spacing in pixels. With no VI reference wired it operates on the calling VI.
+中文：the VI 窗口 around the visible 前 面板 objects， adding the configured border spacing 在 pixels。 使用 无 VI 引用 连线的 it operates 在 the calling VI。
 English: Resizes and centres the VI window around the visible front panel objects, adding the configured border spacing in pixels. With no VI reference wired it operates on the calling VI.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window to Visible Content.vi`
@@ -452,7 +452,7 @@ This utility will fit (resize and center) a VI (defined by the "VI Ref" input) a
 
 ## Fit VI window.vi
 
-中文：Palette helper grouping the Fit VI window family, covering the visible content, content, largest decoration, caller centre, panel centre, pane centre and rectangle variants.
+中文：Palette helper grouping the Fit VI 窗口 family， covering the visible 内容， 内容， largest decoration， caller centre， 面板 centre， 窗格 centre 和 rectangle variants。
 English: Palette helper grouping the Fit VI window family, covering the visible content, content, largest decoration, caller centre, panel centre, pane centre and rectangle variants.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Fit VI window.vi`
@@ -462,7 +462,7 @@ English: Palette helper grouping the Fit VI window family, covering the visible 
 
 ## Get Border Rect.vi
 
-中文：Follows the decorations around the object wired to borderObj Ref and returns the rectangle they enclose.
+中文：Follows the decorations around the object 连线的 到 borderObj Ref 和 返回 the rectangle they enclose。
 English: Follows the decorations around the object wired to borderObj Ref and returns the rectangle they enclose.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Get Border Rect.vi`
@@ -477,7 +477,7 @@ English: Follows the decorations around the object wired to borderObj Ref and re
 
 ## Get GObjs RectBound.vi
 
-中文：Returns the bounding rectangle that encloses every front panel object in GObjs.
+中文：the bounding rectangle that encloses 每个 前 面板 object 在 GObjs。
 English: Returns the bounding rectangle that encloses every front panel object in GObjs.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Get GObjs RectBound.vi`
@@ -491,7 +491,7 @@ English: Returns the bounding rectangle that encloses every front panel object i
 
 ## Get Text Rect with Pad.vi
 
-中文：Measures the rectangle needed to draw Text in the given font, then pads the width by 10 percent to correct for measurement inaccuracy.
+中文：Measures the rectangle needed 到 draw 文本 在 the 给定的 font， then pads the width 通过 percent 到 correct 用于 measurement inaccuracy。
 English: Measures the rectangle needed to draw Text in the given font, then pads the width by 10 percent to correct for measurement inaccuracy.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Get Text Rect with Pad.vi`
@@ -531,7 +531,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## One Button Dialog with Timeout.vi
 
-中文：Shows a one-button dialog carrying the message and the button name given, and closes it automatically after Btn Timeout(-1 s) seconds. A negative timeout disables the automatic close.
+中文：a one-button dialog carrying the message 和 the 按钮 名称 给定的， 和 关闭 it 自动 在…之后 Btn 超时(- s) seconds。 A negative 超时 disables the 自动 close。
 English: Shows a one-button dialog carrying the message and the button name given, and closes it automatically after Btn Timeout(-1 s) seconds. A negative timeout disables the automatic close.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/One Button Dialog with Timeout.vi`
@@ -555,7 +555,7 @@ Enter a timeout period to stop the dialog at the end of the time.
 
 ## Step-By-Step Tab Window CtrlLogic.vi
 
-中文：Control logic for a step-by-step tab window. It drives the tab control from the Prev, Next and Finish button references so the user moves through the tabs in order.
+中文：Control logic 用于 a step-by-step tab window。 It drives the tab control 从 the Prev， Next 和 Finish 按钮 引用 so the user 移动 through the tabs 在 order。
 English: Control logic for a step-by-step tab window. It drives the tab control from the Prev, Next and Finish button references so the user moves through the tabs in order.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Step-By-Step Tab Window CtrlLogic.vi`
@@ -576,7 +576,7 @@ A distributed control panel with labels.
 
 ## Two Button Dialog with Timeout.vi
 
-中文：Shows a two-button dialog carrying the message and the button names given, each button with its own timeout. Returns TRUE when the true button was pressed, and FALSE for the false button or a timeout.
+中文：a two-button dialog carrying the message 和 the 按钮 名称 给定的， 每个 按钮 使用 its own timeout。 返回 TRUE 当 the TRUE 按钮 was pressed， 和 FALSE 用于 the FALSE 按钮 或 a timeout。
 English: Shows a two-button dialog carrying the message and the button names given, each button with its own timeout. Returns TRUE when the true button was pressed, and FALSE for the false button or a timeout.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Two Button Dialog with Timeout.vi`
@@ -604,7 +604,7 @@ Enter a timeout period to stop the dialog at the end of the time.
 
 ### ButtonGroupEnum Example.vi
 
-中文：Example VI showing how a group of boolean buttons is read as and written from an enum, using ButtonGroupEnum to Enum.vim and Set ButtonGroupEnum Value.vim inside an event loop.
+中文：Example VI showing how a group 的 boolean 按钮 is read 作为 和 written 从 an enum， using ButtonGroupEnum 到 Enum。vim 和 Set ButtonGroupEnum Value。vim inside an event loop。
 English: Example VI showing how a group of boolean buttons is read as and written from an enum, using ButtonGroupEnum to Enum.vim and Set ButtonGroupEnum Value.vim inside an event loop.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/ButtonGroupEnum/ButtonGroupEnum Example.vi`
@@ -614,7 +614,7 @@ English: Example VI showing how a group of boolean buttons is read as and writte
 
 ### ButtonGroupEnum to Enum.vim
 
-中文：Polymorphic VI that converts a group of boolean button references into an enum value, selecting the entry that matches the button currently set. Prefix matches button names to enum entries.
+中文：VI，转换 a group 的 boolean 按钮 引用 到 an enum 值， selecting the entry that matches the 按钮 currently set。 Prefix matches 按钮 名称 到 enum entries。
 English: Polymorphic VI that converts a group of boolean button references into an enum value, selecting the entry that matches the button currently set. Prefix matches button names to enum entries.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/ButtonGroupEnum/ButtonGroupEnum to Enum.vim`
@@ -633,7 +633,7 @@ English: Polymorphic VI that converts a group of boolean button references into 
 
 ### Set ButtonGroupEnum By Ref.vi
 
-中文：Sets one button of a button group to TRUE and clears every other button in the group, so exactly one button is active.
+中文：one 按钮 的 a 按钮 group 到 TRUE 和 清除 每个 其他 按钮 在 the group， so exactly one 按钮 is active。
 English: Sets one button of a button group to TRUE and clears every other button in the group, so exactly one button is active.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/ButtonGroupEnum/Set ButtonGroupEnum By Ref.vi`
@@ -648,7 +648,7 @@ English: Sets one button of a button group to TRUE and clears every other button
 
 ### Set ButtonGroupEnum Value.vim
 
-中文：Polymorphic VI that sets a group of boolean buttons from an enum value, turning on the matching button and clearing the rest. Prefix matches button names to enum entries.
+中文：VI，设置 a group 的 boolean 按钮 从 an enum 值， turning 在 the 匹配 按钮 和 clearing the rest。 Prefix matches 按钮 名称 到 enum entries。
 English: Polymorphic VI that sets a group of boolean buttons from an enum value, turning on the matching button and clearing the rest. Prefix matches button names to enum entries.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/ButtonGroupEnum/Set ButtonGroupEnum Value.vim`
@@ -666,7 +666,7 @@ English: Polymorphic VI that sets a group of boolean buttons from an enum value,
 
 ### Lock Front Panel Item Position.vi
 
-中文：Palette helper grouping the Lock Control and Lock Graph Legend VIs, which pin a front panel object to one of the nine positions of its container.
+中文：Palette helper grouping the Lock Control 和 Lock Graph Legend VIs， 其 pin a 前 面板 object 到 one 的 the nine positions 的 its container。
 English: Palette helper grouping the Lock Control and Lock Graph Legend VIs, which pin a front panel object to one of the nine positions of its container.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Lock Front Panel Item Position/Lock Front Panel Item Position.vi`
@@ -678,7 +678,7 @@ English: Palette helper grouping the Lock Control and Lock Graph Legend VIs, whi
 
 ### GetMenuTagList.vi
 
-中文：Returns every menu tag below the item tag of a menu reference, both as a flat list of submenu tags and as a two-dimensional tree.
+中文：每个 菜单 标签 below the item 标签 的 a 菜单 引用， 两者 作为 a flat list 的 submenu 标签 和 作为 a 二维 tree。
 English: Returns every menu tag below the item tag of a menu reference, both as a flat list of submenu tags and as a two-dimensional tree.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Dialog & Interface/Menu/GetMenuTagList.vi`

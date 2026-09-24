@@ -16,7 +16,7 @@ description is stored in the VI itself, so it also shows in LabVIEW's Context He
 
 ## Development Environment
 
-- LabVEW 2017
+- LabVIEW 2017
 - VIPM 2020.3
 
 ---
@@ -37,5 +37,5 @@ description is stored in the VI itself, so it also shows in LabVIEW's Context He
 
 ### 开发环境
 
-- LabVEW 2017
+- LabVIEW 2017
 - VIPM 2020.3

@@ -1,13 +1,13 @@
 # Waveform
 
-中文：Waveform construction from arrays, FFT data and generated signals.
+中文：Waveform construction 从 数组， FFT 数据 和 生成的 signals。
 English: Waveform construction from arrays, FFT data and generated signals.
 
 3 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Waveform`.
 
 ## Double Array To Waveform.vi
 
-中文：Builds waveforms from one or more double arrays, using each array as the Y data and the current time as t0.
+中文：waveforms 从 one 或 more double 数组， using 每个 数组 作为 the Y 数据 和 the 当前 时间 作为 t0。
 English: Builds waveforms from one or more double arrays, using each array as the Y data and the current time as t0.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Waveform/Double Array To Waveform.vi`
@@ -27,7 +27,7 @@ Input one or more double array. This VI well automatically generate waveforms fr
 
 ## FFTData To Waveform.vi
 
-中文：Converts FFT data into waveforms, mapping f0 to t0, df to dt and the real part to Y.
+中文：FFT 数据 到 waveforms， mapping f0 到 t0， df 到 dt 和 the real part 到 Y。
 English: Converts FFT data into waveforms, mapping f0 to t0, df to dt and the real part to Y.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Waveform/FFTData To Waveform.vi`
@@ -47,7 +47,7 @@ Input a FFT signal. This VI will converting FFT signal to waveform. The "f0" in 
 
 ## Generate Random Waveform.vi
 
-中文：Generates sine, triangle, sawtooth or square waveforms from the settings cluster. Frequency, amplitude and phase vary randomly within the ranges given by range and amplitude.
+中文：Generates sine， triangle， sawtooth 或 square waveforms 从 the settings cluster。 Frequency， amplitude 和 phase vary randomly within the ranges 给定的 通过 范围 和 amplitude。
 English: Generates sine, triangle, sawtooth or square waveforms from the settings cluster. Frequency, amplitude and phase vary randomly within the ranges given by range and amplitude.
 
 - **Path**: `src/user.lib/NEVSTOP-Programming-Palette/Waveform/Generate Random Waveform.vi`
