@@ -5,6 +5,9 @@ English: Numeric helpers: buffers, checksums, sweep calculation and string to nu
 
 11 VIs. Palette folder: `src/user.lib/NEVSTOP-Programming-Palette/Numeric`.
 
+中文：说明：以下部分名称沿用原始项目命名，可能包含历史拼写（例如 Orgin）；文档按原名保留以便与项目文件一一对应。
+English: Note: some names below keep original project spelling and may include legacy forms (for example Orgin); documentation preserves original names for exact file mapping.
+
 ## Calc Sweep Points.vi
 
 中文：根据 Start、Stop、Span、Step 和 Points 计算扫描点列表。当 Span 不是 NaN 时，优先使用 Span 而非 Stop；当 Points equals 0 时，使用 Step。
