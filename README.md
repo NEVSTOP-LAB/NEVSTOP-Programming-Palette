@@ -14,3 +14,13 @@ Collection of the reuse VIs from NEVSTOP-LAB.
 - LabVEW 2017
 - VIPM 2020.3
 - OpenG/MGI/LAVA
+
+## 中文说明
+
+NEVSTOP Programming Palette 是 NEVSTOP-LAB 提供的一组可复用 VI 集合。
+
+### 开发环境
+
+- LabVIEW 2017
+- VIPM 2020.3
+- OpenG/MGI/LAVA
