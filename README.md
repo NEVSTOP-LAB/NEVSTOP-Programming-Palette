@@ -6,6 +6,10 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub all releases](https://img.shields.io/github/downloads/NEVSTOP-LAB/NEVSTOP-Programming-Palette/total)](https://github.com/NEVSTOP-LAB/NEVSTOP-Programming-Palette/releases)
 
+---
+
+## Introduction
+
 Collection of the reuse VIs from NEVSTOP-LAB.
 
 ## Documentation
