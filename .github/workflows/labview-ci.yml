@@ -25,11 +25,14 @@ jobs:
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.2.2
+        with:
+          # Fetch enough history so git diff can compare against the pre-push commit
+          fetch-depth: 0
 
       # --- Step 1: Check for broken VIs ---
       - id: Check_Broken_VIs
-        uses: LV-APT/lvCICD@main
+        uses: NEVSTOP-LAB/lvCICD@main
         with:
           LabVIEW_Version: 2017
           Operation: VIAn_CheckBrokenVIs
@@ -45,7 +48,7 @@ jobs:
 
       - name: BuildDailyVIP
         id: build-vip
-        uses: LV-APT/lvCICD@main
+        uses: NEVSTOP-LAB/lvCICD@main
         with:
           LabVIEW_Version: 2017
           Operation: vipm_BuildDailyVIP
